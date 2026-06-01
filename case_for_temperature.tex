@@ -54,6 +54,7 @@
 \newcommand{\swnet}{\textcolor{black}{$SW_{\mathrm{net}}$}\xspace}
 \newcommand{\swdn}{\textcolor{black}{$SW\downarrow$}\xspace}
 \newcommand{\swup}{\textcolor{black}{$SW\uparrow$}\xspace}
+\newcommand{\albedo}{\textcolor{black}{$\alpha$}\xspace}
 
 % units
 \newcommand{\um}{\textcolor{black}{$\mu$m}\xspace}
@@ -94,23 +95,28 @@ This is because the majority of \lwdn radiation is emitted from the lowest sever
 
 % tension -- solar radiation is important 
 However, researchers now appreciate that understanding the climatic behavior of snow necessitates thinking about the entire energy budget, which is all the different ways that the snowpack heats and cools over time, of which \tair only tells part of the picture.
-It is currently accepted that the net shortwave radiation incident on the snowpack (\swnet) is a first order predictor of rates of melt, and that both small impurities \citep{Deems2013-vv} and natural grain-growth mechanisms that decrease albedo are responsible, in conjunction with rising sun-angles in the spring, for the majority of energy available for snowmelt.
+It is currently accepted that the net shortwave radiation incident on the snowpack (\swnet) is a first order predictor of rates of melt, and that both small impurities \citep{Deems2013-vv} and natural grain-growth mechanisms that decrease \albedo \todo{cite Warren, Colbeck} are responsible, in conjunction with rising sun-angles in the spring, for the majority of energy available for snowmelt.
 The strong dependency on available solar radiation may yield lower average rates of snowmelt in a warming climate, as snowmelt begins earlier in the year when incident solar radiation is lower \citep{Musselman2017-av}.
 Unlike atmospheric radiation in the longwave region (4-100\um), shortwave (.3-3\um) is for the most part insensitive to variations in \tair in-and-of itself. 
 Variations in \swdn in time and across elevation are driven by Rayleigh scattering by O$_2$ and N$_2$, Mie scattering by dust/aerosols and cloud droplets, and absorption primarily by water vapor, CO$_2$, and O$_3$.
-Instead, \tair is likely connected to the \swnet radiation pathway by the snow albedo.
-\todo{statements about albedo decay processes and melt/freeze}
+\todo{statements about \albedo decay processes and melt/freeze}
 
 % recent heatwave work 
 Yet, recent work has highlighted the strong correlation between extreme snow ablation events and so called ``snow-eater heatwaves" --- prolonged periods of above average \tair during the snow season (CITE Rhoades, in press).
 The frequency, duration, and magnitude of extreme heatwaves are expected to increase with warming in addition to the mean-average air temperature. 
 An example of such a heatwave occurred in March of 2026 in the western USA (WUS), leading to rapid melt at many snow-observing sites and one to two months earlier than average streamflow runoff in many regions.
-This raises an apparent paradox: if \swdn provides most of the energy for snowmelt, and yet it is largely insensitive to \tair, then why are heatwaves so efficient at ablating snow?
+This raises an apparent paradox: if \swdn provides most of the energy for snowmelt, and yet it is largely insensitive to \tair, then why are heatwaves so efficient at ablating snow? 
 
 % what are we going to do
 Using the March 2026 event as a case study, we ask the following question:
-What are the dominant snowmelt energy forcings during early season heatwaves, and how do they scale with increasing \tair?
-How do vegetation, terrain slope and aspect, atmospheric column properties, and cirrus clouds influence snowmelt during heatwaves?
+\begin{itemize}
+  \item What are the dominant snowmelt energy forcings during early season heatwaves, and how do they scale with increasing \tair?
+  \item How do vegetation and atmospheric column properties ——- including cirrus clouds --- shape such energetic forcings during heatwave events?
+  \item What is the role of sublimation on observed snow loss during heatwaves, and is sublimation more extreme during such events?
+\end{itemize} 
+
+% why we should care about veg 
+The reasons for considering vegetation and cirrus clouds are that both factors strongly impact the snow energy balance.
 Vegetation canopy absorbs shortwave radiation, increases the longwave radiation, and reduces winds relative to open/non-vegetated snowpacks, though little work has examined snow in vegetation vs. open regions during heatwave events.
 Similarly, while low clouds have the most substantial effects on the snow energy balance \citep{Rudisill2025-cx}, high altitude cirrus clouds are more common during high pressure ridging events commonly associated with mid winter heatwaves. 
 High altitude cirrus increase longwave and decrease shortwave relative to clear skies (CITE), though the radiative impacts in snow climates is poorly explored, nor their radiative influence on snowpacks during heatwave events. 
@@ -141,7 +147,8 @@ The improved understanding of vegetation/snow interactions during heatwaves will
 \section{Background and Methods}
 \subsection{Study area}
 We focus our analysis on the Lake Tahoe region in the vicinity of the Central Sierra Snow Lab (CSSL), spanning the Yuba, North Fork American, and Truckee-Tahoe basins \fig{fig:region_map}{a--d}.
-The Yuba and North Fork American rivers support the New Bullards Bar and Folsom reservoirs, respectively with combined storage capacities approaching 2 million acre feet and hydropower generation potential of 559 megawatts \todo{CITE THIS}.
+The Yuba and North Fork American rivers support the New Bullards Bar and Folsom reservoirs, respectively with combined storage capacities approaching 2 million acre feet and hydropower generation potential of 559 megawatts \todo{citation}.
+\todo{Statement about how vegetated the main snow regions are and how representative the forest LAI site is}.
 
 \subsection{Data}
 % snotel and USHCN
@@ -165,7 +172,7 @@ Workers manually sampled snow water equivalent using a federal sampler at nine d
 
 % era5 and other data
 To investigate the synoptic patterns associated with the March heatwave, we use ERA5 reanalysis data geopotential height and atmospheric column information \citep{Hersbach2020-era5}.
-We use the SPIRES \citep{Bair2021-spires} dataset to investigate changes in snow covered area and snow albedo during the heatwave. 
+We use the SPIRES \citep{Bair2021-spires} dataset to investigate changes in snow covered area and snow \albedo during the heatwave. 
 The SPIRES algorithm is based on observed reflectances by instruments on the MODIS polar orbiting satellite and provides data from 2002 to the present day. 
 As a measure of the canopy temperature, we use data from the VIIRS/Suomi-NPP VNP21A1D VIIRS Version 1 Land Surface Temperature (LST) data product for day and nighttime \citep{hulley2018viirs}.
 This data has a resolution of 1km and provides twice daily observations of LST.
@@ -190,7 +197,7 @@ Applying this correction reduces the March 2026 \swdn by \todo{how much?}.
 
 % RRTMG
 To model the effects of high clouds on the surface radiation balance, we use the RRTMG radiative transfer model \citep{Iacono2008-ax} building off work from a previous study \citep{Rudisill2025-cx}. 
-Variations in the LW emitted by atmosphere depends on the opacity in the atmospheric window region which is strongly influenced by trace greenhouse gasses, column precipitable water vapor (PWV), and condensed water vapor species (clouds) as well as the column air temperature and structure.
+Variations in the LW emitted by the atmosphere depend on the opacity in the atmospheric window region which is strongly influenced by trace greenhouse gasses, column precipitable water vapor (PWV), and condensed water vapor species (clouds) as well as the column air temperature and structure.
 While low-clouds are generally uncommon during heatwaves, upper level cirrus clouds may be more common \todo{CITE THIS STATEMENT}.
 High level cirrus clouds were observed by MODIS imagery at various times during the March heatwave.
 To model these effects, we configure RRTMG with one hundred equally spaced pressure levels from the surface (~800hPa) to 1 hPa. 
@@ -223,7 +230,7 @@ LW\downarrow- \sigma\epsilon T_{snow}^4
 }_{\text{shortwave}}
 \end{align},
 
-where Melt is the rate of melt in mass per second multiplied by the latent heat of fusion, $\Delta CC$ is the change in the snow cold-content, $H_s$ and $H_l$ are the turbulent fluxes of sensible and latent heat respectively, $T_{air}$ is the temperature of the air, $T_{snow}$ is the temperature of the snow surface, $\epsilon$ is the effective emissivity of the atmosphere or snow, \swdn is the downwelling shortwave radiation, and $\alpha$ is the albedo of the snow surface defined as the ratio of upwelling shortwave radiation (\swup) to \swdn. 
+where Melt is the rate of melt in mass per second multiplied by the latent heat of fusion, $\Delta CC$ is the change in the snow cold-content, $H_s$ and $H_l$ are the turbulent fluxes of sensible and latent heat respectively, $T_{air}$ is the temperature of the air, $T_{snow}$ is the temperature of the snow surface, $\epsilon$ is the effective emissivity of the atmosphere or snow, \swdn is the downwelling shortwave radiation, and $\alpha$ is the \albedo of the snow surface defined as the ratio of upwelling shortwave radiation (\swup) to \swdn. 
 
 %% Sensible and Latent heat fluxes
 The bulk expression for the $H_s$ implemented in SUMMA is given by: 
@@ -234,7 +241,7 @@ H_s &=  c_p \rho C_s u (T_{snow} - T_{air}) \label{eq:bulk2},
 
 where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, and $C_s$ is bulk transport coefficient. 
 In this work, we use the SUMMA formulation for $C_s$ which models the stability correction as a function of the bulk-Richardson number.
-In the case of heatwaves over melting snowpack in the mid-latitude snow enviromnents, the surface layer is almost certainly stable --- e.g., the air is warmer than the snow surface which is capped at 0$^\circ$C.
+In the case of heatwaves over melting snowpack in the mid-latitude snow environments, the surface layer is almost certainly stable --- e.g., the air is warmer than the snow surface which is capped at 0$^\circ$C.
 
 % how SWE is related to melt 
 The daily change in SWE (dSWE) is the most fundamental snow hydrology quantity \todo{Cite barnhardt?} and is related to both the $M$ and to a lesser extent $H_l$.
@@ -269,9 +276,9 @@ In this context, radiative forcing quantifies the instantaneous difference betwe
 To investigate the canopy radiative effect (CanRE), we define the same for \lwdn underneath the canopy minus \lwdn from the above canopy layer. 
 Lacking observations sufficient to constrain CanRE, we use the SUMMA model to evaluate this quantity.
 
-To investigate the relative contribution of albedo decay on the surface radiation balance, we quantify the albedo radiative forcing (AlbRE) by differencing \swnet computed using observed albedo versus \swnet computed using observed \swdn and a hypothetical clean-snow broadband reference albedo. 
-Following previous work we assume a fresh snow albedo of 0.85.
-All radiative effects are signed such that positive indicates energy is added to the snowpack via that process (clouds, canopy, or albedo decay), and a negative sign indicates the opposite.
+To investigate the relative contribution of \albedo decay on the surface radiation balance, we quantify the \albedo radiative forcing (AlbRE) by differencing \swnet computed using observed \albedo versus \swnet computed using observed \swdn and a hypothetical clean-snow broadband reference albedo. 
+Following previous work we assume a fresh snow \albedo of 0.85.
+All radiative effects are signed such that positive indicates energy is added to the snowpack via that process (clouds, canopy, or \albedo decay), and a negative sign indicates the opposite.
 
 \begin{table}[h]
 \centering
@@ -299,14 +306,14 @@ The end of February storm was likewise extreme, with more than 200 mm of snowfal
 
 % synoptic pattern of the heatwave
 The March 2026 heatwave developed as a strengthening high-pressure ridge throughout the month of March. 
-Near surface air temperatures peaked at  on the 17th of March at CSSL. 
+Near surface air temperatures peaked at on the 21st of March at CSSL \todo{check this}.
 Correspondingly, the 500 mb height anomaly exceeded 200 meters across the WUS on this date, and was greater than two $\sigma$ above the detrended mean (calculated by removing the linear trend over time from the ERA5 record) for this date \cite{Lee2023-cc}.
 The pattern on the 17th is characteristic of an amplified North American Dipole pattern \citep{Singh2016-ev}.
 The column air temperature anomaly for the month of March illustrates the depth of the heatwave, which exceeds two $\sigma$ from the near-surface to the 200 mb level.
 
 % how hot was it 
 Unlike ERA5, the USHCN HCNv2 data is based solely on station observations and may better describe extremes in near-surface air temperature. 
-Air temperature for March 2026 was the highest observed since the beginning of the record in 1895, and was +3.6 $^\circ$C above the 1980-2020 average --- a full three $\sigma$ above the mean across the 4-station composite. 
+Air temperature for March 2026 was the highest observed since the beginning of the record in 1890, and was +3.6 $^\circ$C above the 1980-2020 average --- a full three $\sigma$ above the mean across the 4-station composite. 
 The nClimGrid dataset is built on interpolating USHCN stations in addition to others, and likewise shows a +4-6 $^\circ$C anomaly above average in some locations, compared to the +3.6$^\circ$C anomaly observed at the 4-station USHCN composite.
 
 % how much swe melted 
@@ -317,7 +324,7 @@ Similarly, snow covered area reached its lowest March 31st value during the MODI
 
 % snow melt in context of the climate 
 Typically, most SNOTELs in this region gain (or remain constant) rather than lose SWE across the month of March \fig{fig:swechange}{b}, with the exception of two of the lowest elevation sites.
-Crucially, the rates of melt themselves were also anomalous, with 9 out of 12 of the sites, including CSSL, experiencing the highest rate of monthly SWE ablation for the SNOTEL record. 
+Crucially, the rates of melt themselves were also anomalous, with 9 out of 12 sites, including CSSL, experiencing the highest rate of monthly SWE ablation for the SNOTEL record. 
 
 
 
@@ -347,16 +354,18 @@ The highest rate of \lwnet occurs on the 22nd, two days after the peak of the he
 \subsection{Climatological comparison of the March 2026 energy balance}
 
 % comparison to all marches
-How does the March 2026 energy balance compared to typical Marches at CSSL?
+How does the March 2026 energy balance compare to typical Marches at CSSL?
 To do so we compare monthly averaged fluxes againt all March events from 2000-2026 \fig{fig:monthly_seb_mar}{a--b} simulated for forest and open sites. 
 \begin{itemize}
-\item The largest absolute changes are in \swnet for the most part 
+\item The largest absolute change is in \swnet relative to the climatology for the open
+\item The largest absolute change is in \lwnet relative to the climatology for the forest site 
+\item \todo{more info describing differences}
 \end{itemize}
 
 
 
 \subsection{CanRE}
-Across the entire SUMMA record \todo{state how long this is}, we find that CanCRE (Eq. \ref{eq:canopy_lw}) increases as a function of \tair \fig{fig:canradeffect}{a}.
+Across the entire SUMMA record \todo{state how long this is}, we find that CanRE (Eq. \ref{eq:canopy_lw}) increases as a function of \tair \fig{fig:canradeffect}{a}.
 On average, the model canopy is warmer than the ambient \tair during the daytime hours but colder at nightime \fig{fig:canradeffect}{b}.
 Regardless, the emissivity effect yields a positive canopy LW effect at all times of the day \fig{fig:canradeffect}{c}, even when the canopy is colder than the ambient \tair.
 Limited observations from the Suomi-NPP/VIIRS LST product for the CSSL site provide some external validation of the model canopy temperatures, which exceed \tair by several degrees during the peak of the heatwave. 
@@ -370,18 +379,18 @@ We caution that the 6-10 \wmsq estimate is the maximum amount for cirrus clouds 
 
 
 \subsection{AlbRE}
-The increase in \rnet during the March heatwave is attributable to two factors —-- increases in incident \swdn and declining albedo \fig{fig:albedo}{a---c}.
+The increase in \rnet during the March heatwave is attributable to two factors —-- increases in incident \swdn and declining \albedo \fig{fig:albedo}{a---c}.
 Incident daily-averaged \swdn increases during the March heatwave in conjunction with rising sun-angles. 
-Albedo simultaneously declines from an observed maximum of nearly 0.7 to values below 0.6 (i.e., a co-albedo of 0.3 to 0.4) \fig{fig:albedo}{b}
-This represents a 33\% increase in radiative forcing due to the albedo decline alone.
-Coupled with rising sun-angles and \swdn, the albedo decline yields an AlbRE that surpasses 80 \wmsq by the end of the month compared to 40 \wmsq at the beginning of the month: an increase of 100\% \fig{fig:albedo}{b}
-The SPIRES remote sensing product underestimates snow albedo somewhat with respect to both SUMMA and the CSSL observations, but likewise observes a decline in albedo during the March heatwave.
+Albedo simultaneously declines from an observed maximum of nearly 0.7 to values below 0.6 \fig{fig:albedo}{b}
+This represents a 33\% increase in radiative forcing due to the \albedo decline alone.
+Coupled with rising sun-angles and \swdn, the \albedo decline yields an AlbRE that surpasses 80 \wmsq by the end of the month compared to 40 \wmsq at the beginning of the month: an increase of 100\% \fig{fig:albedo}{b}
+The SPIRES remote sensing product underestimates snow \albedo somewhat with respect to both SUMMA and the CSSL observations, but likewise observes a decline in \albedo during the March heatwave.
 
-% the albedo reset 
+% the \albedo reset 
 Albedo is refreshed on April 1 following new snowfall to a value of 0.85. 
-The SUMMA new snow albedo is refreshed to 0.8 on the 7th following the small amount of snowfall observed on that day \fig{fig:era5_anoms}{b}; however the same effect is not observed in the SUMMA observations, suggesting the new snowfall on that date may be the result of spurious data. 
+The SUMMA new snow \albedo is refreshed to 0.8 on the 7th following the small amount of snowfall observed on that day \fig{fig:era5_anoms}{b}; however the same effect is not observed in the SUMMA output, suggesting the new snowfall on that date may be the result of spurious data. 
 It is unclear if the dip in observed $\alpha$ from the 20-27th of March to values approaching 0.5 are correct. 
-\comment{CSSL — have you found the same dip in snow albedo on these dates?}
+\comment{CSSL — have you found the same dip in snow \albedo on these dates?}
 
 
 
@@ -395,8 +404,8 @@ In these conditions, turbulent exchange between the snow and the atmosphere will
 
 % sensible heat
 Case in point, $H_s$ over melting snow increases linearly as a function of \tair with a slope determined by \wspd, assuming an un-physical neutral condition without taking into account this effect \fig{fig:idealized_sens_heat}{a}.
-Accounting for buoyant suppression decreases H$_l$ relative to the neutral assumption, so much so that for moderate \wspd values of 5 \ms, H$_s$ actually \textit{decreases} as a function of increasing \tair above 4\degrc. 
-A \wspd of 10 \ms has a corresponding maxima at 15 \degrc, and a \wspd of 15 \ms has a limit in excess of values expected of a typical mid-winter or Spring heatwave. 
+Accounting for buoyant suppression decreases H$_s$ relative to the neutral assumption, so much so that for moderate \wspd values of 5 \ms, H$_s$ actually \textit{decreases} as a function of increasing \tair above 4\degrc. 
+A \wspd of 10 \ms has a corresponding maximum at 15 \degrc, and a \wspd of 15 \ms has a limit in excess of values expected of a typical mid-winter or Spring heatwave. 
 
 
 % latent heat
@@ -424,14 +433,19 @@ Taken together, increasing RH and \tair will tend to increase \lwnet and also \t
 
 
 \subsection{Vegetation impedes melt during the heatwave}
-\todo{State how much the melt rates are inhibited during the heatwave relative to the open site}. 
-\todo{Discuss tradeoff between canopy longwave and shortwave radiative effect}.
+\begin{itemize}
+\item \todo{State how much the melt rates are inhibited during the heatwave relative to the open site}. 
+\item \todo{Discuss tradeoff between canopy longwave and shortwave radiative effect}.
+\end{itemize}
+
+
 
 
 \subsection{Heatwaves in the future and implications for water management}
 \begin{itemize}
   \item CMIP6 models underestimate monthly high temperature extremes by 11–12\% \citep{Duan2025-rl}.
-  \item ``Slower slowmelt in a warmer world" concept probably still, holds but merits additional investigation. E.g., 2023 had rates on the order of 3 in/day in July compared to the 1-1.5 in/day during the March heatwave.
+  \item ``Slower slowmelt in a warmer world" concept \citep{Musselman2017-av} probably still holds but merits additional investigation. E.g., 2023 had rates on the order of 3 in/day in July compared to the 1-1.5 in/day during the March heatwave.
+  \item \todo{Discuss \albedo decline mechanisms --- how does liquid water impact \albedo and how is this \tair dependent}
 \end{itemize}
 
 
@@ -440,7 +454,8 @@ Taken together, increasing RH and \tair will tend to increase \lwnet and also \t
 \begin{itemize}
   \item dSWE during the heatwave was relatively insensitive to initial conditions \todo{add figure that shows this}.
   \item Cirrus clouds have a \textcolor{purple}{6-10} \wmsq longwave cCRE and may influence day-to-day variability in dSWE.
-  \item Even though it's really, hot, sensible heat $H_l$ has a relatively small role unless it's really windy.
+  \item $\alpha$ decline during the heatwave lead to a large increase in \swnet --- AlbRe went up by $\approx$ 60 \wmsq
+  \item Even though it's really hot, sensible heat $H_s$ has a relatively small role unless it's really windy.
   \item Increasing \tair increases snow to atmosphere temperature gradients but also inhibits turbulent exchange due to buoyancy effects. 
   \item Sublimation did not have a major role in the heatwave. Idealized thermodynamic arguments show that sublimation is limited to very dry airmasses at high \tair values. 
   \item \swnet is still a dominant forcing term for open areas  --- not for the forest site, which is \lwnet dominated.
@@ -452,14 +467,14 @@ Taken together, increasing RH and \tair will tend to increase \lwnet and also \t
 \section{Data Availability}
 ERA5 atmospheric data and near-surface meteorological forcings for SUMMA were downloaded from the Copernicus data store \cite{cdsapi}.
 Geopotential height anomalies and standard deviations were precomputed and provided from the supplemental material of \cite{Lee2023-cc}.
-SPIRES near real time data are publically available from the National Snow and Ice Data center Snow Today page. 
-The SUMMA model is publically available on GitHub.
+SPIRES near real time data are publicly available from the National Snow and Ice Data center Snow Today page.
+The SUMMA model is publicly available on GitHub.
 The VIIRS/Suomi-NPP VNP21A1D VIIRS Version 1 Land Surface Temperature was processed and downloaded from Google Earth Engine \todo{CITE GEE}.
 
 
 \appendix
 \section{Stability Correction functions in SUMMA}
-We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h == z_0$
+We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h = z_0$
 \begin{equation}
 C_h = \frac{k^2}{\mathrm{ln}(z/z_0)^2}\cdot f(\mathrm{Ri})    
 \end{equation}
@@ -497,7 +512,7 @@ Where Ri is the bulk Richardson number, defined as
   \caption{ \textbf{(a)} The 500 mb geopotential height anomaly during the March 2026 heatwave from ERA5 for six days across the western USA. 
   The study region outlined by a black rectangle.
   Gray stippling indicates regions with a geopotential height greater than 2-$\sigma$ above the 1950-2022 mean for the month of March. 
-  \textbf{(b-c)} shows the timeseries of meteorological conditions at CSSL prior to and during the heatwave event. 
+  \textbf{(b-c)} show the timeseries of meteorological conditions at CSSL prior to and during the heatwave event. 
   \textbf{(b)} depicts daily average air temperature and daily precipitation rate.
   Days with a majority of rain (red) and a majority of snowfall (blue) are differentiated. 
   \textbf{(c)} depicts the daily SWE and the one-day change in SWE (dSWE; right axis). 
@@ -521,7 +536,7 @@ Where Ri is the bulk Richardson number, defined as
   \centering
   \includegraphics[width=\linewidth]{images2/swe_change_2026.png}
   \caption{\todo{label columns a, b, and c}. (a) SWE values on March 1 and March 31 for the 12 SNOTEL sites in the study domain, labeled by three-digit station code.
-  Each station has two sub-rows: The Mar 31 value is depicted in the top (gray shaded) row, and the Mar 1 value is depicted in the bottom (plain backgroun) row.  
+  Each station has two sub-rows: The Mar 31 value is depicted in the top (gray shaded) row, and the Mar 1 value is depicted in the bottom (plain background) row.
   Climatological means and single standard deviations are depicted by open-circles with whiskers. 
   The vertical dashed line depicts the 0 change line. 
   Positive values indicated a gain of SWE and negative values indicate a loss of SWE.
@@ -547,7 +562,7 @@ Where Ri is the bulk Richardson number, defined as
   \centering
   \includegraphics[width=\linewidth]{images2/open_seb.png}
   \caption{Daily average energy flux components (a--f) during the March heatwave for the open site. 
-  Each day has three bars: the left yellow bar depicts the daytime nighttime flux, the right gray bar depicts the average nighttime flux, and the outline spanning both bars depicts the 24h flux.
+  Each day has three bars: the left yellow bar depicts the daytime flux, the right gray bar depicts the nighttime flux, and the outline spanning both bars depicts the 24-hour average flux.
   Please note that the y-scales are not equivalent across all of the figures.
   }
   \label{fig:open_seb}
@@ -557,7 +572,7 @@ Where Ri is the bulk Richardson number, defined as
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{images2/lai_p5_seb.png}
-  \caption{The same as \fig{fig:open_seb}{} but for the forest site. Note the y-axis limits and ticks are not the same as the previous figure.}
+  \caption{The same as \fignop{fig:open_seb}{} but for the forest site. Note the y-axis limits and ticks are not the same as \fig{fig:open_seb}{}}
   \label{fig:forest_seb}
 \end{figure}
 
@@ -574,7 +589,7 @@ Where Ri is the bulk Richardson number, defined as
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{images2/canopy_lw_radiation_effect.png}
-  \caption{Examining the behavior of the canopy longwave radiative effect (CanRE): (a) CanRE vs. \tair for the entirety of the SUMMA model record (2000-2006), (b) The difference between the canopy temperature and \tair as a function of time-of-day in local time (c) the same as (b), but for CanRE, (d) a timeseries of \tair, canopy temperature, and the VIIRS/Suomi-NPP LST product for the CSSL site during the month of March.}
+  \caption{Examining the behavior of the canopy longwave radiative effect (CanRE): (a) CanRE vs. \tair for the entirety of the SUMMA model record (2000---2026), (b) The difference between the canopy temperature and \tair as a function of time-of-day in local time (c) the same as (b), but for CanRE, (d) a timeseries of \tair, canopy temperature, and the VIIRS/Suomi-NPP LST product for the CSSL site during the month of March.}
   \label{fig:canradeffect}
 \end{figure}
 
@@ -593,7 +608,7 @@ Where Ri is the bulk Richardson number, defined as
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/albedo_feedback_contribution.png}
-  \caption{Factors explaining \swnet during the March heatwave. (a) Solar insolation (\swdn) during heatwave, (b) snow $\alpha$ observed by CSSL, modelled by SUMMA, and retrieved from remote sensing (SPIRES) at the CSSL site,  and (c) AlbRe, or the difference between fresh snow \rnet and observed \rnet for each $\alpha$ product or observation.}
+  \caption{Factors explaining \swnet during the March heatwave. (a) Solar insolation (\swdn) during heatwave, (b) snow $\alpha$ observed by CSSL, modelled by SUMMA, and retrieved from remote sensing (SPIRES) at the CSSL site,  and (c) AlbRE, or the difference between fresh snow \rnet and observed \rnet for each $\alpha$ product or observation.}
   \label{fig:albedo}
 \end{figure}
 
