@@ -71,7 +71,7 @@
 
 \begin{document}
 
-\title{Net solar radiation still governs snowmelt: A case study of the March 2026 Heatwave in the Norther Sierra Nevada}
+\title{The snowmelt energy balance during the March 2026 heatwave: A case study in the Norther Sierra Nevada}
 
 \author{William Rudisill$^1$}
 
@@ -87,7 +87,7 @@ Test
 While meltwater from seasonal snowpacks have historically provided approximately 70\% of runoff in the western USA \citep{Li2017-dj}, these natural reservoirs and our ability to measure and monitor them are in decline \citep{Hale2023-kx, Cowherd2024-zm}.
 From a practical perspective, many operational snowmelt runoff models use a temperature index approach, whereby air temperature (\tair) is the primary predictor of melt \cite{Anderson1973-jx}.
 While these models prove effective after tuning empirical coefficients for each site, the physical justification for such models is not clear.
-It has been argued that the efficacy arise not from sensible heat considerations, but rather from the longwave radiation (\lwdn) emitted by the atmosphere (4-100\um). 
+It has been argued that the efficacy arise not from sensible heat considerations, but rather from the longwave radiation (\lwdn) emitted by the atmosphere.
 This is because the majority of \lwdn radiation is emitted from the lowest several hundred meters of the atmosphere \citep{Pluss1997-wx, Ohmura2001-ll} of which $T_{air}$ measured at standard measurement heights.
 \cite{Brutsaert1975-jl} showed that \comment{the radiative transfer equations reduce to .... }.
 
@@ -97,9 +97,11 @@ It is currently accepted that the net shortwave radiation incident on the snowpa
 The strong dependency on available solar radiation may yield lower average rates of snowmelt in a warming climate, as snowmelt begins earlier in the year when incident solar radiation is lower \citep{Musselman2017-av}.
 Unlike atmospheric radiation in the longwave region (4-100\um), shortwave (.3-3\um) is for the most part insensitive to variations in \tair in-and-of itself. 
 Variations in \swdn in time and across elevation are driven by Rayleigh scattering by O$_2$ and N$_2$, Mie scattering by dust/aerosols and cloud droplets, and absorption primarily by water vapor, CO$_2$, and O$_3$.
+Instead, \tair is likely connected to the \swnet radiation pathway by the snow albedo.
+\comment{statements about albedo decay processes and melt/freeze}
 
 % recent heatwave work 
-Recent work has highlighted the strong correlation between extreme snow ablation events and so called ``snow-eater heatwaves" --- prolonged periods of above average \tair during the snow season (CITE Rhoades, in press).
+Yet, recent work has highlighted the strong correlation between extreme snow ablation events and so called ``snow-eater heatwaves" --- prolonged periods of above average \tair during the snow season (CITE Rhoades, in press).
 The frequency, duration, and magnitude of extreme heatwaves are expected to increase with warming in addition to the mean-average air temperature. 
 An example of such a heatwave occurred in March of 2026 in the western USA (WUS), leading to rapid melt at many snow-observing sites and one to two month earlier than average streamflow runoff in many regions.
 This raises an apparent paradox: if \swdn provides most of the energy for snowmelt, yet it is insensitive to \tair, then why are heatwaves so efficient at ablating snow?
@@ -108,9 +110,8 @@ This raises an apparent paradox: if \swdn provides most of the energy for snowme
 Using the March 2026 event as a case study, we ask the following question:
 What are the dominant snowmelt energy forcings during early season heatwaves, and how do they scale with increasing \tair?
 How do vegetation, terrain slope and aspect, atmospheric column properties, and cirrus clouds influence snowmelt during heatwaves? 
-Vegetation canopy absorbs shortwave radiation, increases the longwave radiation, and reduces winds relative to open/non-vegetated snowpacks. 
-While low clouds have the most substantial effects on the snow energy balance \citep{Rudisill2025-cx}, high altitude cirrus clouds are more common during high pressure ridging events commonly associated with mid winter heatwaves. 
-The radiative effects of cirrus on snow is mediated through both shortwave and longwave mechanisms and depends on cloud microphysical properties, cloud base temperature, atmospheric lapse rates, and column water vapor below the cloud among other factors. 
+Vegetation canopy absorbs shortwave radiation, increases the longwave radiation, and reduces winds relative to open/non-vegetated snowpacks, though little work has examined snow in vegetation vs. open regions during heatwave events.
+Similarly, while low clouds have the most substantial effects on the snow energy balance \citep{Rudisill2025-cx}, high altitude cirrus clouds are more common during high pressure ridging events commonly associated with mid winter heatwaves. 
 High altitude cirrus increase longwave and decrease shortwave relative to clear skies (CITE), though the radiative impacts in snow climates is poorly explored, nor their radiative influence on snowpacks during heatwave events. 
 
 % what are we going to do 
@@ -139,7 +140,7 @@ The improved understanding of vegetation/snow interactions during heatwaves will
 \section{Background and Methods}
 \subsection{Study area}
 We focus our analysis on the Lake Tahoe region in the vicinity of the Central Sierra Snow Lab (CSSL), spanning the Yuba, North Fork American, and Truckee-Tahoe basins \fig{fig:region_map}{a--d}.
-The Yuba and North Fork American rivers support the New Bullards Bar and Folsom reservoirs, respectively with combined storage capacities approaching 2 million acre feet and hydropower generation potential of 559 megawatts. 
+The Yuba and North Fork American rivers support the New Bullards Bar and Folsom reservoirs, respectively with combined storage capacities approaching 2 million acre feet and hydropower generation potential of 559 megawatts \comment{CITE THIS}.
 
 \subsection{Data}
 % snotel and USHCN
@@ -188,8 +189,8 @@ Applying this correction reduces the March 2026 \swdn by \comment{how much?}.
 
 % RRTMG
 To model the effects of high clouds on the surface radiation balance, we use the RRTMG radiative transfer model \citep{Iacono2008-ax} building off work from a previous study \citep{Rudisill2025-cx}. 
-LW emitted by atmosphere depends on the opacity in the atmospheric window region which is strongly influenced by trace greenhouse gasses, column precipitable water vapor (PWV), and condensed water vapor species (clouds).
-While low-clouds are generally uncommon during heatwaves, upper level cirrus clouds may be more common. 
+Variations in the LW emitted by atmosphere depends on the opacity in the atmospheric window region which is strongly influenced by trace greenhouse gasses, column precipitable water vapor (PWV), and condensed water vapor species (clouds) as well as the column air temperature and structure.
+While low-clouds are generally uncommon during heatwaves, upper level cirrus clouds may be more common \comment{CITE THIS STATEMENT}.
 High level cirrus clouds were observed by MODIS imagery at various times during the March heatwave.
 To model these effects, we configure RRTMG with one hundred equally spaced pressure levels from the surface (~800hPa) to 1 hPa. 
 Ozone, water vapor, and thermodynamic profiles for the March heatwave are acquired from ERA5 for the grid cell encompassing CSSL.
@@ -235,10 +236,10 @@ In this work, we use the SUMMA formulation for $C_s$ which models the stability 
 In the case of heatwaves over melting snowpack in the mid-latitude snow enviromnents, the surface layer is almost certainly stable --- e.g., the air is warmer than the snow surface which is capped at 0$^\circ$C.
 
 % how SWE is related to melt 
-The daily change in SWE (dSWE) is the most fundamental snow hydrology quantity \comment{Cite barnhardt?} and is related to both the $M$ and to a lesser extent $H_l$ 
-Negative and positive $H_l$ correspond with sublimation and deposition respectively and are converted to mass flux by multiplying by the latent heat of sublimation (CITE).
+The daily change in SWE (dSWE) is the most fundamental snow hydrology quantity \comment{Cite barnhardt?} and is related to both the $M$ and to a lesser extent $H_l$.
+Negative (sublimation or evaporation) and positive $H_l$ (deposition or condensation)are converted to mass flux by multiplying by the latent heat of sublimation (CITE).
 Likewise $M$ is converted to mass flux by multiplying by the latent heat of fusion. 
-We caution that $M$ integrated throughout an entire day is not synonymous with dSWE, since meltwater may be retained in the snowpack and refreeze.
+We caution that negative $M$ integrated throughout an entire day is not synonymous with dSWE, since meltwater may be retained in the snowpack and refreeze.
 $M$ may be either positive (melt) or negative (refreezing) using the sign convention in Eq. \ref{eq:energy_budget}.
 In the SUMMA model, meltwater flow throughout the snowpack is modelled as a \comment{HOW DOES SUMMA MODEL MELWATER RETENTION}.
 
@@ -294,7 +295,7 @@ Albedo Radiative Forcing       & AlbRE     & \swdn[(1-$\alpha_\text{obs}$)  - (1
 While water-year to-date precipitation was approximately average leading up to March \comment{not shown}, there was a prolonged dry period during the months of January and February, during which SWE already began ablating.
 The end of February storm was likewise extreme, with more than 200 mm of snowfall \comment{I think this was a record? if so we should state that} and SWE accumulation over a four day period followed by a rain-on-snow event on the 24th and the 25th \fig{fig:era5_anoms}{b,c}.
 
-The March 2026 heatwave developed as a strengthening high-pressure ridge throughout the month of March 
+The March 2026 heatwave developed as a strengthening high-pressure ridge throughout the month of March. 
 Near surface air temperatures peaked at  on the 17th of March at CSSL. 
 Correspondingly, the 500 mb height anomaly exceeded 200 meters across the WUS on this date, and was greater than two $\sigma$ above the detrended mean (calculated by removing the linear trend over time from the ERA5 record) for this date \cite{Lee2023-cc}.
 The pattern on the 17th is characteristic of an amplified North American Dipole pattern \citep{Singh2016-ev}.
@@ -414,13 +415,12 @@ Based on these considerations, snow is highly sensitive to variations in both te
 Taken together, increasing RH and \tair will tend to increase \lwnet and also \textit{decrease} cooling via the sublimation/evaporation mechanism
 
 
-CMIP6 models underestimate monthly high temperature extremes by 11–12\% \citep{Duan2025-rl}.
-
-
 \subsection{Vegetation impedes melt during the heatwave}
 
 
-\subsection{Limitations of turbulent fluxes during heatwaves}
+\subsection{Heatwaves in the future and implications for water management}
+CMIP6 models underestimate monthly high temperature extremes by 11–12\% \citep{Duan2025-rl}.
+
 
 
 \section{Conclusions}
