@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex case_for_temperature"] 1780343945.93296 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1780343949.59148 0
+["bibtex case_for_temperature"] 1780346989.71485 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1780347710.15642 0
   "./paperpile.bib" 1780014532.28936 88223 3aa9a9e14c0c3d9373d396d2d1a6b963 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1741388039 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
-  "case_for_temperature.aux" 1780343949.39516 21477 7f81b0ec7d757dadea5a190f698567b1 "pdflatex"
+  "case_for_temperature.aux" 1780347709.94035 21529 da057251ccbc1ed542d6086057dd7961 "pdflatex"
   (generated)
   "case_for_temperature.bbl"
   "case_for_temperature.blg"
   (rewritten before read)
-["pdflatex"] 1780343946.0058 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1780343949.59163 0
-  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1780343942.07943 45902 eea384ba58cff6506d15da1ccc09a4eb ""
+["pdflatex"] 1780347706.36068 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1780347710.1566 0
+  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1780347706.21243 46831 caea100fdecaaf1519afbf2345ab54d1 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741388039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
@@ -124,10 +124,10 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1741388039 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "case_for_temperature.aux" 1780343949.39516 21477 7f81b0ec7d757dadea5a190f698567b1 "pdflatex"
-  "case_for_temperature.bbl" 1780343946.00341 10201 9819173400aca10c903241f94e592ff7 "bibtex case_for_temperature"
-  "case_for_temperature.out" 1780343949.39678 4382 f49824f19e7bc81a84ffe38d9697a23d "pdflatex"
-  "case_for_temperature.tex" 1780343942.07943 45902 eea384ba58cff6506d15da1ccc09a4eb ""
+  "case_for_temperature.aux" 1780347709.94035 21529 da057251ccbc1ed542d6086057dd7961 "pdflatex"
+  "case_for_temperature.bbl" 1780346989.78865 10201 9819173400aca10c903241f94e592ff7 "bibtex case_for_temperature"
+  "case_for_temperature.out" 1780347709.94176 4382 f49824f19e7bc81a84ffe38d9697a23d "pdflatex"
+  "case_for_temperature.tex" 1780347706.21243 46831 caea100fdecaaf1519afbf2345ab54d1 ""
   "images2/SWE_forest_v_open.png" 1780336748.45899 140287 2c2a158190af78d7f9adc432aff8f829 ""
   "images2/albedo_feedback_contribution.png" 1780336748.4699 222259 163b7a89cda65d920e583f3452450267 ""
   "images2/canopy_lw_radiation_effect.png" 1780336748.46307 870959 8bb5f315ea711158c05afc880445b0cb ""
