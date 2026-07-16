@@ -169,19 +169,19 @@ Test
 
 \section{Introduction}
 While meltwater from seasonal snowpacks \DIFdelbegin \DIFdel{have }\DIFdelend \DIFaddbegin \DIFadd{has }\DIFaddend historically provided approximately 70\% of runoff in the western USA \citep{Li2017-dj}, these natural reservoirs and our ability to measure and monitor them are in decline \citep{Hale2023-kx, Cowherd2024-zm}.
-From a practical perspective, many operational snowmelt runoff models use a temperature index approach, whereby air temperature (\tair) is the primary predictor of melt \cite{Anderson1973-jx}.
-While these models prove effective after tuning empirical coefficients for each site, the physical justification for such models is not clear.
+From a practical perspective, many operational snowmelt runoff models use a temperature index approach, whereby surface air temperature (\tair) is the primary predictor of melt \cite{Anderson1973-jx}. Where surface air temperature is highly-correlated in space and time with the many energetic processes that ultimately produce the phase change of the snowpack and thus result in snowmelt, this approach is reasonable and is straightforward to implement.
+While these models prove effective after tuning empirical coefficients for each site, the physical justification for such models is not clear, so the rational pathways to improve the predictive skill of the operational models with respect to snowmelt is more challenging. 
 It has been argued that the efficacy \DIFdelbegin \DIFdel{arise }\DIFdelend \DIFaddbegin \DIFadd{arises }\DIFaddend not from sensible heat considerations, but rather from the longwave radiation (\lwdn) emitted by the atmosphere.
 This is because the majority of \lwdn radiation is emitted from the lowest several hundred meters of the atmosphere \citep{Pluss1997-wx, Ohmura2001-ll} of which $T_{air}$ measured at standard measurement heights \DIFaddbegin \DIFadd{is representative}\DIFaddend .
-\cite{Brutsaert1975-jl} showed that \comment{the radiative transfer equations reduce to .... }.
+\cite{Brutsaert1975-jl} showed that a simplified representation of atmospheric radiative transfer, whereby atmospheric emissivity encapsulates the distribution of elements to influence of radiatively active components, is a tractable method to accurately estimate clear-sky downwelling infrared radiation, even without atmospheric profile information (which is rarely available in complex terrain). 
 
 % tension -- solar radiation is important 
 However, researchers now appreciate that understanding the climatic behavior of snow necessitates thinking about the entire energy budget, which is all the different ways that the snowpack heats and cools over time, of which \tair only tells part of the picture.
 It is currently accepted that the net shortwave radiation incident on the snowpack (\swnet) \DIFaddbegin \DIFadd{is }\DIFaddend a first order predictor of rates of melt, and that both small impurities \citep{Deems2013-vv} and natural grain-growth mechanisms that decrease albedo are responsible, in conjunction with rising sun-angles in the spring, for the majority of energy available for snowmelt.
 The strong dependency on available solar radiation may yield lower average rates of snowmelt in a warming climate, as snowmelt begins earlier in the year when incident solar radiation is lower \citep{Musselman2017-av}.
-Unlike atmospheric radiation in the longwave region (4-100\um), shortwave (.3-3\um) is for the most part insensitive to variations in \tair in-and-of itself. 
-Variations in \swdn in time and across elevation are driven by Rayleigh scattering by O$_2$ and N$_2$, Mie scattering by dust/aerosols and cloud droplets, and absorption primarily by water vapor, CO$_2$, and O$_3$.
-Instead, \tair is likely connected to the \swnet radiation pathway by the snow albedo.
+Unlike atmospheric radiation in the longwave region (4-100\um), shortwave (.3-3\um) is, for the most part, insensitive to variations in \tair in-and-of itself. 
+Variations in \swdn in time and across elevation are driven by the solar ephemeris , Mie scattering by dust/aerosols and cloud droplets, and absorption primarily by water vapor, CO$_2$, and O$_3$.
+Instead, \tair is most directly correlated with the \swnet radiation pathway by the fact that warmer temperatures and increasing downwelling longwave radiation decrease snow albedo.
 \comment{statements about albedo decay processes and melt/freeze}
 
 % recent heatwave work 
@@ -193,7 +193,10 @@ This raises an apparent paradox: if \swdn provides most of the energy for snowme
 % what are we going to do
 Using the March 2026 event as a case study, we ask the following question:
 What are the dominant snowmelt energy forcings during early season heatwaves, and how do they scale with increasing \tair?
-How do vegetation, terrain slope and aspect, atmospheric column properties, and cirrus clouds influence snowmelt during heatwaves? 
+How do vegetation, terrain slope and aspect, atmospheric column properties, and cirrus clouds influence snowmelt during these heatwaves? 
+
+We explore these potential dependencies that can influence longwave and/or shortwave radiation to be able to address the abovementioned paradox directly.
+
 Vegetation canopy absorbs shortwave radiation, increases the longwave radiation, and reduces winds relative to open/non-vegetated snowpacks, though little work has examined snow in vegetation vs. open regions during heatwave events.
 Similarly, while low clouds have the most substantial effects on the snow energy balance \citep{Rudisill2025-cx}, high altitude cirrus clouds are more common during high pressure ridging events commonly associated with mid winter heatwaves. 
 High altitude cirrus increase longwave and decrease shortwave relative to clear skies (CITE), though the radiative impacts in snow climates is poorly explored, nor their radiative influence on snowpacks during heatwave events. 
@@ -208,7 +211,7 @@ To understand variations in clear-sky \lwdn and the effects of humidity, we also
 
 
 % outcomes 
-The outcomes from this study answer basic science questions about energy available for snowmelt in water-resource critical basins in the WUS and beyond and can directly inform efforts towards management and resilience against extreme events, in so far as the improved modeling and monitoring of snowmelt during such events is improved.
+The outcomes from this study answer basic science questions about energy available for snowmelt in water-resource critical basins in the WUS and beyond and can directly inform efforts towards management and resilience against extreme events, insofar as the improved modeling and monitoring of snowmelt during such events is improved.
 The improved understanding of vegetation/snow interactions during heatwaves will inform landscape management practices for water resource management.
 
 
