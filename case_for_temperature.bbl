@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{41}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,12 +16,26 @@ E.~H. Bair, T.~Stillinger, and J.~Dozier.
 \newblock \emph{IEEE Transactions on Geoscience and Remote Sensing}, 59\penalty0 (9):\penalty0 7270--7284, 2021.
 \newblock \doi{10.1109/TGRS.2020.3040328}.
 
+\bibitem[Bercos-Hickey et~al.(2022)Bercos-Hickey, O’Brien, Wehner, Zhang, Patricola, Huang, and Risser]{BercosHickey2022}
+E.~Bercos-Hickey, T.~A. O’Brien, M.~F. Wehner, L.~Zhang, C.~M. Patricola, H.~Huang, and M.~D. Risser.
+\newblock Anthropogenic contributions to the 2021 pacific northwest heatwave.
+\newblock \emph{Geophysical Research Letters}, 49\penalty0 (23):\penalty0 e2022GL099396, 2022.
+\newblock \doi{https://doi.org/10.1029/2022GL099396}.
+\newblock URL \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022GL099396}.
+\newblock e2022GL099396 2022GL099396.
+
 \bibitem[Brutsaert(1975)]{Brutsaert1975-jl}
 W.~Brutsaert.
 \newblock On a derivable formula for long-wave radiation from clear skies.
 \newblock \emph{Water Resour. Res.}, 11\penalty0 (5):\penalty0 742--744, 1975.
 \newblock ISSN 0043-1397.
 \newblock \doi{10.1029/wr011i005p00742}.
+
+\bibitem[Brutsaert(2013)]{Brutsaert2013-ef}
+W.~Brutsaert.
+\newblock \emph{Evaporation into the Atmosphere: Theory, History and Applications}.
+\newblock Springer Science \& Business Media, Mar. 2013.
+\newblock ISBN 9789401714976.
 
 \bibitem[Clark et~al.(2015)Clark, Nijssen, Lundquist, Kavetski, et~al.]{Clark2015-ni}
 M.~P. Clark, B.~Nijssen, J.~D. Lundquist, D.~Kavetski, et~al.
@@ -34,6 +48,12 @@ M.~Cowherd, U.~Mital, S.~Rahimi, M.~Girotto, A.~Schwartz, and D.~Feldman.
 \newblock Climate change-resilient snowpack estimation in the western united states.
 \newblock \emph{Commun. Earth Environ.}, 5\penalty0 (1):\penalty0 337, 2024.
 \newblock \doi{10.1038/s43247-024-01496-3}.
+
+\bibitem[Cowherd et~al.(2026)Cowherd, Schwartz, Marks, Collins, Kim, Brandt, Stephens, and Girotto]{Cowherd2026-qy}
+M.~Cowherd, A.~Schwartz, J.~Marks, B.~Collins, L.~Kim, G.~Brandt, S.~Stephens, and M.~Girotto.
+\newblock Vegetation and topographic controls on post‐fire snowpack: Evidence from the 2021 caldor fire.
+\newblock \emph{Ecohydrology}, 19\penalty0 (4):\penalty0 e70235, June 2026.
+\newblock \doi{10.1002/eco.70235}.
 
 \bibitem[Cristea et~al.(2022)Cristea, Bennett, Nijssen, and Lundquist]{Cristea2022-ys}
 N.~C. Cristea, A.~Bennett, B.~Nijssen, and J.~D. Lundquist.
@@ -67,11 +87,47 @@ K.~E. Hale, K.~S. Jennings, K.~N. Musselman, B.~Livneh, and N.~P. Molotch.
 \newblock ISSN 2662-4435.
 \newblock \doi{10.1038/s43247-023-00751-3}.
 
+\bibitem[Hatchett et~al.(2022)Hatchett, Rhoades, and McEvoy]{Hatchett2022}
+B.~J. Hatchett, A.~M. Rhoades, and D.~J. McEvoy.
+\newblock Monitoring the daily evolution and extent of snow drought.
+\newblock \emph{Natural Hazards and Earth System Sciences}, 22\penalty0 (3):\penalty0 869--890, 2022.
+\newblock \doi{10.5194/nhess-22-869-2022}.
+\newblock URL \url{https://nhess.copernicus.org/articles/22/869/2022/}.
+
+\bibitem[Hatchett et~al.(2023)Hatchett, Koshkin, Guirguis, Rittger, Nolin, Heggli, Rhoades, East, Siirila-Woodburn, Brandt, Gershunov, and Haleakala]{Hatchett2023}
+B.~J. Hatchett, A.~L. Koshkin, K.~Guirguis, K.~Rittger, A.~W. Nolin, A.~Heggli, A.~M. Rhoades, A.~E. East, E.~R. Siirila-Woodburn, W.~T. Brandt, A.~Gershunov, and K.~Haleakala.
+\newblock Midwinter dry spells amplify post-fire snowpack decline.
+\newblock \emph{Geophysical Research Letters}, 50\penalty0 (3):\penalty0 e2022GL101235, 2023.
+\newblock \doi{https://doi.org/10.1029/2022GL101235}.
+\newblock URL \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022GL101235}.
+\newblock e2022GL101235 2022GL101235.
+
+\bibitem[Heggli et~al.(2022)Heggli, Hatchett, Schwartz, Bardsley, and Hand]{Heggli2022}
+A.~Heggli, B.~Hatchett, A.~Schwartz, T.~Bardsley, and E.~Hand.
+\newblock Toward snowpack runoff decision support.
+\newblock \emph{iScience}, 25\penalty0 (5), 2022.
+\newblock \doi{10.1016/j.isci.2022.104240}.
+\newblock URL \url{https://doi.org/10.1016/j.isci.2022.104240}.
+
+\bibitem[Heggli et~al.(2026)Heggli, Hatchett, Chen, Bardsley, Moore, Imgarten, and Fickenscher]{Heggli2026}
+A.~Heggli, B.~J. Hatchett, A.~Chen, T.~Bardsley, J.~Moore, M.~Imgarten, and P.~Fickenscher.
+\newblock The application of a snowpack runoff decision support system for rain-on-snow events.
+\newblock \emph{Water Resources Research}, 62\penalty0 (4):\penalty0 e2025WR042453, 2026.
+\newblock \doi{https://doi.org/10.1029/2025WR042453}.
+\newblock URL \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR042453}.
+\newblock e2025WR042453 2025WR042453.
+
 \bibitem[Hersbach et~al.(2020)Hersbach, Bell, Berrisford, Hirahara, Hor{\'a}nyi, Mu{\~n}oz-Sabater, Nicolas, Peubey, Radu, Schepers, Simmons, Soci, Abdalla, Abellan, Balsamo, Bechtold, Biavati, Bidlot, Bonavita, De~Chiara, Dahlgren, Dee, Diamantakis, Dragani, Flemming, Forbes, Fuentes, Geer, Haimberger, Healy, Hogan, H{\'o}lm, Janiskov{\'a}, Keeley, Laloyaux, Lopez, Lupu, Radnoti, de~Rosnay, Rozum, Vamborg, Villaume, and Th{\'e}paut]{Hersbach2020-era5}
 H.~Hersbach, B.~Bell, P.~Berrisford, S.~Hirahara, A.~Hor{\'a}nyi, J.~Mu{\~n}oz-Sabater, J.~Nicolas, C.~Peubey, R.~Radu, D.~Schepers, A.~Simmons, C.~Soci, S.~Abdalla, X.~Abellan, G.~Balsamo, P.~Bechtold, G.~Biavati, J.~Bidlot, M.~Bonavita, G.~De~Chiara, P.~Dahlgren, D.~Dee, M.~Diamantakis, R.~Dragani, J.~Flemming, R.~Forbes, M.~Fuentes, A.~Geer, L.~Haimberger, S.~Healy, R.~J. Hogan, E.~H{\'o}lm, M.~Janiskov{\'a}, S.~Keeley, P.~Laloyaux, P.~Lopez, C.~Lupu, G.~Radnoti, P.~de~Rosnay, I.~Rozum, F.~Vamborg, S.~Villaume, and J.-N. Th{\'e}paut.
 \newblock The {ERA5} global reanalysis.
 \newblock \emph{Quarterly Journal of the Royal Meteorological Society}, 146\penalty0 (730):\penalty0 1999--2049, 2020.
 \newblock \doi{10.1002/qj.3803}.
+
+\bibitem[Huang et~al.(2016)Huang, Chen, Zhou, and Liu]{Huang2016-vq}
+X.~Huang, X.~Chen, D.~K. Zhou, and X.~Liu.
+\newblock An observationally based global band-by-band surface emissivity dataset for climate and weather simulations.
+\newblock \emph{J. Atmos. Sci.}, 73\penalty0 (9):\penalty0 3541--3555, 2016.
+\newblock \doi{10.1175/jas-d-15-0355.1}.
 
 \bibitem[Hulley and Hook(2018)]{hulley2018viirs}
 G.~Hulley and S.~Hook.
@@ -85,12 +141,30 @@ M.~J. Iacono, J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and W.
 \newblock ISSN 0148-0227.
 \newblock \doi{10.1029/2008jd009944}.
 
+\bibitem[Kim et~al.(2021)Kim, Kumar, Vuyovich, Houser, Lundquist, Mudryk, Durand, Barros, Kim, Forman, Gutmann, Wrzesien, Garnaud, Sandells, Marshall, Cristea, Pflug, Johnston, Cao, Mocko, and Wang]{Kim2021-eu}
+R.~S. Kim, S.~Kumar, C.~Vuyovich, P.~Houser, J.~Lundquist, L.~Mudryk, M.~Durand, A.~Barros, E.~J. Kim, B.~A. Forman, E.~D. Gutmann, M.~L. Wrzesien, C.~Garnaud, M.~Sandells, H.-P. Marshall, N.~Cristea, J.~M. Pflug, J.~Johnston, Y.~Cao, D.~Mocko, and S.~Wang.
+\newblock Snow ensemble uncertainty project ({SEUP}): quantification of snow water equivalent uncertainty across north america via ensemble land surface modeling.
+\newblock \emph{The Cryosphere}, 15\penalty0 (2):\penalty0 771--791, 2021.
+\newblock \doi{10.5194/tc-15-771-2021}.
+
 \bibitem[Lee et~al.(2023)Lee, Tippett, and Polvani]{Lee2023-cc}
 S.~H. Lee, M.~K. Tippett, and L.~M. Polvani.
 \newblock A new year-round weather regime classification for north america.
 \newblock \emph{J. Clim.}, 36\penalty0 (20):\penalty0 7091--7108, Sept. 2023.
 \newblock ISSN 0894-8755,1520-0442.
 \newblock \doi{10.1175/JCLI-D-23-0214.1}.
+
+\bibitem[Lehner et~al.(2017{\natexlab{a}})Lehner, Wahl, Wood, Blatchford, and Llewellyn]{Lehner2017b}
+F.~Lehner, E.~R. Wahl, A.~W. Wood, D.~B. Blatchford, and D.~Llewellyn.
+\newblock Assessing recent declines in upper rio grande runoff efficiency from a paleoclimate perspective.
+\newblock \emph{Geophysical Research Letters}, 44\penalty0 (9):\penalty0 4124--4133, 2017{\natexlab{a}}.
+\newblock \doi{https://doi.org/10.1002/2017GL073253}.
+
+\bibitem[Lehner et~al.(2017{\natexlab{b}})Lehner, Wood, Llewellyn, Blatchford, Goodbody, and Pappenberger]{Lehner2017}
+F.~Lehner, A.~W. Wood, D.~Llewellyn, D.~B. Blatchford, A.~G. Goodbody, and F.~Pappenberger.
+\newblock Mitigating the impacts of climate nonstationarity on seasonal streamflow predictability in the u.s. southwest.
+\newblock \emph{Geophysical Research Letters}, 44\penalty0 (24):\penalty0 12,208--12,217, 2017{\natexlab{b}}.
+\newblock \doi{https://doi.org/10.1002/2017GL076043}.
 
 \bibitem[Li et~al.(2017)Li, Wrzesien, Durand, Adam, and Lettenmaier]{Li2017-dj}
 D.~Li, M.~L. Wrzesien, M.~Durand, J.~Adam, and D.~P. Lettenmaier.
@@ -112,6 +186,13 @@ M.~J. Menne, C.~N. Williams, and R.~S. Vose.
 \newblock \emph{Bulletin of the American Meteorological Society}, 90\penalty0 (7):\penalty0 993--1007, 2009.
 \newblock \doi{10.1175/2008BAMS2613.1}.
 
+\bibitem[Menne et~al.(2012)Menne, Durre, Vose, Gleason, and Houston]{Menne2012-uu}
+M.~J. Menne, I.~Durre, R.~S. Vose, B.~E. Gleason, and T.~G. Houston.
+\newblock An overview of the global historical climatology network-daily database.
+\newblock \emph{J. Atmos. Ocean. Technol.}, 29\penalty0 (7):\penalty0 897--910, July 2012.
+\newblock ISSN 0739-0572,1520-0426.
+\newblock \doi{10.1175/jtech-d-11-00103.1}.
+
 \bibitem[Musselman et~al.(2017)Musselman, Clark, Liu, Ikeda, and Rasmussen]{Musselman2017-av}
 K.~N. Musselman, M.~P. Clark, C.~Liu, K.~Ikeda, and R.~Rasmussen.
 \newblock Slower snowmelt in a warmer world.
@@ -119,11 +200,10 @@ K.~N. Musselman, M.~P. Clark, C.~Liu, K.~Ikeda, and R.~Rasmussen.
 \newblock ISSN 1758-678X,1758-6798.
 \newblock \doi{10.1038/nclimate3225}.
 
-\bibitem[Ohmura(2001)]{Ohmura2001-ll}
-A.~Ohmura.
-\newblock Physical basis for the temperature-based melt-index method.
-\newblock \emph{J. Appl. Meteorol.}, 40\penalty0 (4):\penalty0 753--761, 2001.
-\newblock \doi{10.1175/1520-0450(2001)040<0753:pbfttb>2.0.co;2}.
+\bibitem[Osterhuber(2014)]{Osterhuber2014-ic}
+R.~Osterhuber.
+\newblock Snow survey procedure manual.
+\newblock \emph{The Resources Agency of California}, 2014.
 
 \bibitem[Oyler et~al.(2015)Oyler, Dobrowski, Ballantyne, Klene, and Running]{Oyler2015-by}
 J.~W. Oyler, S.~Z. Dobrowski, A.~P. Ballantyne, A.~E. Klene, and S.~W. Running.
@@ -131,12 +211,6 @@ J.~W. Oyler, S.~Z. Dobrowski, A.~P. Ballantyne, A.~E. Klene, and S.~W. Running.
 \newblock \emph{Geophys. Res. Lett.}, 42\penalty0 (1):\penalty0 153--161, 2015.
 \newblock ISSN 0094-8276.
 \newblock \doi{10.1002/2014gl062803}.
-
-\bibitem[Plüss and Ohmura(1997)]{Pluss1997-wx}
-C.~Plüss and A.~Ohmura.
-\newblock Longwave radiation on snow-covered mountainous surfaces.
-\newblock \emph{J. Appl. Meteorol. Climatol.}, 36\penalty0 (6):\penalty0 818--824, 1997.
-\newblock \doi{10.1175/1520-0450-36.6.818}.
 
 \bibitem[Ramanathan et~al.(1989)Ramanathan, Cess, Harrison, Minnis, Barkstrom, Ahmad, and Hartmann]{Ramanathan1989-pa}
 V.~Ramanathan, R.~D. Cess, E.~F. Harrison, P.~Minnis, B.~R. Barkstrom, E.~Ahmad, and D.~Hartmann.
@@ -151,6 +225,18 @@ W.~Rudisill, D.~Feldman, C.~J. Cox, L.~Riihimaki, et~al.
 \newblock \emph{J. Geophys. Res.}, 130\penalty0 (6):\penalty0 e2024JD042366, 2025.
 \newblock \doi{10.1029/2024JD042366}.
 
+\bibitem[Schwartz et~al.(2026)Schwartz, Cowherd, McGurk, Mason, Riker-Coleman, Zutter, and Lewis]{Schwartz_Cowherd_McGurk_Mason_Riker-Coleman_Zutter_Lewis_2026}
+A.~Schwartz, M.~Cowherd, B.~McGurk, M.~Mason, K.~Riker-Coleman, B.~Zutter, and G.~Lewis.
+\newblock Modernization of the central sierra snow laboratory – a new chapter in a storied existence.
+\newblock \emph{Bulletin of the American Meteorological Society}, Jun 2026.
+\newblock \doi{10.1175/bams-d-25-0112.1}.
+
+\bibitem[Schwat et~al.(2025)Schwat, Hogan, Paw~U, Cox, et~al.]{Schwat2025-ur}
+E.~Schwat, D.~Hogan, K.~T. Paw~U, C.~J. Cox, et~al.
+\newblock Estimating snow sublimation in complex terrain: A season of intensive field measurements and the role of vertical water vapor flux divergence.
+\newblock \emph{J. Hydrometeorol.}, 26\penalty0 (10):\penalty0 1455--1473, 2025.
+\newblock \doi{10.1175/jhm-d-25-0022.1}.
+
 \bibitem[Serreze et~al.(1999)Serreze, Clark, Armstrong, McGinnis, and Pulwarty]{Serreze1999-as}
 M.~C. Serreze, M.~P. Clark, R.~L. Armstrong, D.~A. McGinnis, and R.~S. Pulwarty.
 \newblock Characteristics of the western united states snowpack from snowpack telemetry ({SNOTEL}) data.
@@ -158,10 +244,30 @@ M.~C. Serreze, M.~P. Clark, R.~L. Armstrong, D.~A. McGinnis, and R.~S. Pulwarty.
 \newblock ISSN 0043-1397.
 \newblock \doi{10.1029/1999wr900090}.
 
+\bibitem[Sexstone et~al.(2018)Sexstone, Clow, Fassnacht, Liston, Hiemstra, Knowles, and Penn]{Sexstone2018-rc}
+G.~A. Sexstone, D.~W. Clow, S.~R. Fassnacht, G.~E. Liston, C.~A. Hiemstra, J.~F. Knowles, and C.~A. Penn.
+\newblock Snow sublimation in mountain environments and its sensitivity to forest disturbance and climate warming.
+\newblock \emph{Water Resour. Res.}, 54\penalty0 (2):\penalty0 1191--1211, 2018.
+\newblock \doi{10.1002/2017wr021172}.
+
 \bibitem[Singh et~al.(2016)Singh, Swain, Mankin, Horton, Thomas, Rajaratnam, and Diffenbaugh]{Singh2016-ev}
 D.~Singh, D.~L. Swain, J.~S. Mankin, D.~E. Horton, L.~N. Thomas, B.~Rajaratnam, and N.~S. Diffenbaugh.
 \newblock Recent amplification of the north american winter temperature dipole.
 \newblock \emph{J. Geophys. Res Atmos.}, 121\penalty0 (17):\penalty0 9911--9928, 2016.
 \newblock \doi{10.1002/2016JD025116}.
+
+\bibitem[Wang et~al.(2014)Wang, Hipps, Gillies, and Yoon]{Wang2014}
+S.-Y. Wang, L.~Hipps, R.~R. Gillies, and J.-H. Yoon.
+\newblock Probable causes of the abnormal ridge accompanying the 2013–2014 california drought: Enso precursor and anthropogenic warming footprint.
+\newblock \emph{Geophysical Research Letters}, 41\penalty0 (9):\penalty0 3220--3226, 2014.
+\newblock \doi{https://doi.org/10.1002/2014GL059748}.
+\newblock URL \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2014GL059748}.
+
+\bibitem[Wang et~al.(2015)Wang, Huang, and Yoon]{Wang2015}
+S.-Y.~S. Wang, W.-R. Huang, and J.-H. Yoon.
+\newblock The north american winter ‘dipole’ and extremes activity: a cmip5 assessment.
+\newblock \emph{Atmospheric Science Letters}, 16\penalty0 (3):\penalty0 338--345, 2015.
+\newblock \doi{https://doi.org/10.1002/asl2.565}.
+\newblock URL \url{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/asl2.565}.
 
 \end{thebibliography}

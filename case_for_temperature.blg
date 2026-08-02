@@ -4,46 +4,46 @@ The top-level auxiliary file: case_for_temperature.aux
 The style file: abbrvnat.bst
 Database file #1: paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 1522 of file paperpile.bib
-You've used 25 entries,
+--line 1742 of file paperpile.bib
+You've used 41 entries,
             2773 wiz_defined-function locations,
-            819 strings with 11714 characters,
-and the built_in function-call counts, 15948 in all, are:
-= -- 1379
-> -- 1307
+            949 strings with 17078 characters,
+and the built_in function-call counts, 27214 in all, are:
+= -- 2320
+> -- 2324
 < -- 6
-+ -- 439
-- -- 414
-* -- 1564
-:= -- 2567
-add.period$ -- 109
-call.type$ -- 25
-change.case$ -- 210
-chr.to.int$ -- 25
-cite$ -- 50
-duplicate$ -- 508
-empty$ -- 1005
-format.name$ -- 443
-if$ -- 3203
-int.to.chr$ -- 1
++ -- 780
+- -- 738
+* -- 2717
+:= -- 4399
+add.period$ -- 183
+call.type$ -- 41
+change.case$ -- 364
+chr.to.int$ -- 40
+cite$ -- 82
+duplicate$ -- 841
+empty$ -- 1657
+format.name$ -- 781
+if$ -- 5454
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 167
-num.names$ -- 100
-pop$ -- 359
+missing$ -- 41
+newline$ -- 273
+num.names$ -- 164
+pop$ -- 621
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 325
 quote$ -- 0
-skip$ -- 435
+skip$ -- 726
 stack$ -- 0
-substring$ -- 609
-swap$ -- 32
+substring$ -- 1008
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
+type$ -- 441
 warning$ -- 0
-while$ -- 112
+while$ -- 176
 width$ -- 0
-write$ -- 397
+write$ -- 654
 (There was 1 warning)

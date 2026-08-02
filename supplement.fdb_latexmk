@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779306555.13791 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1779306555.95462 0
-  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1779306554.11476 1211 818e2d40cbf1280c7b4cba592fcb16da ""
+["pdflatex"] 1785534853.10854 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1785534853.68925 0
+  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1785534852.97236 5059 894cf21cb897c3af9be71dc42a3bf0b4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1741388039 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -15,6 +15,7 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1741388039 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1741388039 1120 8b7d695260f3cff42e636090a8002094 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1741388039 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1741388039 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1741388039 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1741388039 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1741388039 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -32,12 +33,13 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/graphics/trig.sty" 1741388039 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1741388039 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1741388039 678 4792914a8f45be57bb98413425e4c7af ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/tools/xr.sty" 1741388039 3650 6bb518b93447ab8234847aee22289e5c ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/tools/xspace.sty" 1741388039 4545 e3f4de576c914e2000f07f69a891c071 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
   "images/sca_combined.png" 1778017687.07499 227719 631d72c3e074f4a384684605506c98ea ""
-  "images/swe_change_2026.png" 1777655440.43061 463598 8d167cb84b3a8339adfd373225e392ea ""
-  "supplement.aux" 1779306555.92676 1014 e7c023caa89b82ddab6c4b03a095f23f "pdflatex"
-  "supplement.tex" 1779306554.11476 1211 818e2d40cbf1280c7b4cba592fcb16da ""
+  "supplement.aux" 1785534853.65083 1062 aede5c7f4056497747dfdd8e6eb3a97a "pdflatex"
+  "supplement.tex" 1785534852.97236 5059 894cf21cb897c3af9be71dc42a3bf0b4 ""
   (generated)
   "supplement.aux"
   "supplement.log"

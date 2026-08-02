@@ -1,7 +1,60 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx}
 \usepackage{geometry}
+\usepackage{xr}
+\usepackage{xspace}
 
+\externaldocument{supplement}  % no .tex extension
+
+
+
+
+
+%%%%%%% MAKE SOME COMMANDS %%%%%%%%%%
+\newcommand{\eqtn}[1]{Eq.~(\ref{#1})}       % Equation reference
+\newcommand{\fig}[2]{\textcolor{black}{(Fig.~\ref{#1}{#2})}}   % Figure reference
+\newcommand{\fignop}[2]{\textcolor{black}{Fig.~\ref{#1}{#2}}}  % Figure reference
+
+\newcommand{\todo}[1]{\textcolor{purple}{TODO: #1}}      % Comments
+\newcommand{\comment}[1]{\textcolor{cyan}{#1}}     % TODO notes
+\newcommand{\mynum}[1]{\textcolor{red}{#1}}
+% meteorological terms go here
+\newcommand{\tmin}{\textcolor{black}{$T_{\mathrm{min}}$}\xspace}
+\newcommand{\tair}{\textcolor{black}{$T_{\mathrm{air}}$}\xspace}
+\newcommand{\tsfc}{\textcolor{black}{$T_{\mathrm{sfc}}$}\xspace}
+\newcommand{\qair}{\textcolor{black}{$q_{\mathrm{air}}$}\xspace}
+\newcommand{\qsfc}{\textcolor{black}{$q_{\mathrm{sfc}}$}\xspace}
+\newcommand{\lwnet}{\textcolor{black}{$LW_{\mathrm{net}}$}\xspace}
+\newcommand{\wspd}{\textcolor{black}{$w_{\mathrm{spd}}$}\xspace}
+\newcommand{\wdir}{\textcolor{black}{$w_{\mathrm{dir}}$}\xspace}
+\newcommand{\cloudfrac}{\textcolor{black}{$C_{\mathrm{frac}}$}\xspace}
+\newcommand{\dq}{\textcolor{black}{$\Delta q$}\xspace}
+\newcommand{\dT}{\textcolor{black}{$\Delta T$}\xspace}
+\newcommand{\fq}{\textcolor{black}{$F\mathrm{_q}$}\xspace}
+\newcommand{\ustar}{\textcolor{black}{$u_{\star}$}\xspace} 
+\newcommand{\lwup}{\textcolor{black}{$LW\uparrow$}\xspace} 
+\newcommand{\lwdn}{\textcolor{black}{$LW\downarrow$}\xspace} 
+\newcommand{\tsnow}{\textcolor{black}{$T_{\mathrm{snow}}$}\xspace}
+\newcommand{\qsnow}{\textcolor{black}{$q_{\mathrm{snow}}$}\xspace}
+\newcommand{\pbaro}{\textcolor{black}{$P_{\mathrm{baro}}$}\xspace}
+\newcommand{\rnet}{\textcolor{black}{$R_{\mathrm{net}}$}\xspace}
+\newcommand{\swnet}{\textcolor{black}{$SW_{\mathrm{net}}$}\xspace}
+\newcommand{\swdn}{\textcolor{black}{$SW\downarrow$}\xspace}
+\newcommand{\swup}{\textcolor{black}{$SW\uparrow$}\xspace}
+\newcommand{\albedo}{\textcolor{black}{$\alpha$}\xspace}
+
+% units
+\newcommand{\um}{\textcolor{black}{$\mu$m}\xspace}
+\newcommand{\ms}{\textcolor{black}{m$\cdot$s$^{-1}$}\xspace}
+\newcommand{\gkg}{\textcolor{black}{g$\cdot$kg$^{-1}$}\xspace}
+\newcommand{\kmsq}{\textcolor{black}{km$^2$}\xspace}  % kilometers
+\newcommand{\wmsq}{\textcolor{black}{W$\cdot$m$^{-2}$}\xspace}
+\newcommand{\degr}{\textcolor{black}{$^\circ$}\xspace} 
+\newcommand{\degrc}{\textcolor{black}{$^\circ$C}\xspace} 
+\newcommand{\gmtwo}{\textcolor{black}{gm$^{-2}$}\xspace}
+\newcommand{\kgmtwo}{\textcolor{black}{kg$\cdot$m$^{-2}$}\xspace}
+
+% iopart uses \etal, \eg, \ie macros
 \renewcommand{\thefigure}{S\arabic{figure}}
 
 
@@ -16,6 +69,21 @@
 %   \caption{stuff}
 %   \label{fig:swechange}
 % \end{figure}
+
+\section{SUMMA details}
+At CSSL, the peak water equivalent was XYZ higher in the open site relative to the forest site leading up to the heatwave event which may have resulted from a combination of snow interception or antecedent melt.
+We found good correspondence between SUMMA and observations in the open and forest sites, respectively 
+This was found after adjusting the rain/snow threshold temperature to XYZ, the canopy wind reduction coefficient to and a snow surface roughness of 0.002 m for both sites. 
+These values are well within established bounds for those parameters (CITE).
+Comparisons against the forest site CNR4 radiometer showed good correspondence between the SUMMA modelled below-canopy shortwave radiation, lending confidence to the prescribed LAI value and UEB 2-stream shortwave parameterization implemented in SUMMA. 
+
+
+
+\section{Cirrus and RRTMG}
+
+Then, we insert a hypothetical cirrus cloud at 200 hPa in the model with a cloud water path of 6 gmtwo and an effective cloud radii of todo typical, for mid-latitude cirrus cloud todo
+cCRF$_{x}$ is computed as the difference between the four component net radiative difference between the cloudy atmosphere simulation and the clear-sky simulation. 
+
 
 
 \begin{figure}[htbp]
