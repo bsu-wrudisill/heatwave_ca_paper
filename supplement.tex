@@ -3,6 +3,8 @@
 \usepackage{geometry}
 \usepackage{xr}
 \usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 \externaldocument{supplement}  % no .tex extension
 
@@ -98,6 +100,154 @@ cCRF$_{x}$ is computed as the difference between the four component net radiativ
    standard deviation shading. }
   \label{fig:scachange}
 \end{figure}
+
+
+\section{Additional details about SUMMA}
+%% Sensible and Latent heat fluxes
+The bulk expression for the $H_s$ implemented in SUMMA is given by: 
+
+\begin{align} 
+H_s &=  c_p \rho C_s u (T_{air} - T_{snow}) \label{eq:bulk2}, 
+\end{align}
+
+where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, $\rho$ is the dry air density, and $C_s$ is the bulk transport coefficient. 
+In this work, we use the SUMMA formulation for $C_s$, which models the stability correction as a function of the bulk Richardson number.
+
+
+We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h = z_0$
+\begin{equation}
+C_h = \frac{k^2}{\mathrm{ln}(z/z_0)^2}\cdot f(\mathrm{Ri})    
+\end{equation}
+Where Ri is the bulk Richardson number, defined as 
+
+\begin{equation} \label{eq:ri}
+    \mathrm{Ri} = \frac{9.81 (T_{air} - T_{snow})}{0.5(T_{air} + T_{snow})u^2}.
+\end{equation}
+
+and f(Ri) is a function with range (0,1] that declines as a function of increasing Ri.
+
+
+\section{Validation}
+As a measure of the canopy temperature, we use data from the VIIRS/Suomi-NPP VNP21A1D VIIRS Version 1 Land Surface Temperature (LST) data product for day and nighttime.
+The canopy temperature data has a resolution of 1km and provides twice-daily observations of LST.
+% \citep{hulley2018viirs}.
+
+\subsection{Idealized scaling of energy fluxes with Tair and RH over melting snow}
+The results in Sec. \todo{SECTION} —-- and the relatively small contributions of H$_l$ and H$_s$ despite anomalously high temperatures --- can best be explained by considering ``offline'' test cases assuming a fixed 0 \degrc melting snow surface. 
+Several important considerations arise since snow cannot exceed this thermodynamic limit.
+In these conditions, turbulent exchange between the snow and an above 0 \degrc atmosphere will always be limited by the effects of buoyant suppression \citep{Brutsaert2013-ef}.
+
+% sensible heat
+Case in point, $H_s$ over melting 0 \degrc snow increases linearly as a function of \tair with a slope determined by \wspd, assuming an un-physical neutral condition without taking into account the effects of the buoyant suppression of turbulence \fig{fig:idealized_sens_heat}{a}.
+However, accounting for buoyant suppression decreases H$_s$ relative to the neutral assumption, so much so that for moderate \wspd values of 5 \ms, H$_s$ actually \textit{decreases} as a function of increasing \tair above 4\degrc. 
+To better interrogate this relationship, \fig{fig:idealized_sens_heat}{c} depicts the \tair value that maximized $H_s$ for a given \wspd.
+A \wspd of 5 \ms has a corresponding H$_s$ maximum at 4-5 \degrc; the stability effect will reduce H$_s$ at \tair values above or below this \fig{fig:idealized_sens_heat}{c}, and a \wspd of 2 \ms achieves a maximum $H_s$ when \tair is only a degree or two above freezing. 
+
+% latent heat
+Evaporation and/or sublimation is likewise impacted by the 0 \degrc limitation —-- to a reasonable approximation, the vapor pressure of pooling liquid water or 0\degrc C ice crystals on top of the snow never exceeds 6.11 hPa.
+Therefore, the vapor pressure of the air must be less than  6.11 hPa for sublimation or evaporation to occur. 
+Assuming a constant RH of 20\% (roughly the minimum observed during the March heatwave), H$_l$ decreases rather than increases as a function of \tair over a 0\degrc snow regardless of \wspd \fig{fig:idealized_sens_heat}{b,d}.
+\tair greater than approximately 24-25\degrc at 20\% RH \textit{adds energy to the snow} via condensation/deposition.
+The effects of thermodynamic stability further reduce H$_l$ as a function of \tair. 
+In reality, though, RH is not independent of \tair, and generally decreases as \tair rises during the daytime due to water vapor conservation and dry-air entrainment from the upper levels of the boundary layer \todo{CITE}. 
+Sublimation is permitted across the full range of RH values as \tair approaches 0\degrc. 
+At 25\degrc (nearly the maximum observed during the March heatwave), RH values must be less than 20\% for sublimation to occur.
+
+% longwave 
+Assuming an emissivity value of 0.98 \citep{Huang2016-vq} snow emits outgoing \lwup at a maximum rate of 309 \wmsq. 
+The effective emissivity of the clear-sky atmosphere, as well as \lwdn, can be easily visualized by considering the \cite{Brutsaert1975-jl} formula which is an approximation of the full radiative transfer equations implemented in RRTMG and other models (Sec \ref{sec:models:rrtmg}).
+In addition to scaling to the fourth power, small variations in RH have a large impact on \lwdn.
+Over melting snow, a \tair of 20\degrc and a low RH of 20\% is unable to overcome the counteracting emission by the snowpack, and \lwnet is negative on the order of 20 \wmsq.
+For the same \tair, an RH of 60\% more than doubles the magnitude of \lwnet and yields a net-heating of the snow.
+Based on these considerations, snow is highly sensitive to variations in both temperature and also atmospheric humidity. 
+
+% how do these things all work together 
+Taken together, increasing RH and \tair will tend to increase \lwnet and also \textit{decrease} cooling via the sublimation/evaporation mechanism.
+While \lwnet may not always be a heat-source, but rather a heat-sink, mechanism for snowmelt rates, \lwnet over melting snow increases non-linearly and monotonically as a function of rising \tair and is completely insensitive to wind motions
+\lwnet is perhaps best thought of as ``handbrake'' on the rate of snowmelt; rising \tair during heatwaves means that this brake is applied less and less. 
+The same is not true for H$_s$ which only scales linearly with \tair at very high \wspd values due to the counteracting effects of buoyancy. 
+
+% MO theory caution
+We caution that this is only one possible parameterization for describing the effects of surface layer stability on turbulent exchange, and the assumptions of the theory (while employed in virtually all land, snow, and atmospheric models), may not hold for complex mountain terrain.
+Terrain mesoscale circulations, in which case turbulence isn't generated by shear between the snow surface and atmosphere, but may be generated by other features and advected over the snow, could yield greater rates of H$_s$ or H$_l$ for given meteorlogical conditions.
+
+\subsection{Vegetation impedes melt during the heatwave}
+
+While we find that RF$_{Canopy,LW}$ scales linearly with rising \tair, meaning that the vegetation LW effect is exacerbated during heatwaves (rather than constant regardless of \tair), the net-effect (CanRE$_{net}$) transitioned from a net-positive (vegetation enhances energy entering the snow) to net-negative (vegetation reduces energy entering the snow).
+This finding matches the observational data; while snow ablated earlier in the forest site, the rate of melt was less than the open \todo{how much}). 
+The earlier ablation was likely explained by canopy interception, since there was less SWE at the beginning of March in the forest site compared to the open. 
+The ablation rate is explained by both the declining snow albedo increasing the sensitivity to \swdn and rising sun-angles throughout March. 
+In other words, the SW-shading effect of the canopy is relatively minimal when the snow is bright and the strength of the sun is weak and fails to outweigh the added LW effect. 
+
+Given that this heatwave occurred early in the season compared to those observed in \todo{cite Rhoades}, we hypothesize that same analysis of CanRE$_{net}$ would likely demonstrate a stronger cooling effect during later-season heatwaves with stronger solar insolation. 
+Therefore, we conclude that \textit{moderate canopy cover yields snowpacks that are more resilient to heatwaves than equivalent open areas} given that solar radiation is still such a strong snowmelt forcing during such conditions.
+This finding is consistent with reduced snow duration following the Caldor fire in the American river basin, immediately to the south of our study region \citep{Cowherd2026-qy}.
+\citep{Hatchett2023} likewise found that mid-winter dryspells increase snowmelt rates in post-fire environments in the Sierra nevada due to increased solar insolation from canopy loss by wildfire. 
+
+\subsection{Elevation, slope, and aspect}
+We only consider flat, non sloping surfaces in this analysis (with a by-definition undefined aspect). 
+In reality the slope and terrain aspect have a substantial influence on the \swdn incident on the snowpack, as well as \lwdn from surrounding terrain. 
+
+\subsection{The role of antecedent cold-content}
+\begin{itemize}
+\item The amount of energy required to overcome the cold content is far less than what is required to melt ice. 
+\end{itemize}
+
+\subsection{Heatwaves in the future and implications for water management}
+\begin{itemize}
+  \item CMIP6 models underestimate monthly high temperature extremes by 11–12\% \citep{Duan2025-rl}.
+  \item Statistical WSFS models may overestimate runoff during anomalously warm periods \cite{Lehner2017} \cite{Lehner2017b} if historical "runoff ratios" (the amount of streamflow relative to precipitation) are assumed in the model.
+  We have shown that such reductions in runoff ratio are more likely to be cause by soil evapotranspiration rather than snow sublimation. 
+  
+  \item This heatwave happened before April 1, which is the date that is historically used for water resource management decisions.  
+  Post April heatwaves may be more challenging for water management under current practices --- this happened in the Spring of 2022 \todo{CITE DWR Interview}. Once allocations have been made by April, early snowmelt could prove costly for subsequent decisions informed by expected allocations such as planting acreage or types of crops that now may not have water available for later season irrigation. Similarly, municipal water agencies may not receive expected water late in the season. Fish, recreation, same problems? Basically, snoweaters mess everyone up later on! 
+
+  
+  \item ``Slower slowmelt in a warmer world" concept \citep{Musselman2017-av} probably still holds but merits additional investigation. E.g., 2023 had rates on the order of 3 in/day in July compared to the 1-1.5 in/day during the March heatwave of 2026.
+  The point is that the max rate of snowmelt for the entire water year may decline, but early season heatwaves are already increasing the melt rates for a given month or day of year.   
+  \item \todo{Discuss \albedo decline mechanisms --- how does liquid water impact \albedo and how is this \tair dependent}
+\end{itemize}
+
+\subsection{Data Limitations}
+Things here. 
+\clearpage
+
+% Across the entire SUMMA record \todo{state how long this is}, we find that CanRE$_{LW}$ (Eq. \ref{eq:canopy_lw}) increases as a function of \tair \fig{fig:canradeffect}{a}.
+% This occurs in part because the model canopy is warmer than the ambient \tair during the daytime hours, but colder at nightime \fig{fig:canradeffect}{b}.
+% Regardless, the emissivity effect yields a positive CanRE$_{LW}$ at all times of the day \fig{fig:canradeffect}{c}, even when the canopy is colder than the ambient \tair.
+% Limited observations from the Suomi-NPP/VIIRS LST product for the CSSL site provide some external validation of the model canopy temperatures, which exceed \tair by several degrees during the peak of the heatwave \fig{fig:canradeffect}{d}.
+% The extent to which the Suomi-NPP/VIIRS LST is indicative of canopy temperatures, versus canopy, exposed snow, and other land-types potentially mixed within the 1-km pixel remains to be seen and a full validation is beyond the scope of this paper; the true canopy temperature may be even warmer mid-day.
+
+% Taking into account both SW and LW effects, however, shows that CanRE$_{Net}$ transitions from positive to negative during the March 2026 heatwave \fig{fig:canradeffect}{e}, indicating that the positive addition of canopy \lwdn emission is counteracted by the cooling assosciated with the canopy shading effect. 
+% This transition takes place approximately on the 14th and is due to a combination of both declining snow albedo and increasing solar insolation during the month associated with rising sun angles. 
+
+
+
+% \subsection{cCRF}
+% Cirrus can impose a 4-5 \wmsq idealized, instantaneous radiative forcing during March heatwave conditions, taking into account both short and longwave components. 
+% The cCRF$_{LW}$ effect increases as a function of both \tair and declines as a function of precipitable water vapor (PWV) (not shown) consistent with previous work. 
+% We caution that the 4-5  \wmsq estimate is the maximum amount for cirrus clouds with the prescribed microphysical values, and that cirrus clouds were not present at all times during the heatwave event.
+% Therefore, the net effect averaged over the duration of the even is undoubtedly lower. 
+% Moreover, the surface and TOA radiative forcing are not the same: cCRF$_{net, TOA}$ is more than five times stronger than surface (a median value of 26 \wmsq). 
+% This implies that while the effect at the land surface is relatively modest, cirrus clouds are contributing to trapping heat in the upper atmosphere and may contribute to the duration and magnitude of the \tair anomaly. 
+
+
+% \subsection{AlbRF}
+% The increase in \rnet during the March heatwave is attributable to two factors —-- increases in incident \swdn and declining \albedo \fig{fig:albedo}{a---d}.
+% Incident daily-averaged \swdn increases during the March heatwave in conjunction with the rising sun-angle.
+% Notably the ERA5 data corresponds well with the CSSL collected \swdn observations with a high-bias of 1.1 \wmsq \fig{fig:albedo}{a}.
+
+% Snow albedo simultaneously declines from an observed maximum of nearly 0.7 to values below 0.6 \fig{fig:albedo}{b}
+% This represents a 33\% increase in radiative forcing due to the \albedo decline alone.
+% Coupled with rising sun-angles and insolation, the snow \albedo decline yields an AlbRF that surpasses 80 \wmsq by the end of the month compared to 40 \wmsq at the beginning of the month: an increase of 100\% \fig{fig:albedo}{b}
+% The SPIReS remote sensing product underestimates snow \albedo somewhat with respect to both SUMMA and the CSSL observations, but likewise observes a decline in \albedo during the March heatwave.
+% The cause of the observed albedo decline corresponds with an increase in the effective snow optical grain size retrieved by SPIReS \fig{fig:albedo}{c}.
+
+
+% % the \albedo reset 
+% Albedo is refreshed on April 1 following new snowfall to a value of 0.85. 
+% It is unclear if the dip in observed $\alpha$ from the 20-27th of March to values approaching 0.5 are correct. 
+% \comment{CSSL — have you found the same dip in snow \albedo on these dates?}
 
 \end{document}
 

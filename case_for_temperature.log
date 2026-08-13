@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 JUL 2026 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  13 AUG 2026 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,36 +331,32 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 Package xr Info: IMPORTING LABELS FROM supplement.aux on input line 14.
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 72.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 81.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box64
-) (./case_for_temperature.aux
-
-LaTeX Warning: Label `fig:monthly_seb_mar' multiply defined.
-
-)
+) (./case_for_temperature.aux)
 \openout1 = `case_for_temperature.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count314
@@ -380,7 +376,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 72.
+Package hyperref Info: Link coloring ON on input line 81.
  (./case_for_temperature.out) (./case_for_temperature.out)
 \@outlinefile=\write3
 \openout3 = `case_for_temperature.out'.
@@ -388,21 +384,21 @@ Package hyperref Info: Link coloring ON on input line 72.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 72.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 73.
+(Font)              size <17.28> substituted on input line 82.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 73.
+(Font)              size <17.28> substituted on input line 82.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -445,6 +441,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -453,11 +453,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (2.05621pt too wide) in paragraph at lines 302--311
- [][] 
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -486,34 +481,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: Reference `fig:albedo' on page 9 undefined on input line 417.
-
-
-LaTeX Warning: Reference `fig:albedo' on page 9 undefined on input line 419.
-
-
-LaTeX Warning: Reference `fig:albedo' on page 9 undefined on input line 421.
-
-
-LaTeX Warning: Reference `fig:albedo' on page 9 undefined on input line 423.
-
-
-LaTeX Warning: Reference `fig:albedo' on page 9 undefined on input line 425.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 438.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -531,92 +498,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
-<images2/drawing-1.png, id=372, 565.36218pt x 509.65407pt>
+<images2/drawing-1.png, id=316, 565.36218pt x 509.65407pt>
 File: images2/drawing-1.png Graphic file (type png)
 <use images2/drawing-1.png>
-Package pdftex.def Info: images2/drawing-1.png  used on input line 567.
+Package pdftex.def Info: images2/drawing-1.png  used on input line 515.
 (pdftex.def)             Requested size: 435.32716pt x 392.44261pt.
-<images2/mar2026_era5_snotel_summary.png, id=374, 451.9284pt x 481.8pt>
-File: images2/mar2026_era5_snotel_summary.png Graphic file (type png)
-<use images2/mar2026_era5_snotel_summary.png>
-Package pdftex.def Info: images2/mar2026_era5_snotel_summary.png  used on input line 580.
-(pdftex.def)             Requested size: 435.32716pt x 464.11804pt.
-<images2/temp_anomaly_map.png, id=375, 510.9489pt x 226.446pt>
+<images2/temp_anomaly_map.png, id=318, 510.9489pt x 226.446pt>
 File: images2/temp_anomaly_map.png Graphic file (type png)
 <use images2/temp_anomaly_map.png>
-Package pdftex.def Info: images2/temp_anomaly_map.png  used on input line 596.
+Package pdftex.def Info: images2/temp_anomaly_map.png  used on input line 528.
 (pdftex.def)             Requested size: 435.32716pt x 192.93263pt.
-<images2/swe_change_2026_v2.png, id=376, 578.16pt x 252.945pt>
+<images2/mar2026_era5_snotel_summary.png, id=319, 451.9284pt x 481.8pt>
+File: images2/mar2026_era5_snotel_summary.png Graphic file (type png)
+<use images2/mar2026_era5_snotel_summary.png>
+Package pdftex.def Info: images2/mar2026_era5_snotel_summary.png  used on input line 540.
+(pdftex.def)             Requested size: 435.32716pt x 464.11804pt.
+<images2/swe_change_2026_v2.png, id=320, 578.16pt x 252.945pt>
 File: images2/swe_change_2026_v2.png Graphic file (type png)
 <use images2/swe_change_2026_v2.png>
-Package pdftex.def Info: images2/swe_change_2026_v2.png  used on input line 606.
+Package pdftex.def Info: images2/swe_change_2026_v2.png  used on input line 556.
 (pdftex.def)             Requested size: 435.32716pt x 190.45319pt.
-<images2/open_seb.png, id=377, 415.7934pt x 471.9231pt>
-File: images2/open_seb.png Graphic file (type png)
-<use images2/open_seb.png>
-Package pdftex.def Info: images2/open_seb.png  used on input line 629.
+<images2/mar_seb_open.png, id=321, 415.7934pt x 471.9231pt>
+File: images2/mar_seb_open.png Graphic file (type png)
+<use images2/mar_seb_open.png>
+Package pdftex.def Info: images2/mar_seb_open.png  used on input line 579.
 (pdftex.def)             Requested size: 435.32716pt x 494.10088pt.
-<images2/lai_p5_seb.png, id=378, 415.7934pt x 471.9231pt>
+<images2/lai_p5_seb.png, id=322, 415.7934pt x 471.9231pt>
 File: images2/lai_p5_seb.png Graphic file (type png)
 <use images2/lai_p5_seb.png>
-Package pdftex.def Info: images2/lai_p5_seb.png  used on input line 640.
+Package pdftex.def Info: images2/lai_p5_seb.png  used on input line 590.
 (pdftex.def)             Requested size: 435.32716pt x 494.10088pt.
-<images2/mar_seb_open_v_forest.png, id=381, 485.1726pt x 314.3745pt>
+<images2/canopy_lw_radiation_effect_and_albedo.png, id=325, 488.0634pt x 463.7325pt>
+File: images2/canopy_lw_radiation_effect_and_albedo.png Graphic file (type png)
+<use images2/canopy_lw_radiation_effect_and_albedo.png>
+Package pdftex.def Info: images2/canopy_lw_radiation_effect_and_albedo.png  used on input line 600.
+(pdftex.def)             Requested size: 435.32716pt x 413.64757pt.
+<images2/mar_seb_open_v_forest.png, id=326, 470.2368pt x 268.8444pt>
 File: images2/mar_seb_open_v_forest.png Graphic file (type png)
 <use images2/mar_seb_open_v_forest.png>
-Package pdftex.def Info: images2/mar_seb_open_v_forest.png  used on input line 648.
-(pdftex.def)             Requested size: 485.17142pt x 314.37372pt.
+Package pdftex.def Info: images2/mar_seb_open_v_forest.png  used on input line 608.
+(pdftex.def)             Requested size: 470.23564pt x 268.84375pt.
 
-Overfull \hbox (49.84425pt too wide) in paragraph at lines 648--651
+Overfull \hbox (34.90848pt too wide) in paragraph at lines 608--617
  [][] 
  []
 
-<images2/initial_cond_sens.png, id=382, 398.6895pt x 404.712pt>
-File: images2/initial_cond_sens.png Graphic file (type png)
-<use images2/initial_cond_sens.png>
-Package pdftex.def Info: images2/initial_cond_sens.png  used on input line 658.
-(pdftex.def)             Requested size: 398.68852pt x 404.71101pt.
-<images2/canopy_lw_radiation_effect.png, id=383, 510.9489pt x 426.6339pt>
-File: images2/canopy_lw_radiation_effect.png Graphic file (type png)
-<use images2/canopy_lw_radiation_effect.png>
-Package pdftex.def Info: images2/canopy_lw_radiation_effect.png  used on input line 667.
-(pdftex.def)             Requested size: 435.32716pt x 363.49332pt.
-<images2/cirrus_effect.png, id=384, 307.6293pt x 156.1032pt>
-File: images2/cirrus_effect.png Graphic file (type png)
-<use images2/cirrus_effect.png>
-Package pdftex.def Info: images2/cirrus_effect.png  used on input line 675.
-(pdftex.def)             Requested size: 307.62854pt x 156.1028pt.
-<images2/idealized_sens_and_lat_heat.png, id=385, 520.1031pt x 421.0932pt>
+<images2/ceres_ebaf_anomaly.png, id=327, 364.2408pt x 391.7034pt>
+File: images2/ceres_ebaf_anomaly.png Graphic file (type png)
+<use images2/ceres_ebaf_anomaly.png>
+Package pdftex.def Info: images2/ceres_ebaf_anomaly.png  used on input line 623.
+(pdftex.def)             Requested size: 364.23991pt x 391.70244pt.
+<images2/idealized_sens_and_lat_heat.png, id=328, 520.1031pt x 421.0932pt>
 File: images2/idealized_sens_and_lat_heat.png Graphic file (type png)
 <use images2/idealized_sens_and_lat_heat.png>
-Package pdftex.def Info: images2/idealized_sens_and_lat_heat.png  used on input line 695.
+Package pdftex.def Info: images2/idealized_sens_and_lat_heat.png  used on input line 662.
 (pdftex.def)             Requested size: 348.26305pt x 281.96391pt.
 
 
@@ -627,9 +562,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
-
- <./images2/drawing-1.png>]
+[11 <./images2/drawing-1.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -638,7 +571,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./images2/mar2026_era5_snotel_summary.png>]
+[12 <./images2/temp_anomaly_map.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -647,7 +580,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./images2/temp_anomaly_map.png> <./images2/swe_change_2026_v2.png>]
+[13 <./images2/mar2026_era5_snotel_summary.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -656,7 +589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17 <./images2/open_seb.png>]
+[14 <./images2/swe_change_2026_v2.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -665,7 +598,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./images2/lai_p5_seb.png>]
+[15 <./images2/mar_seb_open.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -674,7 +607,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19 <./images2/mar_seb_open_v_forest.png>]
+[16 <./images2/lai_p5_seb.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -683,7 +616,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./images2/initial_cond_sens.png>]
+[17 <./images2/canopy_lw_radiation_effect_and_albedo.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -692,7 +625,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21 <./images2/canopy_lw_radiation_effect.png> <./images2/cirrus_effect.png>]
+[18 <./images2/mar_seb_open_v_forest.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -701,7 +634,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./images2/idealized_sens_and_lat_heat.png>] (./case_for_temperature.bbl
+[19 <./images2/ceres_ebaf_anomaly.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -710,7 +643,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23
+[20 <./images2/idealized_sens_and_lat_heat.png>]
+Overfull \hbox (572.175pt too wide) in paragraph at lines 685--694
+[][]  
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21
+
+] (./case_for_temperature.bbl
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22
 
 ]
 
@@ -721,7 +679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[23]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -730,7 +688,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])
+[24])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -739,7 +697,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26] (./case_for_temperature.aux)
+[25] (./case_for_temperature.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -749,28 +707,22 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `case_for_temperature.out' has not changed.
-(rerunfilecheck)             Checksum: 78E1807943291068891590D539F2A20D;5859.
+(rerunfilecheck)             Checksum: 2559724E227BF58F21266FE66269CFD9;3630.
  ) 
 Here is how much of TeX's memory you used:
- 15339 strings out of 473190
- 300897 string characters out of 5704335
- 677370 words of memory out of 5000000
- 38317 multiletter control sequences out of 15000+600000
+ 15284 strings out of 473190
+ 299889 string characters out of 5704335
+ 678547 words of memory out of 5000000
+ 38284 multiletter control sequences out of 15000+600000
  568168 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,93p,1295b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,93p,1315b,1210s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on case_for_temperature.pdf (26 pages, 3693416 bytes).
+Output written on case_for_temperature.pdf (25 pages, 3512743 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 484 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
