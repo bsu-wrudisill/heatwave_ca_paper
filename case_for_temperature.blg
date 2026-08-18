@@ -1,49 +1,62 @@
 This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: case_for_temperature.aux
-The style file: abbrvnat.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 1775 of file paperpile.bib
-You've used 33 entries,
-            2773 wiz_defined-function locations,
-            894 strings with 15493 characters,
-and the built_in function-call counts, 23694 in all, are:
-= -- 1996
-> -- 2151
-< -- 4
-+ -- 720
-- -- 687
-* -- 2405
-:= -- 3853
-add.period$ -- 150
-call.type$ -- 33
-change.case$ -- 324
-chr.to.int$ -- 33
-cite$ -- 66
-duplicate$ -- 681
-empty$ -- 1352
-format.name$ -- 722
-if$ -- 4718
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 224
-num.names$ -- 132
-pop$ -- 551
+--line 1988 of file paperpile.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 46 entries,
+            6951 wiz_defined-function locations,
+            1645 strings with 24874 characters,
+and the built_in function-call counts, 116560 in all, are:
+= -- 13920
+> -- 1051
+< -- 6339
++ -- 7281
+- -- 100
+* -- 8147
+:= -- 22228
+add.period$ -- 177
+call.type$ -- 46
+change.case$ -- 804
+chr.to.int$ -- 0
+cite$ -- 92
+duplicate$ -- 3595
+empty$ -- 3907
+format.name$ -- 2016
+if$ -- 20654
+int.to.chr$ -- 0
+int.to.str$ -- 138
+missing$ -- 0
+newline$ -- 1359
+num.names$ -- 368
+pop$ -- 1504
 preamble$ -- 1
-purify$ -- 292
+purify$ -- 206
 quote$ -- 0
-skip$ -- 618
+skip$ -- 6489
 stack$ -- 0
-substring$ -- 867
-swap$ -- 42
-text.length$ -- 0
+substring$ -- 7849
+swap$ -- 1918
+text.length$ -- 118
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 358
-warning$ -- 0
-while$ -- 145
+top$ -- 1
+type$ -- 3744
+warning$ -- 3
+while$ -- 697
 width$ -- 0
-write$ -- 534
-(There was 1 warning)
+write$ -- 1808
+(There were 4 warnings)

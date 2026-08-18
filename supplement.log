@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  11 AUG 2026 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  18 AUG 2026 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,29 +137,70 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-Package xr Info: IMPORTING LABELS FROM supplement.aux on input line 10.
+)) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+Package xr Info: IMPORTING LABELS FROM supplement.aux on input line 11.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box54
-) (./supplement.aux)
+) (./supplement.aux
+
+LaTeX Warning: Label `eq:supp_bulk2' multiply defined.
+
+
+LaTeX Warning: Label `eq:ri' multiply defined.
+
+
+LaTeX Warning: Label `supp:sec:validation' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_sagehen_q' multiply defined.
+
+
+LaTeX Warning: Label `fig:scachange' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_fig_SWd_adjust_sza_azm' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_sw_validation' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
+
+)
 \openout1 = `supplement.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -213,896 +254,83 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/sca_combined.png, id=1, 545.8794pt x 375.804pt>
-File: images/sca_combined.png Graphic file (type png)
-<use images/sca_combined.png>
-Package pdftex.def Info: images/sca_combined.png  used on input line 93.
-(pdftex.def)             Requested size: 375.80544pt x 258.7144pt.
-
-Overfull \hbox (6.69017pt too wide) in paragraph at lines 131--134
-\OT1/cmr/m/n/12 As a mea-sure of the canopy tem-per-a-ture, we use data from the VIIRS/Suomi-NPP VNP21A1D
- []
-
-
 
 [1
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-
-[2 <./images/sca_combined.png>]
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:136: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.136 The results in Sec. \todo{SECTION}
-                                         —-- and the relatively small cont...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:136: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.136 ...ne'' test cases assuming a fixed 0 \degrc
-                                                   melting snow surface.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:138: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.138 ...ge between the snow and an above 0 \degrc
-                                                   atmosphere will always be...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:138: Undefined control sequence.
-l.138 ...the effects of buoyant suppression \citep
-                                                  {Brutsaert2013-ef}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:141: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.141 Case in point, $H_s$ over melting 0 \degrc
-                                                 snow increases linearly as ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:141: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.141 ...increases linearly as a function of \tair
-                                                   with a slope determined b...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:141: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.141 ...of \tair with a slope determined by \wspd
-                                                  , assuming an un-physical ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:141: Undefined control sequence.
-\fig #1#2->\textcolor 
-                      {black}{(Fig.~\ref {#1}{#2})}
-l.141 ...rbulence \fig{fig:idealized_sens_heat}{a}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:idealized_sens_heat' on page 3 undefined on input line 141.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:142: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.142 ...ption, so much so that for moderate \wspd
-                                                   values of 5 \ms, H$_s$ ac...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:142: Undefined control sequence.
-\ms ->\textcolor 
-                 {black}{m$\cdot $s$^{-1}$}\xspace 
-l.142 ...o that for moderate \wspd values of 5 \ms
-                                                  , H$_s$ actually \textit{d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:142: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.142 ...reases} as a function of increasing \tair
-                                                   above 4\degrc.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:142: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.142 ...unction of increasing \tair above 4\degrc
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:143: Undefined control sequence.
-\fig #1#2->\textcolor 
-                      {black}{(Fig.~\ref {#1}{#2})}
-l.143 ...ionship, \fig{fig:idealized_sens_heat}{c}
-                                                   depicts the \tair value t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:idealized_sens_heat' on page 3 undefined on input line 143.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:143: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.143 ...idealized_sens_heat}{c} depicts the \tair
-                                                   value that maximized $H_s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:143: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.143 ...ue that maximized $H_s$ for a given \wspd
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.144 A \wspd
-              of 5 \ms has a corresponding H$_s$ maximum at 4-5 \degrc; the ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\ms ->\textcolor 
-                 {black}{m$\cdot $s$^{-1}$}\xspace 
-l.144 A \wspd of 5 \ms
-                       has a corresponding H$_s$ maximum at 4-5 \degrc; the ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.144 ...corresponding H$_s$ maximum at 4-5 \degrc
-                                                  ; the stability effect wil...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.144 ...ability effect will reduce H$_s$ at \tair
-                                                   values above or below thi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\fig #1#2->\textcolor 
-                      {black}{(Fig.~\ref {#1}{#2})}
-l.144 ...low this \fig{fig:idealized_sens_heat}{c}
-                                                  , and a \wspd of 2 \ms ach...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:idealized_sens_heat' on page 3 undefined on input line 144.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.144 ...{fig:idealized_sens_heat}{c}, and a \wspd
-                                                   of 2 \ms achieves a maxim...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\ms ->\textcolor 
-                 {black}{m$\cdot $s$^{-1}$}\xspace 
-l.144 ...lized_sens_heat}{c}, and a \wspd of 2 \ms
-                                                   achieves a maximum $H_s$ ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:144: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.144 ...2 \ms achieves a maximum $H_s$ when \tair
-                                                   is only a degree or two a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:147: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.147 ...tion is likewise impacted by the 0 \degrc
-                                                   limitation —-- to a rea...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:147: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.147 ...essure of pooling liquid water or 0\degrc
-                                                   C ice crystals on top of ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:149: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.149 ...her than increases as a function of \tair
-                                                   over a 0\degrc snow regar...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:149: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.149 ...ses as a function of \tair over a 0\degrc
-                                                   snow regardless of \wspd ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:149: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.149 ...r over a 0\degrc snow regardless of \wspd
-                                                   \fig{fig:idealized_sens_h...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:149: Undefined control sequence.
-<recently read> \textcolor 
-                           
-l.149 ... \wspd \fig{fig:idealized_sens_heat}{b,d}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:idealized_sens_heat' on page 3 undefined on input line 149.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:150: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.150 \tair
-            greater than approximately 24-25\degrc at 20\% RH \textit{adds e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:150: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.150 \tair greater than approximately 24-25\degrc
-                                                   at 20\% RH \textit{adds e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:151: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.151 ...rther reduce H$_l$ as a function of \tair
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:152: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.152 ...y, though, RH is not independent of \tair
-                                                  , and generally decreases ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:152: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.152 ...f \tair, and generally decreases as \tair
-                                                   rises during the daytime ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:152: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.152 ... levels of the boundary layer \todo{CITE}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:153: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.153 ...ross the full range of RH values as \tair
-                                                   approaches 0\degrc.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:153: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.153 ... of RH values as \tair approaches 0\degrc
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:154: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.154 At 25\degrc
-                  (nearly the maximum observed during the March heatwave), R...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:157: Undefined control sequence.
-l.157 Assuming an emissivity value of 0.98 \citep
-                                                 {Huang2016-vq} snow emits o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:157: Undefined control sequence.
-\lwup ->\textcolor 
-                   {black}{$LW\uparrow $}\xspace 
-l.157 ...p{Huang2016-vq} snow emits outgoing \lwup
-                                                   at a maximum rate of 309 ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:157: Undefined control sequence.
-\wmsq ->\textcolor 
-                   {black}{W$\cdot $m$^{-2}$}\xspace 
-l.157 ...oing \lwup at a maximum rate of 309 \wmsq
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:158: Undefined control sequence.
-\lwdn ->\textcolor 
-                   {black}{$LW\downarrow $}\xspace 
-l.158 ...he clear-sky atmosphere, as well as \lwdn
-                                                  , can be easily visualized...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Brutsaert1975-jl' on page 3 undefined on input line 158.
-
-
-LaTeX Warning: Reference `sec:models:rrtmg' on page 3 undefined on input line 158.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:159: Undefined control sequence.
-\lwdn ->\textcolor 
-                   {black}{$LW\downarrow $}\xspace 
-l.159 ...ations in RH have a large impact on \lwdn
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:160: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.160 Over melting snow, a \tair
-                                 of 20\degrc and a low RH of 20\% is unable ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:160: Undefined control sequence.
-\degrc ->\textcolor 
-                    {black}{$^\circ $C}\xspace 
-l.160 Over melting snow, a \tair of 20\degrc
-                                             and a low RH of 20\% is unable ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:160: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.160 ...ting emission by the snowpack, and \lwnet
-                                                   is negative on the order ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:160: Undefined control sequence.
-\wmsq ->\textcolor 
-                   {black}{W$\cdot $m$^{-2}$}\xspace 
-l.160 ...wnet is negative on the order of 20 \wmsq
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:161: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.161 For the same \tair
-                        , an RH of 60\% more than doubles the magnitude of \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:161: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.161 ...more than doubles the magnitude of \lwnet
-                                                   and yields a net-heating ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[3]
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:165: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.165 Taken together, increasing RH and \tair
-                                              will tend to increase \lwnet a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:165: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.165 ...RH and \tair will tend to increase \lwnet
-                                                   and also \textit{decrease...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:166: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.166 While \lwnet
-                   may not always be a heat-source, but rather a heat-sink, ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:166: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.166 ...ink, mechanism for snowmelt rates, \lwnet
-                                                   over melting snow increas...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:166: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.166 ...notonically as a function of rising \tair
-                                                   and is completely insensi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:167: Undefined control sequence.
-\lwnet ->\textcolor 
-                    {black}{$LW_{\mathrm {net}}$}\xspace 
-l.167 \lwnet
-             is perhaps best thought of as ``handbrake'' on the rate of snow...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:167: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.167 ...e'' on the rate of snowmelt; rising \tair
-                                                   during heatwaves means th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:168: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.168 ..._s$ which only scales linearly with \tair
-                                                   at very high \wspd values...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:168: Undefined control sequence.
-\wspd ->\textcolor 
-                   {black}{$w_{\mathrm {spd}}$}\xspace 
-l.168 ...es linearly with \tair at very high \wspd
-                                                   values due to the counter...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:176: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.176 ...py,LW}$ scales linearly with rising \tair
-                                                  , meaning that the vegetat...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:176: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.176 ...(rather than constant regardless of \tair
-                                                  ), the net-effect (CanRE$_...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:177: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.177 ...lt was less than the open \todo{how much}
-                                                  ).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:179: Undefined control sequence.
-\swdn ->\textcolor 
-                   {black}{$SW\downarrow $}\xspace 
-l.179 ...lbedo increasing the sensitivity to \swdn
-                                                   and rising sun-angles thr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:182: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.182 ... to those observed in \todo{cite Rhoades}
-                                                  , we hypothesize that same...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:184: Undefined control sequence.
-l.184 ...y to the south of our study region \citep
-                                                  {Cowherd2026-qy}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:185: Undefined control sequence.
-l.185 \citep
-            {Hatchett2023} likewise found that mid-winter dryspells increase...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:189: Undefined control sequence.
-\swdn ->\textcolor 
-                   {black}{$SW\downarrow $}\xspace 
-l.189 ...have a substantial influence on the \swdn
-                                                   incident on the snowpack,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:189: Undefined control sequence.
-\lwdn ->\textcolor 
-                   {black}{$LW\downarrow $}\xspace 
-l.189 ...ncident on the snowpack, as well as \lwdn
-                                                   from surrounding terrain.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[4]
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:198: Undefined control sequence.
-l.198 ... temperature extremes by 11–12\% \citep
-                                                  {Duan2025-rl}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (8.58308pt too wide) in paragraph at lines 198--199
-[]\OT1/cmr/m/n/12 CMIP6 mod-els un-der-es-ti-mate monthly high tem-per-a-ture ex-tremes by 11{12% Duan2025-
+<images2/supp_sagehen_q.png, id=12, 534.0753pt x 251.0178pt>
+File: images2/supp_sagehen_q.png Graphic file (type png)
+<use images2/supp_sagehen_q.png>
+Package pdftex.def Info: images2/supp_sagehen_q.png  used on input line 200.
+(pdftex.def)             Requested size: 534.07399pt x 251.01718pt.
+
+Overfull \hbox (64.31897pt too wide) in paragraph at lines 200--203
+ [][] 
  []
 
-
-LaTeX Warning: Citation `Lehner2017' on page 5 undefined on input line 199.
-
-
-LaTeX Warning: Citation `Lehner2017b' on page 5 undefined on input line 199.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:203: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.203 ... Spring of 2022 \todo{CITE DWR Interview}
-                                                  . Once allocations have be...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:206: Undefined control sequence.
-l.206 ...lowmelt in a warmer world" concept \citep
-                                                  {Musselman2017-av} probabl...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:208: Undefined control sequence.
-\todo #1->\textcolor 
-                     {purple}{TODO: #1}
-l.208 ... \albedo and how is this \tair dependent}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:208: Undefined control sequence.
-\albedo ->\textcolor 
-                     {black}{$\alpha $}\xspace 
-l.208 ... \albedo and how is this \tair dependent}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:208: Undefined control sequence.
-\albedo ->\textcolor 
-                     {black}{$\alpha $}\xspace 
-l.208 ... \albedo and how is this \tair dependent}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/william/Documents/projects/case_for_temperature/supplement.tex:208: Undefined control sequence.
-\tair ->\textcolor 
-                   {black}{$T_{\mathrm {air}}$}\xspace 
-l.208 ... \albedo and how is this \tair dependent}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<images/sca_combined.png, id=14, 545.8794pt x 375.804pt>
+File: images/sca_combined.png Graphic file (type png)
+<use images/sca_combined.png>
+Package pdftex.def Info: images/sca_combined.png  used on input line 211.
+(pdftex.def)             Requested size: 375.80544pt x 258.7144pt.
+<images2/supp_fig_SWd_adjust_sza_azm.png, id=15, 348.5823pt x 326.6604pt>
+File: images2/supp_fig_SWd_adjust_sza_azm.png Graphic file (type png)
+<use images2/supp_fig_SWd_adjust_sza_azm.png>
+Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input line 226.
+(pdftex.def)             Requested size: 348.58145pt x 326.65959pt.
+<images2/supp_sw_validation.png, id=16, 437.4744pt x 356.532pt>
+File: images2/supp_sw_validation.png Graphic file (type png)
+<use images2/supp_sw_validation.png>
+Package pdftex.def Info: images2/supp_sw_validation.png  used on input line 234.
+(pdftex.def)             Requested size: 437.47331pt x 356.53111pt.
+<images2/initial_cond_sens.png, id=17, 398.6895pt x 404.712pt>
+File: images2/initial_cond_sens.png Graphic file (type png)
+<use images2/initial_cond_sens.png>
+Package pdftex.def Info: images2/initial_cond_sens.png  used on input line 246.
+(pdftex.def)             Requested size: 398.68852pt x 404.71101pt.
 
 
+[2
 
-[5{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./supplement.aux)
+ <./images2/supp_sagehen_q.png>]
+
+[3 <./images/sca_combined.png>]
+
+[4 <./images2/supp_fig_SWd_adjust_sza_azm.png>]
+
+[5 <./images2/supp_sw_validation.png>]
+
+[6 <./images2/initial_cond_sens.png>] (./supplement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3240 strings out of 473190
- 48759 string characters out of 5704335
- 448935 words of memory out of 5000000
- 26473 multiletter control sequences out of 15000+600000
- 565684 words of font info for 61 fonts, out of 8000000 for 9000
+ 3754 strings out of 473190
+ 56777 string characters out of 5704335
+ 458106 words of memory out of 5000000
+ 26980 multiletter control sequences out of 15000+600000
+ 564395 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,870b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on supplement.pdf (5 pages, 294027 bytes).
+ 57i,8n,65p,870b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on supplement.pdf (6 pages, 986357 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
