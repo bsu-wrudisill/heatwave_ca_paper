@@ -86,6 +86,30 @@ Broxton, P\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Brutsaert%
+}{%
+Brutsaert%
+}{%
+{\protect \APACyear {1975}}%
+}]{%
+Brutsaert1975-jl}
+\APACinsertmetastar {%
+Brutsaert1975-jl}%
+\begin{APACrefauthors}%
+Brutsaert, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1975}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On a derivable formula for long-wave radiation from clear skies} {On a derivable formula for long-wave radiation from clear skies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{11}{5}{742--744}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/wr011i005p00742} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Clark%
 , Nijssen%
 , Lundquist%
@@ -113,6 +137,78 @@ Clark, M\BPBI P.%
 \APACjournalVolNumPages{Water Resour. Res.}{51}{4}{2498-2514}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2015wr017198} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cline%
+}{%
+Cline%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Cline1997-de}
+\APACinsertmetastar {%
+Cline1997-de}%
+\begin{APACrefauthors}%
+Cline, D\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Snow surface energy exchanges and snowmelt at a continental, midlatitude Alpine site} {Snow surface energy exchanges and snowmelt at a continental, midlatitude alpine site}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/97WR00026} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Colbeck%
+}{%
+Colbeck%
+}{%
+{\protect \APACyear {1976}}%
+}]{%
+Colbeck1976-xk}
+\APACinsertmetastar {%
+Colbeck1976-xk}%
+\begin{APACrefauthors}%
+Colbeck, S\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1976}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An analysis of water flow in dry snow} {An analysis of water flow in dry snow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{12}{3}{523--527}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/wr012i003p00523} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Colbeck%
+}{%
+Colbeck%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+Colbeck1982-gv}
+\APACinsertmetastar {%
+Colbeck1982-gv}%
+\begin{APACrefauthors}%
+Colbeck, S\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An overview of seasonal snow metamorphism} {An overview of seasonal snow metamorphism}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Rev. Geophys.}{20}{1}{45--61}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/rg020i001p00045} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -207,6 +303,36 @@ Deems, J\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Duan%
+, Freese%
+, Bala%
+\BCBL {}\ \BBA {} Caldeira%
+}{%
+Duan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+Duan2025-rl}
+\APACinsertmetastar {%
+Duan2025-rl}%
+\begin{APACrefauthors}%
+Duan, L.%
+, Freese, L\BPBI M.%
+, Bala, G.%
+\BCBL {}\ \BBA {} Caldeira, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Historical model biases in monthly high temperature anomalies indicate under-estimation of future temperature extremes} {Historical model biases in monthly high temperature anomalies indicate under-estimation of future temperature extremes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Commun. Earth Environ.}{6}{1}{604}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s43247-025-02579-5} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {ECMWF}%
 }{%
 {ECMWF}%
@@ -228,6 +354,36 @@ cdsapi}%
 \APAChowpublished {\url{https://github.com/ecmwf/cdsapi}}.
 \newblock
 \APACrefnote{Accessed: 2026-05-06}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Feldman%
+, Aiken%
+, Boos%
+, Carroll%
+\BCBL {}\ \protect \BOthers {.}}{%
+Feldman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Feldman2023-gp}
+\APACinsertmetastar {%
+Feldman2023-gp}%
+\begin{APACrefauthors}%
+Feldman, D\BPBI R.%
+, Aiken, A\BPBI C.%
+, Boos, W\BPBI R.%
+, Carroll, R\BPBI W\BPBI H.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Surface Atmosphere Integrated Field Laboratory ({SAIL}) campaign} {The surface atmosphere integrated field laboratory ({SAIL}) campaign}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bull. Am. Meteorol. Soc.}{104}{aop}{E2192-E2222}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/bams-d-22-0049.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -476,6 +632,34 @@ Hinkelman, L\BPBI M.%
 \APACjournalVolNumPages{J. Hydrometeorol.}{16}{5}{2133--2152}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/JHM-D-14-0179.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jennings%
+, Kittel%
+\BCBL {}\ \BBA {} Molotch%
+}{%
+Jennings%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Jennings2018-wz}
+\APACinsertmetastar {%
+Jennings2018-wz}%
+\begin{APACrefauthors}%
+Jennings, K\BPBI S.%
+, Kittel, T\BPBI G\BPBI F.%
+\BCBL {}\ \BBA {} Molotch, N\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Observations and simulations of the seasonal evolution of snowpack cold content and its relation to snowmelt and the snowpack energy budget} {Observations and simulations of the seasonal evolution of snowpack cold content and its relation to snowmelt and the snowpack energy budget}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cryosphere}{12}{5}{1595--1614}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/tc-12-1595-2018} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -746,6 +930,33 @@ Mahat, V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Marks%
+\ \BBA {} Dozier%
+}{%
+Marks%
+\ \BBA {} Dozier%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+Marks1992-qo}
+\APACinsertmetastar {%
+Marks1992-qo}%
+\begin{APACrefauthors}%
+Marks, D.%
+\BCBT {}\ \BBA {} Dozier, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Climate and energy exchange at the snow surface in the alpine region of the Sierra Nevada: 2. Snow cover energy balance} {Climate and energy exchange at the snow surface in the alpine region of the sierra nevada: 2. snow cover energy balance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/92WR01483} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 McAfee%
 , McCabe%
 , Gray%
@@ -867,6 +1078,38 @@ Mott, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Musselman%
+, Clark%
+, Liu%
+, Ikeda%
+\BCBL {}\ \BBA {} Rasmussen%
+}{%
+Musselman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Musselman2017-av}
+\APACinsertmetastar {%
+Musselman2017-av}%
+\begin{APACrefauthors}%
+Musselman, K\BPBI N.%
+, Clark, M\BPBI P.%
+, Liu, C.%
+, Ikeda, K.%
+\BCBL {}\ \BBA {} Rasmussen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Slower snowmelt in a warmer world} {Slower snowmelt in a warmer world}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nat. Clim. Chang.}{7}{3}{214--219}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/nclimate3225} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Musselman%
 , Molotch%
 \BCBL {}\ \BBA {} Brooks%
 }{%
@@ -891,6 +1134,35 @@ Musselman, K\BPBI N.%
 \APACjournalVolNumPages{Hydrol. Process.}{22}{15}{2767--2776}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/hyp.7050} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nyeki%
+\ \protect \BOthers {.}}{%
+Nyeki%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Nyeki2019-ej}
+\APACinsertmetastar {%
+Nyeki2019-ej}%
+\begin{APACrefauthors}%
+Nyeki, S.%
+, Wacker, S.%
+, Aebi, C.%
+, Gröbner, J.%
+, Martucci, G.%
+\BCBL {}\ \BBA {} Vuilleumier, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Trends in surface radiation and cloud radiative effect at four Swiss sites for the {1996–2015} period} {Trends in surface radiation and cloud radiative effect at four swiss sites for the {1996–2015} period}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Atmos. Chem. Phys.}{19}{20}{13227--13241}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/acp-19-13227-2019} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1149,6 +1421,66 @@ Schwat, E.%
 \APACjournalVolNumPages{J. Hydrometeorol.}{26}{10}{1455--1473}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/jhm-d-25-0022.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Seligman%
+, Harper%
+\BCBL {}\ \BBA {} Maneta%
+}{%
+Seligman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Seligman2014-kc}
+\APACinsertmetastar {%
+Seligman2014-kc}%
+\begin{APACrefauthors}%
+Seligman, Z\BPBI M.%
+, Harper, J\BPBI T.%
+\BCBL {}\ \BBA {} Maneta, M\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Changes to snowpack energy state from spring storm events, Columbia River headwaters, Montana} {Changes to snowpack energy state from spring storm events, columbia river headwaters, montana}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Hydrometeorol.}{15}{1}{159--170}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/jhm-d-12-078.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Seneviratne%
+\ \protect \BOthers {.}}{%
+Seneviratne%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Seneviratne2023-pj}
+\APACinsertmetastar {%
+Seneviratne2023-pj}%
+\begin{APACrefauthors}%
+Seneviratne, S\BPBI I.%
+, Zhang, X.%
+, Adnan, M.%
+, Badi, W.%
+, Dereczynski, C.%
+, Luca, A\BPBI D.%
+\BDBL {}Allan, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Weather and climate extreme events in a changing climate} {Weather and climate extreme events in a changing climate}.{\BBCQ}
+\newblock
+\BIn{} V\BPBI P.~Masson-Delmotte, A.~Zhai, S\BPBI L.~Pirani\BCBL {}\ \BBA {} C.~Connors\ (\BEDS), \APACrefbtitle {Climate Change 2021 – The Physical Science Basis} {Climate change 2021 – the physical science basis}\ (\BPGS\ 1513--1766).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\newblock
+\begin{APACrefDOI} \doi{10.1017/9781009157896.013} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

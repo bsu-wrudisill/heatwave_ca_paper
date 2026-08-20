@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1787076322.16723 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1787076323.77814 0
-  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1787076320.3627 20988 a493ae531d8f200319650b04e7621155 ""
+["pdflatex"] 1787181859.87369 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1787181861.7947 0
+  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1787181858.38444 26496 289a8e022710a9e50163b5d229ec53d4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1741388039 1004 54797486969f23fa377b128694d548df ""
@@ -59,12 +59,13 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
   "images/sca_combined.png" 1778017687.07499 227719 631d72c3e074f4a384684605506c98ea ""
-  "images2/initial_cond_sens.png" 1785187580.92519 142681 e9177b0507e05eb2e182280efab9ee75 ""
+  "images2/initial_cond_sens.png" 1787111642.00152 142681 e9177b0507e05eb2e182280efab9ee75 ""
+  "images2/supp_ecor_valid.png" 1787116973.71155 285899 61fbffd5ec70fcfd06b8503bfa297da5 ""
   "images2/supp_fig_SWd_adjust_sza_azm.png" 1786653656.82697 220898 5919a91fb16b4636b0fe3e199a4508c4 ""
   "images2/supp_sagehen_q.png" 1786992907.65893 196473 489111d24f759e1d3c384d6e9ccc719b ""
   "images2/supp_sw_validation.png" 1787034364.4206 250556 4ad5bb38f24c86b4402a178dca9d28c7 ""
-  "supplement.aux" 1787076323.72794 2589 753a828041e49f1b378b594e44284e96 "pdflatex"
-  "supplement.tex" 1787076320.3627 20988 a493ae531d8f200319650b04e7621155 ""
+  "supplement.aux" 1787181861.73952 4181 76616ec7528c56c9013297515f3734ef "pdflatex"
+  "supplement.tex" 1787181858.38444 26496 289a8e022710a9e50163b5d229ec53d4 ""
   (generated)
   "supplement.aux"
   "supplement.log"

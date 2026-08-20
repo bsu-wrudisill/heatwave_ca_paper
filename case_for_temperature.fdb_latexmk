@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex case_for_temperature"] 1787083480.95511 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1787083485.75075 0
-  "./paperpile.bib" 1787073060.73806 110467 2b041f04bc547c6d7eb9bcb3a2c3a0e3 ""
+["bibtex case_for_temperature"] 1787246498.50284 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1787246503.51837 0
+  "./paperpile.bib" 1787244681.15529 115258 2c90c0ef837fbdb1d76ae2c6414a6216 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/apacite/apacite.bst" 1741388039 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "case_for_temperature.aux" 1787083485.50481 16711 f09d4d7054d80ed3195311739163fcd3 "pdflatex"
+  "case_for_temperature.aux" 1787246503.24983 20195 dde40d06d34a95ae4958716718727c07 "pdflatex"
   (generated)
   "case_for_temperature.bbl"
   "case_for_temperature.blg"
   (rewritten before read)
-["pdflatex"] 1787083481.06477 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1787083485.75097 0
-  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1787083475.9339 71170 9bf4a0ea0608f71ba8c1a1cdf2dce72e ""
+["pdflatex"] 1787246498.63367 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1787246503.51863 0
+  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1787246493.21012 78284 8dccb5fbccc481094649ecb3e43aec35 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1741388039 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -128,22 +128,23 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
   "agujournal2019.cls" 1786649796.53878 40688 b442a0d4e8a299883855595037ff6651 ""
-  "case_for_temperature.aux" 1787083485.50481 16711 f09d4d7054d80ed3195311739163fcd3 "pdflatex"
-  "case_for_temperature.bbl" 1787083481.06205 38502 2795241969830a2c30f61017113b2daf "bibtex case_for_temperature"
-  "case_for_temperature.tex" 1787083475.9339 71170 9bf4a0ea0608f71ba8c1a1cdf2dce72e ""
-  "images2/canopy_lw_radiation_effect_and_albedo.png" 1786645000.3562 387847 09cc980f5a23bc4bbb2ff7cec48f7785 ""
+  "case_for_temperature.aux" 1787246503.24983 20195 dde40d06d34a95ae4958716718727c07 "pdflatex"
+  "case_for_temperature.bbl" 1787246498.6306 47613 f047867f8dc0bb9ce70f3891000d67c7 "bibtex case_for_temperature"
+  "case_for_temperature.tex" 1787246493.21012 78284 8dccb5fbccc481094649ecb3e43aec35 ""
+  "images2/canopy_lw_radiation_effect_and_albedo.png" 1787175795.25716 310773 2c7b9a2b0c41815a3daeac4bf49bb676 ""
   "images2/ceres_ebaf_anomaly.png" 1786983923.75095 397225 6166c831da870c2ff63decee836d967b ""
   "images2/drawing-1.png" 1780336748.45546 646186 0347af1c7f5b51b59a2bd2d1dce8652b ""
   "images2/idealized_sens_and_lat_heat.png" 1784222894.17182 450314 56c45ed3f74e650dc2dc9d72ee74e166 ""
   "images2/lai_p5_seb.png" 1787006047.75952 144708 3db451b068fb715a886a65571d5f0a74 ""
-  "images2/mar2026_era5_snotel_summary.png" 1787018067.44661 808945 ae95d142898b93104cb1d5a3dbd55a57 ""
+  "images2/mar2026_era5_snotel_summary.png" 1787096824.41668 840085 962530a1047a8cf3bd250d58c25064ed ""
+  "images2/mar_diel_seb_open_v_forest.png" 1787188123.28461 156647 2106437b6438782dfdec113d20e022c4 ""
   "images2/mar_seb_open.png" 1787006040.07661 154880 e7220a9fd31ada2009cfc8a02febf289 ""
-  "images2/mar_seb_open_v_forest.png" 1786994611.82133 162279 8139380112ad5f52b0f322d3cd44f0e4 ""
+  "images2/mar_seb_open_v_forest.png" 1787188103.67468 160970 d51ed9a4b147970b6463f60c75d11c96 ""
   "images2/overnight_freeze.png" 1787012496.12037 235285 4ca170f64a5c379589459172128d4d5c ""
   "images2/swe_change_2026_v2.png" 1786657001.83315 458011 6bb7792e3d819a9d1fd5a4864fc20df2 ""
   "images2/temp_anomaly_map.png" 1780336748.45715 293455 7e4ff4374af9278683537cf2f271ac3d ""
-  "supplement.aux" 1787076323.72794 2589 753a828041e49f1b378b594e44284e96 ""
-  "supplement.tex" 1787076880.9374 20988 a493ae531d8f200319650b04e7621155 ""
+  "supplement.aux" 1787181861.73952 4181 76616ec7528c56c9013297515f3734ef ""
+  "supplement.tex" 1787181875.6747 26496 289a8e022710a9e50163b5d229ec53d4 ""
   "trackchanges.sty" 1786649796.53909 26287 09689e5e9db973d136f0537b8570fadf ""
   (generated)
   "case_for_temperature.aux"

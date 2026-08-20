@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  18 AUG 2026 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  19 AUG 2026 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -161,25 +161,37 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box54
 ) (./supplement.aux
 
+LaTeX Warning: Label `fig:supp_sagehen_q' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_scachange' multiply defined.
+
+
 LaTeX Warning: Label `eq:supp_bulk2' multiply defined.
 
 
 LaTeX Warning: Label `eq:ri' multiply defined.
 
 
-LaTeX Warning: Label `supp:sec:validation' multiply defined.
-
-
-LaTeX Warning: Label `fig:supp_sagehen_q' multiply defined.
-
-
-LaTeX Warning: Label `fig:scachange' multiply defined.
-
-
 LaTeX Warning: Label `fig:supp_fig_SWd_adjust_sza_azm' multiply defined.
 
 
+LaTeX Warning: Label `supp:sec:validation' multiply defined.
+
+
+LaTeX Warning: Label `supp:sec:validation' multiply defined.
+
+
 LaTeX Warning: Label `fig:supp_sw_validation' multiply defined.
+
+
+LaTeX Warning: Label `supp:sec:validation' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_sw_validation' multiply defined.
+
+
+LaTeX Warning: Label `supp:init_cond' multiply defined.
 
 
 LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
@@ -254,61 +266,82 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+<images2/supp_sagehen_q.png, id=1, 534.0753pt x 251.0178pt>
+File: images2/supp_sagehen_q.png Graphic file (type png)
+<use images2/supp_sagehen_q.png>
+Package pdftex.def Info: images2/supp_sagehen_q.png  used on input line 81.
+(pdftex.def)             Requested size: 534.07399pt x 251.01718pt.
+
+Overfull \hbox (64.31897pt too wide) in paragraph at lines 81--84
+ [][] 
+ []
+
+<images/sca_combined.png, id=3, 545.8794pt x 375.804pt>
+File: images/sca_combined.png Graphic file (type png)
+<use images/sca_combined.png>
+Package pdftex.def Info: images/sca_combined.png  used on input line 96.
+(pdftex.def)             Requested size: 375.80544pt x 258.7144pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103.
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
 
-{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-<images2/supp_sagehen_q.png, id=12, 534.0753pt x 251.0178pt>
-File: images2/supp_sagehen_q.png Graphic file (type png)
-<use images2/supp_sagehen_q.png>
-Package pdftex.def Info: images2/supp_sagehen_q.png  used on input line 200.
-(pdftex.def)             Requested size: 534.07399pt x 251.01718pt.
+{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./images2/supp_sagehen_q.png>]
 
-Overfull \hbox (64.31897pt too wide) in paragraph at lines 200--203
+[2 <./images/sca_combined.png>]
+<images2/supp_fig_SWd_adjust_sza_azm.png, id=17, 348.5823pt x 326.6604pt>
+File: images2/supp_fig_SWd_adjust_sza_azm.png Graphic file (type png)
+<use images2/supp_fig_SWd_adjust_sza_azm.png>
+Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input line 154.
+(pdftex.def)             Requested size: 348.58145pt x 326.65959pt.
+
+
+[3
+
+]
+
+[4 <./images2/supp_fig_SWd_adjust_sza_azm.png>]
+<images2/supp_sw_validation.png, id=28, 437.4744pt x 356.532pt>
+File: images2/supp_sw_validation.png Graphic file (type png)
+<use images2/supp_sw_validation.png>
+Package pdftex.def Info: images2/supp_sw_validation.png  used on input line 175.
+(pdftex.def)             Requested size: 437.47331pt x 356.53111pt.
+
+
+[5
+
+ <./images2/supp_sw_validation.png>]
+<images2/supp_ecor_valid.png, id=33, 504.2037pt x 343.2825pt>
+File: images2/supp_ecor_valid.png Graphic file (type png)
+<use images2/supp_ecor_valid.png>
+Package pdftex.def Info: images2/supp_ecor_valid.png  used on input line 198.
+(pdftex.def)             Requested size: 504.20247pt x 343.28165pt.
+
+Overfull \hbox (34.44745pt too wide) in paragraph at lines 198--202
  [][] 
  []
 
-<images/sca_combined.png, id=14, 545.8794pt x 375.804pt>
-File: images/sca_combined.png Graphic file (type png)
-<use images/sca_combined.png>
-Package pdftex.def Info: images/sca_combined.png  used on input line 211.
-(pdftex.def)             Requested size: 375.80544pt x 258.7144pt.
-<images2/supp_fig_SWd_adjust_sza_azm.png, id=15, 348.5823pt x 326.6604pt>
-File: images2/supp_fig_SWd_adjust_sza_azm.png Graphic file (type png)
-<use images2/supp_fig_SWd_adjust_sza_azm.png>
-Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input line 226.
-(pdftex.def)             Requested size: 348.58145pt x 326.65959pt.
-<images2/supp_sw_validation.png, id=16, 437.4744pt x 356.532pt>
-File: images2/supp_sw_validation.png Graphic file (type png)
-<use images2/supp_sw_validation.png>
-Package pdftex.def Info: images2/supp_sw_validation.png  used on input line 234.
-(pdftex.def)             Requested size: 437.47331pt x 356.53111pt.
-<images2/initial_cond_sens.png, id=17, 398.6895pt x 404.712pt>
+
+
+[6
+
+ <./images2/supp_ecor_valid.png>]
+<images2/initial_cond_sens.png, id=38, 398.6895pt x 404.712pt>
 File: images2/initial_cond_sens.png Graphic file (type png)
 <use images2/initial_cond_sens.png>
-Package pdftex.def Info: images2/initial_cond_sens.png  used on input line 246.
+Package pdftex.def Info: images2/initial_cond_sens.png  used on input line 224.
 (pdftex.def)             Requested size: 398.68852pt x 404.71101pt.
 
 
-[2
+[7]
 
- <./images2/supp_sagehen_q.png>]
-
-[3 <./images/sca_combined.png>]
-
-[4 <./images2/supp_fig_SWd_adjust_sza_azm.png>]
-
-[5 <./images2/supp_sw_validation.png>]
-
-[6 <./images2/initial_cond_sens.png>] (./supplement.aux)
+[8 <./images2/initial_cond_sens.png>] (./supplement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -319,18 +352,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3754 strings out of 473190
- 56777 string characters out of 5704335
- 458106 words of memory out of 5000000
- 26980 multiletter control sequences out of 15000+600000
- 564395 words of font info for 57 fonts, out of 8000000 for 9000
+ 3764 strings out of 473190
+ 57068 string characters out of 5704335
+ 459143 words of memory out of 5000000
+ 26990 multiletter control sequences out of 15000+600000
+ 565000 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,870b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,870b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on supplement.pdf (6 pages, 986357 bytes).
+Output written on supplement.pdf (8 pages, 1243571 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

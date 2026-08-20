@@ -72,19 +72,48 @@
 %   \caption{stuff}
 %   \label{fig:swechange}
 % \end{figure}
+\section{Snow covered area and streamflow anomalies}
+To investigate the hydologic ramifications of snow ablation, we obtained streamflow data from the USGS Saghen creek gage which has long term records.
+We found the monthly average streamflow at  Saghen creek site peaked in March, two months earlier than normal (Fig. \ref{fig:supp_sagehen_q}) and reached flows well above typical for March. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_sagehen_q.png}
+  \caption{The monthly averaged streamflow anomalies in cubic-feet-per second (cfs) between 1954 to present for the USGS Sagehen Creek gage site. 
+  The historical mean, historical median, historical 1-standard deviation (shaded region), and WY2026 streamflow are depicted.
+  }
+  \label{fig:supp_sagehen_q}
+\end{figure}
+
+The synoptic pattern of snow covered area change also reveals the extent of the anomalous March. 
+The SPIReS snow covered area (SCA) product shows the lowest snow covered area on record (Fig. \ref{fig:supp_scachange}).
+SCA was already very low leading up to March, but reached even lower levels by March 31.
+High elevation regions above 2250 m had nearly 100\% SCA prior to the March event but those regions also declined substantially.
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{images/sca_combined.png}
+  \caption{SPIRES SCA across the study region during the March heatwave.
+  Watershed  boundaries shown in black and SNOTEL monitoring sites indicated by magenta diamonds.
+  \textbf{(a, b, c)} SCA (\%) on March 2 and March 29, 2026, respectively, and the difference between the two dates.
+  \textbf{(d)} Daily mean SCA (\%) for each individual watershed and aggregated across all four basins.
+  The 2000--2020 historical mean and $\pm$~1 standard deviation are depicted. 
+  \textbf{(e)} Mean SCA as a function of elevation band (250~m bins) for March 2 (blue) and March 29 (red), shown alongside historical values for the same dates (dashed lines) with $\pm$~1 
+   standard deviation shading. }
+  \label{fig:supp_scachange}
+\end{figure}
+\clearpage
+
+
+
+
 
 \section{SUMMA details}
-At CSSL, the peak water equivalent was XYZ higher in the open site relative to the forest site leading up to the heatwave event which may have resulted from a combination of snow interception or antecedent melt.
-We found good correspondence between SUMMA and observations in the open and forest sites, respectively 
-This was found after adjusting the rain/snow threshold temperature to XYZ, the canopy wind reduction coefficient to and a snow surface roughness of 0.002 m for both sites. 
-These values are well within established bounds for those parameters (CITE).
-Comparisons against the forest site CNR4 radiometer showed good correspondence between the SUMMA modelled below-canopy shortwave radiation, lending confidence to the prescribed LAI value and UEB 2-stream shortwave parameterization implemented in SUMMA. 
-
-
-
-
-\section{Additional details about SUMMA}
 %% Sensible and Latent heat fluxes
+This section describes assumptions implicit in SUMMA as well as provides additional details about the model forcing data preparation.
+\subsection{Model equations}
+
 The bulk expression for the $H_s$ implemented in SUMMA is given by: 
 
 \begin{align} 
@@ -93,7 +122,6 @@ H_s &=  c_p \rho C_s u (T_{air} - T_{snow}) \label{eq:supp_bulk2},
 
 where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, $\rho$ is the dry air density, and $C_s$ is the bulk transport coefficient. 
 In this work, we use the SUMMA formulation for $C_s$, which models the stability correction as a function of the bulk Richardson number.
-
 
 We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h = z_0$
 \begin{equation}
@@ -106,11 +134,146 @@ Where Ri is the bulk Richardson number, defined as
 \end{equation}
 
 and f(Ri) is a function with range (0,1] that declines as a function of increasing Ri.
+An equivalent formulation for latent heat flux follows Eq. \ref{eq:supp_bulk2}.
+The stability correction is reproduced and used in Fig. 11 of the main text.
+
+\subsection{Forcing data}
+We use bias corrected ERA5 data as forcing for SUMMA with several key steps implemented.
+ERA5 data was obtained from the Copernicus data store. 
+\todo{WHAT GRID CELL}
+
+\swdn was compared between ERA and CSSL CNR4 radiometers for water year 2026. 
+We developed a correction factor to account for potential shadowing by canopy adjacent to the site, using solar zenith angle (SZA) and solar azimuth angle (AZM) as predictors.
+These were computed from the python py-ephem package \todo{CITE}. 
+The correction grid is depicted in Fig. \ref{fig:supp_fig_SWd_adjust_sza_azm}. 
+It shows the multiplicative correction between 0 and 1 for each SZA and AZM angle. 
+The correction reduced \swdn by \todo{XYZ} for the month of March 2026.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_fig_SWd_adjust_sza_azm.png}
+  \caption{\swdn multiplicative correction factors for the ERA5 radiation data. 
+  The top plot shows the correction grid. 
+  The bottom plot shows the observed, uncorrected, and corrected data.
+  }
+  \label{fig:supp_fig_SWd_adjust_sza_azm}
+\end{figure}
 
 
 
-\section{Validation}\label{supp:sec:validation}
-Stuff here.
+\clearpage 
+
+\subsection{Model validation}\label{supp:sec:validation}
+\subsubsection{Canopy site}\label{supp:sec:validation}
+
+We validate the SUMMA model in several ways. 
+First, we evaluated the canopy radiation parameterization against the CSSL sub-canopy Kipp and Zonene SPLite 2 radiometer located under the canopy.
+We find good correlation for March of 2026 for the UEB 2-stream parameterzation and an LAI value of 1.5 (Fig \ref{fig:supp_sw_validation}), using the aforementioned \swdn forcing as the top boundary condition to the model.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_sw_validation.png}
+  \caption{A comparison of sub-canopy downwelling radiation for different LAI values using the UEB-2stream shortwave radiation parameterization.
+  The top plot depicts a hourly SW$\downarrow$ two day period in early March. 
+  The bottom plot depicts hourly SW$\downarrow$ during March. 
+  Observed radiation by the Kipp and Zonen radiometer is depicted}.
+  \label{fig:supp_sw_validation}
+\end{figure}
+
+\clearpage
+
+
+
+
+\subsubsection{Fluxes}\label{supp:sec:validation}
+CSSL hosts an experimental eddy-covariance instrument on a movable arm above the snowpack (see Fig. 1 in the main text).
+Eddy covariance fluxes were processed using the Licor EddyPro v7.0.9 software with despiking, double coordinate rotation, and flux quality assignment.
+\todo{X\%} of the H$_s$ and H$_l$ fluxes are retained for analysis during the month of March.
+A qualitative comparison between the SUMMA and eddy-covariance fluxes of sensible and latent heat show reasonable agreement, though there were many low-quality flux measurements during the month of March. 
+Key periods of sublimation during the first and latter portions of the the month show reasonable agreement.
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_ecor_valid.png}
+  \caption{A comparison of SUMMA and eddy-covariance (ECOR) measured fluxes at CSSL for sensible heat (H) and latent heat (LE). 
+  The top shows a timeseries for the month of March 2026.
+  The bottom two plots show 1:1 plots between the ECOR and SUMMA estimated fluxes.
+  }
+  \label{fig:supp_sw_validation}
+\end{figure}
+
+\section{Initial condition experiments}\label{supp:init_cond}
+As we have shown, anomolous conditions also preceded the March 2026 ablation event. 
+To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of SWE and cold content present in the snowpack on March 1 and running the model with observed March forcings. 
+The conditions represent 1x, 1.5x, 2x, and 3x the amount of SWE present on March 1 of 2026. 
+
+The figure is to be read this way:
+The change in SWE ($\Delta$SWE) (left bar) is equivalent to the change in Ice and Liquid water amount (middle bar) in mm.
+These terms are also equivalent to the fluxes in/out of the top of the snow volume, which include Sublimation/Frost, Precipitation, and Outflow of meltwater through the bottom of the snowpack.
+
+The results are summarized in Fig. \ref{fig:supp_initial_cond_sens}.
+We find that the amount of ice melt ($\Delta$Ice) is very similar across experiments that do not completely ablate (SWE 1.5x and above).
+While $\Delta$Ice is similar, the larger initial snowpacks retain more liquid water at the end of the experiment ($\Delta$Liq) that does not percolate through the bottom of the snowpack (Outflow).
+The effect is that the deeper initial snowpacks retain more SWE by March 31 compared to the shallower snowpacks. 
+The amount of liquid water retention is plausible based on literature values.
+We caution however that this is an idealized experiment and that other features, such as preferential flow through "flow-fingers", may mean that nature deviates from these idealized experiments. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/initial_cond_sens.png}
+  \caption{Initial condition tests. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
+  \label{fig:supp_initial_cond_sens}
+\end{figure}
+
+
+
+
+% Across the entire SUMMA record \todo{state how long this is}, we find that CanRE$_{LW}$ (Eq. \ref{eq:canopy_lw}) increases as a function of \tair \fig{fig:canradeffect}{a}.
+% This occurs in part because the model canopy is warmer than the ambient \tair during the daytime hours, but colder at nightime \fig{fig:canradeffect}{b}.
+% Regardless, the emissivity effect yields a positive CanRE$_{LW}$ at all times of the day \fig{fig:canradeffect}{c}, even when the canopy is colder than the ambient \tair.
+% Limited observations from the Suomi-NPP/VIIRS LST product for the CSSL site provide some external validation of the model canopy temperatures, which exceed \tair by several degrees during the peak of the heatwave \fig{fig:canradeffect}{d}.
+% The extent to which the Suomi-NPP/VIIRS LST is indicative of canopy temperatures, versus canopy, exposed snow, and other land-types potentially mixed within the 1-km pixel remains to be seen and a full validation is beyond the scope of this paper; the true canopy temperature may be even warmer mid-day.
+
+% Taking into account both SW and LW effects, however, shows that CanRE$_{Net}$ transitions from positive to negative during the March 2026 heatwave \fig{fig:canradeffect}{e}, indicating that the positive addition of canopy \lwdn emission is counteracted by the cooling assosciated with the canopy shading effect. 
+% This transition takes place approximately on the 14th and is due to a combination of both declining snow albedo and increasing solar insolation during the month associated with rising sun angles. 
+
+
+
+% \subsection{cCRF}
+% Cirrus can impose a 4-5 \wmsq idealized, instantaneous radiative forcing during March heatwave conditions, taking into account both short and longwave components. 
+% The cCRF$_{LW}$ effect increases as a function of both \tair and declines as a function of precipitable water vapor (PWV) (not shown) consistent with previous work. 
+% We caution that the 4-5  \wmsq estimate is the maximum amount for cirrus clouds with the prescribed microphysical values, and that cirrus clouds were not present at all times during the heatwave event.
+% Therefore, the net effect averaged over the duration of the even is undoubtedly lower. 
+% Moreover, the surface and TOA radiative forcing are not the same: cCRF$_{net, TOA}$ is more than five times stronger than surface (a median value of 26 \wmsq). 
+% This implies that while the effect at the land surface is relatively modest, cirrus clouds are contributing to trapping heat in the upper atmosphere and may contribute to the duration and magnitude of the \tair anomaly. 
+
+
+% \subsection{AlbRF}
+% The increase in \rnet during the March heatwave is attributable to two factors —-- increases in incident \swdn and declining \albedo \fig{fig:albedo}{a---d}.
+% Incident daily-averaged \swdn increases during the March heatwave in conjunction with the rising sun-angle.
+% Notably the ERA5 data corresponds well with the CSSL collected \swdn observations with a high-bias of 1.1 \wmsq \fig{fig:albedo}{a}.
+
+% Snow albedo simultaneously declines from an observed maximum of nearly 0.7 to values below 0.6 \fig{fig:albedo}{b}
+% This represents a 33\% increase in radiative forcing due to the \albedo decline alone.
+% Coupled with rising sun-angles and insolation, the snow \albedo decline yields an AlbRF that surpasses 80 \wmsq by the end of the month compared to 40 \wmsq at the beginning of the month: an increase of 100\% \fig{fig:albedo}{b}
+% The SPIReS remote sensing product underestimates snow \albedo somewhat with respect to both SUMMA and the CSSL observations, but likewise observes a decline in \albedo during the March heatwave.
+% The cause of the observed albedo decline corresponds with an increase in the effective snow optical grain size retrieved by SPIReS \fig{fig:albedo}{c}.
+
+
+% % the \albedo reset 
+% Albedo is refreshed on April 1 following new snowfall to a value of 0.85. 
+% It is unclear if the dip in observed $\alpha$ from the 20-27th of March to values approaching 0.5 are correct. 
+% \comment{CSSL — have you found the same dip in snow \albedo on these dates?}
+
+
+% At CSSL, the peak water equivalent was XYZ higher in the open site relative to the forest site leading up to the heatwave event which may have resulted from a combination of snow interception or antecedent melt.
+% We found good correspondence between SUMMA and observations in the open and forest sites, respectively 
+% This was found after adjusting the rain/snow threshold temperature to XYZ, the canopy wind reduction coefficient to and a snow surface roughness of 0.002 m for both sites. 
+% These values are well within established bounds for those parameters (CITE).
+% Comparisons against the forest site CNR4 radiometer showed good correspondence between the SUMMA modelled below-canopy shortwave radiation, lending confidence to the prescribed LAI value and UEB 2-stream shortwave parameterization implemented in SUMMA. 
+
+
 % % As a measure of the canopy temperature, we use data from the VIIRS/Suomi-NPP VNP21A1D VIIRS Version 1 Land Surface Temperature (LST) data product for day and nighttime.
 % % The canopy temperature data has a resolution of 1km and provides twice-daily observations of LST.
 % % % \citep{hulley2018viirs}.
@@ -193,100 +356,8 @@ Stuff here.
 
 % \subsection{Data Limitations}
 % Things here. 
-\clearpage
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{images2/supp_sagehen_q.png}
-  \caption{The monthly averaged streamflow anomalies in cubic-feet-per second (cfs) between 1954 to present for the USGS Sagehen Creek gage site. 
-  The historical mean, historical median, historical 1-standard deviation (shaded region), and WY2026 streamflow are depicted.
-  }
-  \label{fig:supp_sagehen_q}
-\end{figure}
 
 
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{images/sca_combined.png}
-  \caption{SPIRES SCA across the study region during the March heatwave.
-  Watershed  boundaries shown in black and SNOTEL monitoring sites indicated by magenta diamonds.
-  \textbf{(a, b, c)} SCA (\%) on March 2 and March 29, 2026, respectively, and the difference between the two dates.
-  \textbf{(d)} Daily mean SCA (\%) for each individual watershed and aggregated across all four basins.
-  The 2000--2020 historical mean and $\pm$~1 standard deviation are depicted. 
-  \textbf{(e)} Mean SCA as a function of elevation band (250~m bins) for March 2 (blue) and March 29 (red), shown alongside historical values for the same dates (dashed lines) with $\pm$~1 
-   standard deviation shading. }
-  \label{fig:scachange}
-\end{figure}
-
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{images2/supp_fig_SWd_adjust_sza_azm.png}
-  \caption{}
-  \label{fig:supp_fig_SWd_adjust_sza_azm}
-\end{figure}
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{images2/supp_sw_validation.png}
-  \caption{A comparison of sub-canopy downwelling radiation for different LAI values using the UEB-2stream shortwave radiation parameterization.
-  The top plot depicts a hourly SW$\downarrow$ two day period in early March. 
-  The bottom plot depicts hourly SW$\downarrow$ during March. 
-  Observed radiation by the Kipp and Zonen radiometer is depicted}.
-  \label{fig:supp_sw_validation}
-\end{figure}
-
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{images2/initial_cond_sens.png}
-  \caption{Initial condition tests}
-  \label{fig:supp_initial_cond_sens}
-\end{figure}
-
-
-
-
-% Across the entire SUMMA record \todo{state how long this is}, we find that CanRE$_{LW}$ (Eq. \ref{eq:canopy_lw}) increases as a function of \tair \fig{fig:canradeffect}{a}.
-% This occurs in part because the model canopy is warmer than the ambient \tair during the daytime hours, but colder at nightime \fig{fig:canradeffect}{b}.
-% Regardless, the emissivity effect yields a positive CanRE$_{LW}$ at all times of the day \fig{fig:canradeffect}{c}, even when the canopy is colder than the ambient \tair.
-% Limited observations from the Suomi-NPP/VIIRS LST product for the CSSL site provide some external validation of the model canopy temperatures, which exceed \tair by several degrees during the peak of the heatwave \fig{fig:canradeffect}{d}.
-% The extent to which the Suomi-NPP/VIIRS LST is indicative of canopy temperatures, versus canopy, exposed snow, and other land-types potentially mixed within the 1-km pixel remains to be seen and a full validation is beyond the scope of this paper; the true canopy temperature may be even warmer mid-day.
-
-% Taking into account both SW and LW effects, however, shows that CanRE$_{Net}$ transitions from positive to negative during the March 2026 heatwave \fig{fig:canradeffect}{e}, indicating that the positive addition of canopy \lwdn emission is counteracted by the cooling assosciated with the canopy shading effect. 
-% This transition takes place approximately on the 14th and is due to a combination of both declining snow albedo and increasing solar insolation during the month associated with rising sun angles. 
-
-
-
-% \subsection{cCRF}
-% Cirrus can impose a 4-5 \wmsq idealized, instantaneous radiative forcing during March heatwave conditions, taking into account both short and longwave components. 
-% The cCRF$_{LW}$ effect increases as a function of both \tair and declines as a function of precipitable water vapor (PWV) (not shown) consistent with previous work. 
-% We caution that the 4-5  \wmsq estimate is the maximum amount for cirrus clouds with the prescribed microphysical values, and that cirrus clouds were not present at all times during the heatwave event.
-% Therefore, the net effect averaged over the duration of the even is undoubtedly lower. 
-% Moreover, the surface and TOA radiative forcing are not the same: cCRF$_{net, TOA}$ is more than five times stronger than surface (a median value of 26 \wmsq). 
-% This implies that while the effect at the land surface is relatively modest, cirrus clouds are contributing to trapping heat in the upper atmosphere and may contribute to the duration and magnitude of the \tair anomaly. 
-
-
-% \subsection{AlbRF}
-% The increase in \rnet during the March heatwave is attributable to two factors —-- increases in incident \swdn and declining \albedo \fig{fig:albedo}{a---d}.
-% Incident daily-averaged \swdn increases during the March heatwave in conjunction with the rising sun-angle.
-% Notably the ERA5 data corresponds well with the CSSL collected \swdn observations with a high-bias of 1.1 \wmsq \fig{fig:albedo}{a}.
-
-% Snow albedo simultaneously declines from an observed maximum of nearly 0.7 to values below 0.6 \fig{fig:albedo}{b}
-% This represents a 33\% increase in radiative forcing due to the \albedo decline alone.
-% Coupled with rising sun-angles and insolation, the snow \albedo decline yields an AlbRF that surpasses 80 \wmsq by the end of the month compared to 40 \wmsq at the beginning of the month: an increase of 100\% \fig{fig:albedo}{b}
-% The SPIReS remote sensing product underestimates snow \albedo somewhat with respect to both SUMMA and the CSSL observations, but likewise observes a decline in \albedo during the March heatwave.
-% The cause of the observed albedo decline corresponds with an increase in the effective snow optical grain size retrieved by SPIReS \fig{fig:albedo}{c}.
-
-
-% % the \albedo reset 
-% Albedo is refreshed on April 1 following new snowfall to a value of 0.85. 
-% It is unclear if the dip in observed $\alpha$ from the 20-27th of March to values approaching 0.5 are correct. 
-% \comment{CSSL — have you found the same dip in snow \albedo on these dates?}
 
 \end{document}
 
