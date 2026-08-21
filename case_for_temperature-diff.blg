@@ -1,49 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: case_for_temperature-diff.aux
-The style file: abbrvnat.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperpile.bib
+Warning--I'm ignoring Feldman2023-gp's extra "number" field
+--line 1617 of file paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 1522 of file paperpile.bib
-You've used 25 entries,
-            2773 wiz_defined-function locations,
-            819 strings with 11724 characters,
-and the built_in function-call counts, 15948 in all, are:
-= -- 1379
-> -- 1307
-< -- 6
-+ -- 439
-- -- 414
-* -- 1564
-:= -- 2567
-add.period$ -- 109
-call.type$ -- 25
-change.case$ -- 210
-chr.to.int$ -- 25
-cite$ -- 50
-duplicate$ -- 508
-empty$ -- 1005
-format.name$ -- 443
-if$ -- 3203
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 167
-num.names$ -- 100
-pop$ -- 359
+--line 2147 of file paperpile.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 61 entries,
+            6951 wiz_defined-function locations,
+            1754 strings with 28367 characters,
+and the built_in function-call counts, 150198 in all, are:
+= -- 17961
+> -- 1355
+< -- 8077
++ -- 9167
+- -- 132
+* -- 10437
+:= -- 28454
+add.period$ -- 236
+call.type$ -- 61
+change.case$ -- 1066
+chr.to.int$ -- 0
+cite$ -- 122
+duplicate$ -- 4606
+empty$ -- 5129
+format.name$ -- 2565
+if$ -- 26797
+int.to.chr$ -- 0
+int.to.str$ -- 183
+missing$ -- 0
+newline$ -- 1781
+num.names$ -- 490
+pop$ -- 1925
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 272
 quote$ -- 0
-skip$ -- 435
+skip$ -- 8579
 stack$ -- 0
-substring$ -- 609
-swap$ -- 32
-text.length$ -- 0
+substring$ -- 9892
+swap$ -- 2491
+text.length$ -- 162
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 270
-warning$ -- 0
-while$ -- 112
+top$ -- 1
+type$ -- 5008
+warning$ -- 4
+while$ -- 893
 width$ -- 0
-write$ -- 397
-(There was 1 warning)
+write$ -- 2351
+(There were 6 warnings)

@@ -138,10 +138,11 @@ An equivalent formulation for latent heat flux follows Eq. \ref{eq:supp_bulk2}.
 The stability correction is reproduced and used in Fig. 11 of the main text.
 
 \subsection{Snow albedo}
+We use the 'varDecay' parameterization for albedo as implemented in SUMMA. 
+\todo{more details}
+% $$\text{age}1 = \exp\big[-\beta,(T{freeze}-T_{surf})\big], \qquad \text{age}_2 = \text{age}_1^{,10}$$
 
-$$\text{age}1 = \exp\big[-\beta,(T{freeze}-T_{surf})\big], \qquad \text{age}_2 = \text{age}_1^{,10}$$
-
-$$\text{decayFactor} = \frac{\Delta t,(\text{age}_1+\text{age}_2+\text{age}_3)}{\text{albedoDecayRate}}$$
+% $$\text{decayFactor} = \frac{\Delta t,(\text{age}_1+\text{age}_2+\text{age}_3)}{\text{albedoDecayRate}}$$
 
 % where $\beta=$ tempScalGrowth (your value: 0.04 K⁻¹), the exponent 10 is the hardcoded slushExp, and $\text{age}3=$ albedoSootLoad (constant). $T{surf}=T_{freeze}$ gives $\text{age}_1=1$; colder gives $\text{age}_1\to 0$ exponentially.
 
