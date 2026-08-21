@@ -957,6 +957,36 @@ Marks, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Marshall%
+, Cowherd%
+, Rahimi%
+\BCBL {}\ \BBA {} Ye%
+}{%
+Marshall%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+Marshall2026-sy}
+\APACinsertmetastar {%
+Marshall2026-sy}%
+\begin{APACrefauthors}%
+Marshall, A\BPBI M.%
+, Cowherd, M.%
+, Rahimi, S.%
+\BCBL {}\ \BBA {} Ye, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The 2026 western {US} snow drought was about four times more likely due to climate change} {The 2026 western {US} snow drought was about four times more likely due to climate change}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proc. Natl. Acad. Sci. U. S. A.}{123}{30}{e2612961123}.
+\newblock
+\begin{APACrefDOI} \doi{10.1073/pnas.2612961123} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 McAfee%
 , McCabe%
 , Gray%
@@ -1334,6 +1364,36 @@ Rudisill, W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rudisill%
+, Feldman%
+, Marshall%
+\BCBL {}\ \BBA {} Koshkin%
+}{%
+Rudisill%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+Rudisill2026-de}
+\APACinsertmetastar {%
+Rudisill2026-de}%
+\begin{APACrefauthors}%
+Rudisill, W.%
+, Feldman, D.%
+, Marshall, A.%
+\BCBL {}\ \BBA {} Koshkin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reduced surface Hoar in a warming world} {Reduced surface hoar in a warming world}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{EGUsphere}{}{}{1--38}.
+\newblock
+\begin{APACrefDOI} \doi{10.5194/egusphere-2026-935} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rutan%
 \ \protect \BOthers {.}}{%
 Rutan%
@@ -1361,6 +1421,36 @@ Rutan, D\BPBI A.%
 \APACjournalVolNumPages{J. Atmos. Ocean. Technol.}{32}{6}{1121--1143}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/JTECH-D-14-00165.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scaff%
+\ \protect \BOthers {.}}{%
+Scaff%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Scaff2024-ob}
+\APACinsertmetastar {%
+Scaff2024-ob}%
+\begin{APACrefauthors}%
+Scaff, L.%
+, Krogh, S\BPBI A.%
+, Musselman, K.%
+, Harpold, A.%
+, Li, Y.%
+, Lillo-Saavedra, M.%
+\BDBL {}Rasmussen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The impacts of changing winter Warm Spells on snow ablation over western North America} {The impacts of changing winter warm spells on snow ablation over western north america}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{60}{5}{e2023WR034492}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2023wr034492} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

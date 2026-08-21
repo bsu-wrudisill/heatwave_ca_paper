@@ -137,6 +137,17 @@ and f(Ri) is a function with range (0,1] that declines as a function of increasi
 An equivalent formulation for latent heat flux follows Eq. \ref{eq:supp_bulk2}.
 The stability correction is reproduced and used in Fig. 11 of the main text.
 
+\subsection{Snow albedo}
+
+$$\text{age}1 = \exp\big[-\beta,(T{freeze}-T_{surf})\big], \qquad \text{age}_2 = \text{age}_1^{,10}$$
+
+$$\text{decayFactor} = \frac{\Delta t,(\text{age}_1+\text{age}_2+\text{age}_3)}{\text{albedoDecayRate}}$$
+
+% where $\beta=$ tempScalGrowth (your value: 0.04 K⁻¹), the exponent 10 is the hardcoded slushExp, and $\text{age}3=$ albedoSootLoad (constant). $T{surf}=T_{freeze}$ gives $\text{age}_1=1$; colder gives $\text{age}_1\to 0$ exponentially.
+
+
+
+
 \subsection{Forcing data}
 We use bias corrected ERA5 data as forcing for SUMMA with several key steps implemented.
 ERA5 data was obtained from the Copernicus data store. 
@@ -205,26 +216,43 @@ Key periods of sublimation during the first and latter portions of the the month
 
 \section{Initial condition experiments}\label{supp:init_cond}
 As we have shown, anomolous conditions also preceded the March 2026 ablation event. 
-To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of SWE and cold content present in the snowpack on March 1 and running the model with observed March forcings. 
-The conditions represent 1x, 1.5x, 2x, and 3x the amount of SWE present on March 1 of 2026. 
-
-The figure is to be read this way:
-The change in SWE ($\Delta$SWE) (left bar) is equivalent to the change in Ice and Liquid water amount (middle bar) in mm.
-These terms are also equivalent to the fluxes in/out of the top of the snow volume, which include Sublimation/Frost, Precipitation, and Outflow of meltwater through the bottom of the snowpack.
-
-The results are summarized in Fig. \ref{fig:supp_initial_cond_sens}.
-We find that the amount of ice melt ($\Delta$Ice) is very similar across experiments that do not completely ablate (SWE 1.5x and above).
-While $\Delta$Ice is similar, the larger initial snowpacks retain more liquid water at the end of the experiment ($\Delta$Liq) that does not percolate through the bottom of the snowpack (Outflow).
-The effect is that the deeper initial snowpacks retain more SWE by March 31 compared to the shallower snowpacks. 
-The amount of liquid water retention is plausible based on literature values.
-We caution however that this is an idealized experiment and that other features, such as preferential flow through "flow-fingers", may mean that nature deviates from these idealized experiments. 
+To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of ice, liquid water, and cold-content. 
+We did three experiments.
+One is the natural starting condition (liq=1).
+Then we halved and zeroed out the amount of liquid water and increased the amount ice to keep SWE constant. 
+For internal consistency in SUMMA the layer temperature reduced in the zero-liquid water case.
+The outcomes show that there is minimal sensitivity to the timing in the rate of SWE change; the all-ice case completely ablated about one-day later than the standard case. 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics{images2/initial_cond_sens.png}
+  \includegraphics{images2/supp_initial_cond_sens_liq_and_CC.png}
   \caption{Initial condition tests. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
   \label{fig:supp_initial_cond_sens}
 \end{figure}
+
+
+
+
+% To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of SWE and cold content present in the snowpack on March 1 and running the model with observed March forcings. 
+% The conditions represent 1x, 1.5x, 2x, and 3x the amount of SWE present on March 1 of 2026. 
+
+% The figure is to be read this way:
+% The change in SWE ($\Delta$SWE) (left bar) is equivalent to the change in Ice and Liquid water amount (middle bar) in mm.
+% These terms are also equivalent to the fluxes in/out of the top of the snow volume, which include Sublimation/Frost, Precipitation, and Outflow of meltwater through the bottom of the snowpack.
+
+% The results are summarized in Fig. \ref{fig:supp_initial_cond_sens}.
+% We find that the amount of ice melt ($\Delta$Ice) is very similar across experiments that do not completely ablate (SWE 1.5x and above).
+% While $\Delta$Ice is similar, the larger initial snowpacks retain more liquid water at the end of the experiment ($\Delta$Liq) that does not percolate through the bottom of the snowpack (Outflow).
+% The effect is that the deeper initial snowpacks retain more SWE by March 31 compared to the shallower snowpacks. 
+% The amount of liquid water retention is plausible based on literature values.
+% We caution however that this is an idealized experiment and that other features, such as preferential flow through "flow-fingers", may mean that nature deviates from these idealized experiments. 
+
+% \begin{figure}[htbp]
+%   \centering
+%   \includegraphics{images2/initial_cond_sens.png}
+%   \caption{Initial condition tests. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
+%   \label{fig:supp_initial_cond_sens}
+% \end{figure}
 
 
 
