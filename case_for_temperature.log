@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  24 AUG 2026 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  25 AUG 2026 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -414,9 +414,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [4]
-Underfull \vbox (badness 2005) has occurred while \output is active []
-
-
 
 [5]
 
@@ -458,7 +455,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1552) has occurred while \output is active []
 
 
 
@@ -471,130 +468,128 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <images2/drawing-1.png, id=74, 565.36218pt x 509.65407pt>
 File: images2/drawing-1.png Graphic file (type png)
 <use images2/drawing-1.png>
-Package pdftex.def Info: images2/drawing-1.png  used on input line 728.
+Package pdftex.def Info: images2/drawing-1.png  used on input line 730.
 (pdftex.def)             Requested size: 397.48499pt x 358.3263pt.
 <images2/temp_anomaly_map.png, id=76, 469.0323pt x 225.2415pt>
 File: images2/temp_anomaly_map.png Graphic file (type png)
 <use images2/temp_anomaly_map.png>
-Package pdftex.def Info: images2/temp_anomaly_map.png  used on input line 741.
+Package pdftex.def Info: images2/temp_anomaly_map.png  used on input line 743.
 (pdftex.def)             Requested size: 469.03116pt x 225.24094pt.
 
-Overfull \hbox (71.54617pt too wide) in paragraph at lines 741--744
+Overfull \hbox (71.54617pt too wide) in paragraph at lines 743--746
  [][] 
  []
 
 <images2/mar2026_era5_snotel_summary.png, id=77, 452.4102pt x 507.0945pt>
 File: images2/mar2026_era5_snotel_summary.png Graphic file (type png)
 <use images2/mar2026_era5_snotel_summary.png>
-Package pdftex.def Info: images2/mar2026_era5_snotel_summary.png  used on input line 752.
+Package pdftex.def Info: images2/mar2026_era5_snotel_summary.png  used on input line 754.
 (pdftex.def)             Requested size: 397.48499pt x 445.53267pt.
 <images2/swe_change_2026_v2.png, id=78, 509.5035pt x 528.7755pt>
 File: images2/swe_change_2026_v2.png Graphic file (type png)
 <use images2/swe_change_2026_v2.png>
-Package pdftex.def Info: images2/swe_change_2026_v2.png  used on input line 770.
+Package pdftex.def Info: images2/swe_change_2026_v2.png  used on input line 772.
 (pdftex.def)             Requested size: 397.48499pt x 412.51585pt.
 <images2/mar_seb_open.png, id=79, 415.7934pt x 471.9231pt>
 File: images2/mar_seb_open.png Graphic file (type png)
 <use images2/mar_seb_open.png>
-Package pdftex.def Info: images2/mar_seb_open.png  used on input line 796.
+Package pdftex.def Info: images2/mar_seb_open.png  used on input line 798.
 (pdftex.def)             Requested size: 397.48499pt x 451.15437pt.
 <images2/lai_p5_seb.png, id=80, 415.7934pt x 471.9231pt>
 File: images2/lai_p5_seb.png Graphic file (type png)
 <use images2/lai_p5_seb.png>
-Package pdftex.def Info: images2/lai_p5_seb.png  used on input line 808.
+Package pdftex.def Info: images2/lai_p5_seb.png  used on input line 810.
 (pdftex.def)             Requested size: 397.48499pt x 451.15437pt.
 <images2/canopy_lw_radiation_effect_and_albedo.png, id=81, 481.8pt x 401.5803pt>
 File: images2/canopy_lw_radiation_effect_and_albedo.png Graphic file (type png)
 <use images2/canopy_lw_radiation_effect_and_albedo.png>
-Package pdftex.def Info: images2/canopy_lw_radiation_effect_and_albedo.png  used on input line 817.
+Package pdftex.def Info: images2/canopy_lw_radiation_effect_and_albedo.png  used on input line 819.
 (pdftex.def)             Requested size: 397.48499pt x 331.31395pt.
 <images2/mar_seb_open_v_forest.png, id=82, 470.2368pt x 268.8444pt>
 File: images2/mar_seb_open_v_forest.png Graphic file (type png)
 <use images2/mar_seb_open_v_forest.png>
-Package pdftex.def Info: images2/mar_seb_open_v_forest.png  used on input line 831.
+Package pdftex.def Info: images2/mar_seb_open_v_forest.png  used on input line 833.
 (pdftex.def)             Requested size: 470.23564pt x 268.84375pt.
 
-Overfull \hbox (72.75066pt too wide) in paragraph at lines 831--837
+Overfull \hbox (72.75066pt too wide) in paragraph at lines 833--839
  [][] 
  []
 
 <images2/mar_diel_seb_open_v_forest.png, id=83, 353.6412pt x 342.8007pt>
 File: images2/mar_diel_seb_open_v_forest.png Graphic file (type png)
 <use images2/mar_diel_seb_open_v_forest.png>
-Package pdftex.def Info: images2/mar_diel_seb_open_v_forest.png  used on input line 843.
+Package pdftex.def Info: images2/mar_diel_seb_open_v_forest.png  used on input line 845.
 (pdftex.def)             Requested size: 397.48499pt x 385.31506pt.
 <images2/ceres_ebaf_anomaly.png, id=84, 362.0727pt x 391.7034pt>
 File: images2/ceres_ebaf_anomaly.png Graphic file (type png)
 <use images2/ceres_ebaf_anomaly.png>
-Package pdftex.def Info: images2/ceres_ebaf_anomaly.png  used on input line 855.
+Package pdftex.def Info: images2/ceres_ebaf_anomaly.png  used on input line 857.
 (pdftex.def)             Requested size: 362.07181pt x 391.70244pt.
 <images2/idealized_sens_and_lat_heat.png, id=85, 520.1031pt x 421.3341pt>
 File: images2/idealized_sens_and_lat_heat.png Graphic file (type png)
 <use images2/idealized_sens_and_lat_heat.png>
-Package pdftex.def Info: images2/idealized_sens_and_lat_heat.png  used on input line 889.
+Package pdftex.def Info: images2/idealized_sens_and_lat_heat.png  used on input line 891.
 (pdftex.def)             Requested size: 317.9892pt x 257.60489pt.
 <images2/overnight_freeze.png, id=86, 468.0687pt x 353.8821pt>
 File: images2/overnight_freeze.png Graphic file (type png)
 <use images2/overnight_freeze.png>
-Package pdftex.def Info: images2/overnight_freeze.png  used on input line 905.
+Package pdftex.def Info: images2/overnight_freeze.png  used on input line 907.
 (pdftex.def)             Requested size: 397.48499pt x 300.52039pt.
 
 
-[17]
+[17 <./images2/drawing-1.png>]
 
-[18 <./images2/drawing-1.png>]
+[18 <./images2/temp_anomaly_map.png>]
 
-[19 <./images2/temp_anomaly_map.png>]
+[19 <./images2/mar2026_era5_snotel_summary.png>]
 
-[20 <./images2/mar2026_era5_snotel_summary.png>]
+[20 <./images2/swe_change_2026_v2.png>]
 
-[21 <./images2/swe_change_2026_v2.png>]
+[21 <./images2/mar_seb_open.png>]
 
-[22 <./images2/mar_seb_open.png>]
+[22 <./images2/lai_p5_seb.png>]
 
-[23 <./images2/lai_p5_seb.png>]
+[23 <./images2/canopy_lw_radiation_effect_and_albedo.png>]
 
-[24 <./images2/canopy_lw_radiation_effect_and_albedo.png>]
+[24 <./images2/mar_seb_open_v_forest.png>]
 
-[25 <./images2/mar_seb_open_v_forest.png>]
+[25 <./images2/mar_diel_seb_open_v_forest.png>]
 
-[26 <./images2/mar_diel_seb_open_v_forest.png>]
+[26 <./images2/ceres_ebaf_anomaly.png>]
 
-[27 <./images2/ceres_ebaf_anomaly.png>]
+[27 <./images2/idealized_sens_and_lat_heat.png>]
 
-[28 <./images2/idealized_sens_and_lat_heat.png>]
-
-[29 <./images2/overnight_freeze.png>]
-Overfull \hbox (63.46039pt too wide) in paragraph at lines 970--977
+[28 <./images2/overnight_freeze.png>]
+Overfull \hbox (63.46039pt too wide) in paragraph at lines 972--979
  [][] 
  []
 
 
 
-[30
+[29
 
 ] (./case_for_temperature.bbl
 
-[31
+[30
 
 ]
 Underfull \vbox (badness 1946) has occurred while \output is active []
 
 
 
-[32]
+[31]
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
 
 
-[33]
+[32]
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
 
 
-[34])
+[33])
 
-[35] (./case_for_temperature.aux)
+[34] (./case_for_temperature.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -614,10 +609,10 @@ Here is how much of TeX's memory you used:
  1147 hyphenation exceptions out of 8191
  72i,15n,79p,859b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on case_for_temperature.pdf (35 pages, 4050057 bytes).
+Output written on case_for_temperature.pdf (34 pages, 4049369 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 264 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
