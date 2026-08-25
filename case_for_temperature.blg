@@ -15,51 +15,51 @@ Database file #1: paperpile.bib
 Warning--I'm ignoring Feldman2023-gp's extra "number" field
 --line 1617 of file paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 2147 of file paperpile.bib
+--line 2201 of file paperpile.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 61 entries,
+You've used 65 entries,
             6951 wiz_defined-function locations,
-            1754 strings with 28357 characters,
-and the built_in function-call counts, 150198 in all, are:
-= -- 17961
-> -- 1355
-< -- 8077
-+ -- 9167
-- -- 132
-* -- 10437
-:= -- 28454
-add.period$ -- 236
-call.type$ -- 61
-change.case$ -- 1066
+            1781 strings with 29495 characters,
+and the built_in function-call counts, 160049 in all, are:
+= -- 19092
+> -- 1450
+< -- 8650
++ -- 9771
+- -- 140
+* -- 11158
+:= -- 30418
+add.period$ -- 251
+call.type$ -- 65
+change.case$ -- 1134
 chr.to.int$ -- 0
-cite$ -- 122
-duplicate$ -- 4606
-empty$ -- 5129
-format.name$ -- 2565
-if$ -- 26797
+cite$ -- 130
+duplicate$ -- 4883
+empty$ -- 5461
+format.name$ -- 2743
+if$ -- 28507
 int.to.chr$ -- 0
-int.to.str$ -- 183
+int.to.str$ -- 195
 missing$ -- 0
-newline$ -- 1781
-num.names$ -- 490
-pop$ -- 1925
+newline$ -- 1899
+num.names$ -- 522
+pop$ -- 2044
 preamble$ -- 1
-purify$ -- 272
+purify$ -- 288
 quote$ -- 0
-skip$ -- 8579
+skip$ -- 9131
 stack$ -- 0
-substring$ -- 9892
-swap$ -- 2491
-text.length$ -- 162
+substring$ -- 10513
+swap$ -- 2648
+text.length$ -- 170
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5008
+type$ -- 5328
 warning$ -- 4
-while$ -- 893
+while$ -- 944
 width$ -- 0
-write$ -- 2351
+write$ -- 2508
 (There were 6 warnings)

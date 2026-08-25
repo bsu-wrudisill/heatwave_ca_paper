@@ -110,6 +110,36 @@ Brutsaert, W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Burakowski%
+\ \protect \BOthers {.}}{%
+Burakowski%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Burakowski2018-ch}
+\APACinsertmetastar {%
+Burakowski2018-ch}%
+\begin{APACrefauthors}%
+Burakowski, E.%
+, Tawfik, A.%
+, Ouimette, A.%
+, Lepine, L.%
+, Novick, K.%
+, Ollinger, S.%
+\BDBL {}Bonan, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The role of surface roughness, albedo, and Bowen ratio on ecosystem energy balance in the Eastern United States} {The role of surface roughness, albedo, and bowen ratio on ecosystem energy balance in the eastern united states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Agric. For. Meteorol.}{249}{}{367--376}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.agrformet.2017.11.030} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Clark%
 , Nijssen%
 , Lundquist%
@@ -333,6 +363,38 @@ Duan, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Durre%
+, Arguez%
+, Schreck%
+, Squires%
+\BCBL {}\ \BBA {} Vose%
+}{%
+Durre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Durre2022-be}
+\APACinsertmetastar {%
+Durre2022-be}%
+\begin{APACrefauthors}%
+Durre, I.%
+, Arguez, A.%
+, Schreck, C\BPBI J.%
+, Squires, M\BPBI F.%
+\BCBL {}\ \BBA {} Vose, R\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Daily high-resolution temperature and precipitation fields for the contiguous United States from 1951 to present} {Daily high-resolution temperature and precipitation fields for the contiguous united states from 1951 to present}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Atmos. Ocean. Technol.}{39}{12}{1837--1855}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/jtech-d-22-0024.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {ECMWF}%
 }{%
 {ECMWF}%
@@ -384,6 +446,35 @@ Feldman, D\BPBI R.%
 \APACjournalVolNumPages{Bull. Am. Meteorol. Soc.}{104}{aop}{E2192-E2222}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/bams-d-22-0049.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gibson%
+\ \protect \BOthers {.}}{%
+Gibson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+Gibson2026-zk}
+\APACinsertmetastar {%
+Gibson2026-zk}%
+\begin{APACrefauthors}%
+Gibson, L\BPBI D.%
+, Cowherd, M.%
+, Aiken, A\BPBI C.%
+, Rudisill, W\BPBI J.%
+, Riihimaki, L\BPBI D.%
+\BCBL {}\ \BBA {} Feldman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The dual role of snowfall in impacting surface albedo and spring snowmelt in the Upper Colorado River Basin} {The dual role of snowfall in impacting surface albedo and spring snowmelt in the upper colorado river basin}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Npj Clim. Atmos. Sci.}{}{}{1--9}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41612-026-01446-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1693,6 +1784,33 @@ Singh, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Sumargo%
+\ \BBA {} Cayan%
+}{%
+Sumargo%
+\ \BBA {} Cayan%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Sumargo2018-zf}
+\APACinsertmetastar {%
+Sumargo2018-zf}%
+\begin{APACrefauthors}%
+Sumargo, E.%
+\BCBT {}\ \BBA {} Cayan, D\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The influence of cloudiness on hydrologic fluctuations in the mountains of the western United States} {The influence of cloudiness on hydrologic fluctuations in the mountains of the western united states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{54}{10}{8478--8499}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2018wr022687} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Van~Gunst%
 }{%
 Van~Gunst%
@@ -1717,12 +1835,12 @@ Van~Gunst, K\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-S\BHBI Y.~Wang%
+Wang%
 , Hipps%
 , Gillies%
 \BCBL {}\ \BBA {} Yoon%
 }{%
-S\BHBI Y.~Wang%
+Wang%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2014}}%
 }]{%
@@ -1730,7 +1848,7 @@ Wang2014}
 \APACinsertmetastar {%
 Wang2014}%
 \begin{APACrefauthors}%
-Wang, S\BHBI Y.%
+Wang, S\BHBI Y\BPBI S.%
 , Hipps, L.%
 , Gillies, R\BPBI R.%
 \BCBL {}\ \BBA {} Yoon, J\BHBI H.%
@@ -1749,11 +1867,11 @@ Wang, S\BHBI Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-S\BHBI Y\BPBI S.~Wang%
+Wang%
 , Huang%
 \BCBL {}\ \BBA {} Yoon%
 }{%
-S\BHBI Y\BPBI S.~Wang%
+Wang%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2015}}%
 }]{%
