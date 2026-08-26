@@ -148,7 +148,6 @@ We use the 'varDecay' parameterization for albedo as implemented in SUMMA.
 
 
 
-
 \subsection{Forcing data}
 We use bias corrected ERA5 data as forcing for SUMMA with several key steps implemented.
 ERA5 data was obtained from the Copernicus data store. 
@@ -175,7 +174,22 @@ The correction reduced \swdn by \todo{XYZ} for the month of March 2026.
 
 \clearpage 
 
-\subsection{Model validation}\label{supp:sec:validation}
+\subsection{Additional SUMMA model outputs and model validation}\label{supp:sec:validation}
+Additional SUMMA outputs with relevance to interpreting the main text are displayed in this section, as well as additional model validation plots.
+
+The snowpack accumulated substantial liquid water following the February ROS event, and snow-temperatures were nearly isothermal (Fig. \ref{fig:supp_twod_vert_plots_ice_liq_dens_temp}).
+Cold-content generation began during March for a thin layer at the top of the snowpack, where liquid also refroze. 
+A dense ice-layer formed during mid-February and remained buried under the late February snow and rain. 
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{images2/supp_snowt_liq_ice_dens.png}
+  \caption{A timeseries of vertical cross-sections of snow temperature, snow liquid water content volumetric fraction, snow ice content volumetric fraction, and snow density (bottom) during the accumulation season }.
+  \label{fig:supp_twod_vert_plots_ice_liq_dens_temp}
+\end{figure}
+
+
 \subsubsection{Canopy site}\label{supp:sec:validation}
 
 We validate the SUMMA model in several ways. 
@@ -188,7 +202,7 @@ We find good correlation for March of 2026 for the UEB 2-stream parameterzation 
   \caption{A comparison of sub-canopy downwelling radiation for different LAI values using the UEB-2stream shortwave radiation parameterization.
   The top plot depicts a hourly SW$\downarrow$ two day period in early March. 
   The bottom plot depicts hourly SW$\downarrow$ during March. 
-  Observed radiation by the Kipp and Zonen radiometer is depicted}.
+  Observed radiation by the Kipp and Zonen radiometer is depicted in the blue solid line}.
   \label{fig:supp_sw_validation}
 \end{figure}
 
@@ -218,7 +232,8 @@ Key periods of sublimation during the first and latter portions of the the month
 \section{Initial condition experiments}\label{supp:init_cond}
 As we have shown, anomolous conditions also preceded the March 2026 ablation event. 
 To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of ice, liquid water, and cold-content. 
-We did three experiments.
+
+Test 1: Dry snow is composed of three model runs.
 One is the natural starting condition (liq=1).
 Then we halved and zeroed out the amount of liquid water and increased the amount ice to keep SWE constant. 
 For internal consistency in SUMMA the layer temperature reduced in the zero-liquid water case.
@@ -227,10 +242,19 @@ The outcomes show that there is minimal sensitivity to the timing in the rate of
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_initial_cond_sens_liq_and_CC.png}
-  \caption{Initial condition tests. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
+  \caption{Initial condition Test 1: Dry snow. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
   \label{fig:supp_initial_cond_sens}
 \end{figure}
 
+
+
+A second test investigated changing the dry snow amount and increasing the amount of SWE present. 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_initial_cond_sens_liq_and_CC.png}
+  \caption{Initial condition Test 1: Dry snow. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
+  \label{fig:init_cond_sens}
+\end{figure}
 
 
 

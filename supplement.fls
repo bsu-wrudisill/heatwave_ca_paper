@@ -118,6 +118,11 @@ INPUT ./images2/supp_fig_SWd_adjust_sza_azm.png
 INPUT ./images2/supp_fig_SWd_adjust_sza_azm.png
 INPUT ./images2/supp_fig_SWd_adjust_sza_azm.png
 INPUT ./images2/supp_fig_SWd_adjust_sza_azm.png
+INPUT ./images2/supp_snowt_liq_ice_dens.png
+INPUT ./images2/supp_snowt_liq_ice_dens.png
+INPUT ./images2/supp_snowt_liq_ice_dens.png
+INPUT ./images2/supp_snowt_liq_ice_dens.png
+INPUT ./images2/supp_snowt_liq_ice_dens.png
 INPUT ./images2/supp_sw_validation.png
 INPUT ./images2/supp_sw_validation.png
 INPUT ./images2/supp_sw_validation.png
@@ -128,6 +133,10 @@ INPUT ./images2/supp_ecor_valid.png
 INPUT ./images2/supp_ecor_valid.png
 INPUT ./images2/supp_ecor_valid.png
 INPUT ./images2/supp_ecor_valid.png
+INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
+INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
+INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
+INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
 INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
 INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png
 INPUT ./images2/supp_initial_cond_sens_liq_and_CC.png

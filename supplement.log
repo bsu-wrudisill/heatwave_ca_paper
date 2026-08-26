@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  24 AUG 2026 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  25 AUG 2026 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -185,6 +185,9 @@ LaTeX Warning: Label `supp:sec:validation' multiply defined.
 LaTeX Warning: Label `supp:sec:validation' multiply defined.
 
 
+LaTeX Warning: Label `fig:supp_twod_vert_plots_ice_liq_dens_temp' multiply defined.
+
+
 LaTeX Warning: Label `fig:supp_sw_validation' multiply defined.
 
 
@@ -195,6 +198,9 @@ LaTeX Warning: Label `fig:supp_sw_validation' multiply defined.
 
 
 LaTeX Warning: Label `supp:init_cond' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
 
 
 LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
@@ -301,7 +307,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images2/supp_fig_SWd_adjust_sza_azm.png, id=17, 348.5823pt x 326.6604pt>
 File: images2/supp_fig_SWd_adjust_sza_azm.png Graphic file (type png)
 <use images2/supp_fig_SWd_adjust_sza_azm.png>
-Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input line 166.
+Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input line 165.
 (pdftex.def)             Requested size: 348.58145pt x 326.65959pt.
 
 
@@ -310,44 +316,64 @@ Package pdftex.def Info: images2/supp_fig_SWd_adjust_sza_azm.png  used on input 
 ]
 
 [4 <./images2/supp_fig_SWd_adjust_sza_azm.png>]
-<images2/supp_sw_validation.png, id=28, 437.4744pt x 356.532pt>
+<images2/supp_snowt_liq_ice_dens.png, id=28, 677.4108pt x 787.2612pt>
+File: images2/supp_snowt_liq_ice_dens.png Graphic file (type png)
+<use images2/supp_snowt_liq_ice_dens.png>
+Package pdftex.def Info: images2/supp_snowt_liq_ice_dens.png  used on input line 187.
+(pdftex.def)             Requested size: 469.75502pt x 545.92567pt.
+<images2/supp_sw_validation.png, id=29, 437.4744pt x 356.532pt>
 File: images2/supp_sw_validation.png Graphic file (type png)
 <use images2/supp_sw_validation.png>
-Package pdftex.def Info: images2/supp_sw_validation.png  used on input line 187.
+Package pdftex.def Info: images2/supp_sw_validation.png  used on input line 201.
 (pdftex.def)             Requested size: 437.47331pt x 356.53111pt.
 
 
 [5
 
- <./images2/supp_sw_validation.png>]
-<images2/supp_ecor_valid.png, id=33, 504.2037pt x 343.2825pt>
+]
+
+[6 <./images2/supp_snowt_liq_ice_dens.png>]
+
+[7 <./images2/supp_sw_validation.png>]
+<images2/supp_ecor_valid.png, id=42, 504.2037pt x 343.2825pt>
 File: images2/supp_ecor_valid.png Graphic file (type png)
 <use images2/supp_ecor_valid.png>
-Package pdftex.def Info: images2/supp_ecor_valid.png  used on input line 210.
+Package pdftex.def Info: images2/supp_ecor_valid.png  used on input line 224.
 (pdftex.def)             Requested size: 504.20247pt x 343.28165pt.
 
-Overfull \hbox (34.44745pt too wide) in paragraph at lines 210--214
+Overfull \hbox (34.44745pt too wide) in paragraph at lines 224--228
  [][] 
  []
 
 
 
-[6
+[8
 
  <./images2/supp_ecor_valid.png>]
-<images2/supp_initial_cond_sens_liq_and_CC.png, id=38, 494.0859pt x 359.9046pt>
+<images2/supp_initial_cond_sens_liq_and_CC.png, id=47, 494.0859pt x 359.9046pt>
 File: images2/supp_initial_cond_sens_liq_and_CC.png Graphic file (type png)
 <use images2/supp_initial_cond_sens_liq_and_CC.png>
-Package pdftex.def Info: images2/supp_initial_cond_sens_liq_and_CC.png  used on input line 229.
+Package pdftex.def Info: images2/supp_initial_cond_sens_liq_and_CC.png  used on input line 244.
 (pdftex.def)             Requested size: 494.08469pt x 359.90372pt.
 
-Overfull \hbox (24.32967pt too wide) in paragraph at lines 229--230
+Overfull \hbox (24.32967pt too wide) in paragraph at lines 244--245
+ [][] 
+ []
+
+File: images2/supp_initial_cond_sens_liq_and_CC.png Graphic file (type png)
+<use images2/supp_initial_cond_sens_liq_and_CC.png>
+Package pdftex.def Info: images2/supp_initial_cond_sens_liq_and_CC.png  used on input line 254.
+(pdftex.def)             Requested size: 494.08469pt x 359.90372pt.
+
+Overfull \hbox (24.32967pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
 
 
-[7 <./images2/supp_initial_cond_sens_liq_and_CC.png>] (./supplement.aux)
+[9 <./images2/supp_initial_cond_sens_liq_and_CC.png>]
+
+[10] (./supplement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -358,18 +384,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3765 strings out of 473190
- 57206 string characters out of 5704335
- 459173 words of memory out of 5000000
- 26991 multiletter control sequences out of 15000+600000
+ 3773 strings out of 473190
+ 57543 string characters out of 5704335
+ 459199 words of memory out of 5000000
+ 26999 multiletter control sequences out of 15000+600000
  565000 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,870b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on supplement.pdf (7 pages, 1341926 bytes).
+Output written on supplement.pdf (10 pages, 1744676 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
