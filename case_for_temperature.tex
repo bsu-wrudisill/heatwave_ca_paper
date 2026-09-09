@@ -45,8 +45,8 @@
 \newcommand{\dT}{\textcolor{black}{$\Delta T$}\xspace}
 \newcommand{\fq}{\textcolor{black}{$F\mathrm{_q}$}\xspace}
 \newcommand{\ustar}{\textcolor{black}{$u_{\star}$}\xspace}
-\newcommand{\lwup}{\textcolor{black}{$LW\uparrow$}\xspace}
-\newcommand{\lwdn}{\textcolor{black}{$LW\downarrow$}\xspace}
+\newcommand{\lwup}{\textcolor{black}{$LW^{\uparrow}$}\xspace}
+\newcommand{\lwdn}{\textcolor{black}{$LW^{\downarrow}$}\xspace}
 \newcommand{\tsnow}{\textcolor{black}{$T_{\mathrm{snow}}$}\xspace}
 \newcommand{\qsnow}{\textcolor{black}{$q_{\mathrm{snow}}$}\xspace}
 \newcommand{\pbaro}{\textcolor{black}{$P_{\mathrm{baro}}$}\xspace}
@@ -54,8 +54,8 @@
 \newcommand{\hs}{\textcolor{black}{H$_s$}\xspace}
 \newcommand{\hlat}{\textcolor{black}{H$_l$}\xspace}
 \newcommand{\swnet}{\textcolor{black}{$SW_{\mathrm{net}}$}\xspace}
-\newcommand{\swdn}{\textcolor{black}{$SW\downarrow$}\xspace}
-\newcommand{\swup}{\textcolor{black}{$SW\uparrow$}\xspace}
+\newcommand{\swdn}{\textcolor{black}{$SW^{\downarrow}$}\xspace}
+\newcommand{\swup}{\textcolor{black}{$SW^{\uparrow}$}\xspace}
 \newcommand{\dcc}{\textcolor{black}{$\Delta$CC}\xspace}
 \newcommand{\albedo}{\textcolor{black}{$\alpha$}\xspace}
 \newcommand{\rfalb}{\textcolor{black}{RF$_{albedo}$}\xspace}
@@ -81,11 +81,11 @@
 
 % \title{The Snow Energy Balance During Extreme Ablation: A Case Study of the March 2026 heat wave in the California Sierra Nevada}
 
-\title{Solar radiation primarily drives snow ablation during the March 2026 heat wave in the Sierra Nevada}
+\title{Solar radiation primarily drives snow ablation during the March 2026 heat wave in the California Sierra Nevada}
 
 
 
-\authors{William Rudisill\affil{1}, Alan Rhoades\affil{1}, Megan Mason\affil{2}, Gabriel Lewis\affil{2}, Andrew Schwartz\affil{2}, Marianne Cowherd\affil{4}, Benjamin Hatchett\affil{3}, Erica Siriila-Woodburn\affil{1}, Dan Feldman\affil{1}}
+\authors{William Rudisill\affil{1}, Alan Rhoades\affil{1}, Megan Mason\affil{2}, Gabriel Lewis\affil{2}, Andrew Schwartz\affil{2}, Marianne Cowherd\affil{4}, Benjamin Hatchett\affil{3}, Erica Siirila-Woodburn\affil{1}, Dan Feldman\affil{1}}
 
 \affiliation{1}{Lawrence Berkeley National Laboratory, Earth and Environmental Sciences Area}
 \affiliation{2}{UC Berkeley Central Sierra Snow Laboratory}
@@ -96,37 +96,45 @@
 \correspondingauthor{William Rudisill}{williamrudisill@lbl.gov}
 
 \begin{keypoints}
-\item Record heat, snow drought, and rates of snow ablation occurred in the California Sierra Nevada during March 2026.
-\item Net-shortwave was the dominant ablation driver despite the anomalously warm air temperatures.
-\item Low snow-albedo and higher-than-average downwelling shortwave, caused by an anomalous lack of mid-level clouds, contributed to record rates of net-shortwave heating of the snowpack.
-\item Snow ablated more slowly under vegetation canopy due to enhanced solar shading and reduced heating by turbulent exchange.
-\item Less than 1\% of total snow ablation was due to sublimation, lower than the climatological average.
-\item Boundary-layer decoupling and vapor pressure arguments explain the small contribution of sensible heating and sublimation to the snow energy and mass balance during the heat wave.
+\item A record heat wave coincided with record rates of snow ablation during March 2026 in the California Sierra Nevada. 
+\item Net-shortwave radiation, shaped by low antecedent snow-albedo and anomalously strong solar radiation (+42 \wmsq above average), was the dominant driver of ablation.
+\item Snow ablated more slowly under tree canopy due to enhanced solar shading and reduced heating by turbulent exchange.
+\item Less than \mynum{1}\% of total snow ablation was due to sublimation in the open, lower than the climatological average for March.
+\item Boundary-layer decoupling and vapor pressure arguments explain the small contribution of sublimation to the snow energy and mass balance during the heat wave.
 
 \end{keypoints}
 
 \begin{abstract}
-Test
+It's generally accepted that solar radiation is the most important snow-ablation forcing, but this poses a paradox: why are ``snow-eater heat waves'' --- prolonged periods of anomalous, above freezing air temperatures --- so effective at ablating snow? 
+Using the three-sigma heat wave of March 2026 observed at the Central Sierra Snow Laboratory in the California Sierra Nevada (2100 m.a.s.l) as a case study, we ask the following questions: What are the energy balance mechanisms influencing ablation during the heat wave? 
+Does vegetation canopy enhance or suppress rates of ablation? 
+How much snow melts versus sublimates?
+Despite high temperatures, the record snow ablation rates remain dominated by solar radiation and snow-albedo feedbacks.
+In addition to extreme warmth, March 2026 was also the sunniest in the CERES satellite record (+\mynum{42} \wmsq above average).
+Additional longwave radiation emitted by canopies (relative to open sky) scales in tandem with increasing air temperature --- but this effect combined with solar shading and reduced turbulent exchange yields lower ablation rates under canopy (\mynum{-16} mm/day) compared to the open site (\mynum{-23} mm/day). 
+Despite anomalously low snowpack cold-content prior to the heat wave, sensitivity tests show a minimal influence of the starting state of the snowpack on the total amount of snow ablation during the event.
+Sublimation (less than \mynum{1}\% of total snow ablation) was a relatively minor factor during the heat wave. 
+Theoretical arguments show that atmospheric buoyancy effects and vapor pressure gradient limitations explain the limited role of evapo-sublimation from near \mynum{0}\degrc snow during heat waves. 
+Together, our findings show that forest canopy adds resilience against heat waves in terms of snow ablation rate. 
+Future synoptic-scale analyses of snow--heat wave interactions should focus on the covariance of heat wave conditions, wind speed, and atmospheric thermodynamic conditions that lead to anomalous prolonged cloud-free conditions.
+
 \end{abstract}
 
-\section*{Plain Language Summary}
-Enter your Plain Language Summary here or delete this section.
 
 
 \section{Introduction}
 While meltwater from seasonal snowpacks has historically provided $\sim$70\% of runoff in the western US (WUS) \cite{Li2017-dj}, these natural reservoirs and our ability to accurately measure, monitor, and predict them are in decline \cite{Hale2023-kx, Cowherd2024-zm}.
 From a practical perspective, many operational snowmelt runoff models use a temperature index approach, whereby air temperature (\tair) is the primary predictor of melt \cite{Anderson1973-jx}.
 While these models have proven effective, especially for large basins and when well-calibrated \cite{REIS-model}, the physical justification for such models is not clear.
-Since at least the 1980s, the field of snow hydrology appreciates that understanding the climatic behavior of snow necessitates considering the entire energy budget of the snowpack.
+Since at least the 1980s, the field of snow hydrology has appreciated that understanding the climatic behavior of snow necessitates considering the entire energy budget of the snowpack.
 In particular, it is well accepted that the net shortwave radiation absorbed by the snowpack (\swnet) is a first-order predictor of rates of melt \cite{Marks1992-qo, Cline1997-de}.
-Both small impurities \cite{Deems2013-vv} and wet and dry grain-growth mechanisms \cite{Colbeck1982-gv} tend to decrease the amount of reflected sunlight (the snow albedo, \albedo) and are responsible, in conjunction with rising sun-angles, for the large increases in springtime \swnet.
+Both small impurities \cite{Deems2013-vv, Skiles2018-ih} and wet and dry grain-growth mechanisms \cite{Colbeck1982-gv} tend to decrease the amount of reflected sunlight (the snow albedo, \albedo) and are responsible, in conjunction with rising sun-angles, for the large increases in springtime \swnet.
 Unlike downwelling longwave (\lwdn; 4--100 \um), the downwelling component of shortwave (\swdn; 0.3--3 \um) is mainly insensitive to variations in \tair itself.
 Variations in \swdn in time (and across elevation) are driven primarily by Rayleigh scattering by O$_2$ and N$_2$, Mie scattering by naturally occurring and human-made aerosols, dust, and cloud droplets, as well as absorption primarily by water vapor, CO$_2$, and O$_3$.
 
 % recent heat wave work
 At the same time, recent work has highlighted the strong correlation between extreme snow ablation (the loss of snow to either sublimation or melt) events and so-called ``snow-eater heat waves'' (SEHW) --- prolonged periods of sustained (day and night), anomalous, and above-freezing \tair during the snow season \cite{Rhoades2026-jm}.
-The characteristics of snow-eater heat waves have already appreciably changed since the 1850s.
-These events are occurring more frequently, at a higher intensity, over a larger portion of the WUS, and earlier in the water year.
+The characteristics of snow-eater heat waves have already appreciably changed since the 1850s, and these events are occurring more frequently, at a higher intensity, over a larger portion of the WUS, and earlier in the water year.
 
 %These with warming in addition to the mean-annual air temperature.
 An example of such an early-season, high-intensity, SEHW occurred in March of 2026, when the monthly March \tair across the WUS was 3 standard deviations above long-term averages.
@@ -148,7 +156,8 @@ Using the March 2026 event as a case study, we ask the following questions:
 % why we should care about veg
 Approximately half of North America's snow water volume resides under tree canopy \cite{Kim2021-eu}.
 Canopies absorb and scatter SW radiation, increase LW radiation, and reduce winds relative to open or non-vegetated snow surfaces; however, the magnitudes of these changes can vary widely across space and time.
-Several studies have considered the effects of vegetation and forest management practices on the mean-state of the snow climate of this region, and it is well observed that snow tends to accumulate more and ablate later in the year in open regions relative to forested regions \cite{Harpold2020-rc, Krogh2020-dh}.
+Several studies have considered the effects of vegetation and forest management practices on the mean-state of the snow climate of this region. 
+It is well observed that snow tends to accumulate more and ablate later in the year in open regions relative to forested regions \cite{Harpold2020-rc, Krogh2020-dh}.
 Synthesis work has shown that open versus subcanopy snow dynamics are dependent on latitude and mean winter \tair \cite{Lundquist2013-uc}.
 However, the interactions between vegetation and discrete extreme heat wave events have not previously been considered.
 
@@ -187,9 +196,9 @@ All three rivers support varied downstream consumptive uses (i.e., urban, indust
 % snotel and USHCRN
 We use data from twelve Natural Resources Conservation Service (NRCS) SNOwpack TELemetry (SNOTEL) Network stations located throughout the study region spanning 1905 to 2605 m.a.s.l.
 SNOTEL is the primary snow observing program in the WUS \cite{Serreze1999-as} and routinely measures snow water equivalent (SWE), precipitation, and \tair, though the homogeneity of \tair measurements remains a challenge for the SNOTEL network \cite{Oyler2015-by, McAfee2019-mt}.
-To supplement SNOTEL temperature records, we use data from four US Historical Climate Reference Network (USHCRN) stations and the gridded nClimGrid \cite{Durre2022-be} throughout the study region.
-USHCRN stations are a high-quality subset from the larger GHCN-D dataset \citeA{Menne2012-uu}.
-The HCNv2 dataset provides homogenized and quality-assured monthly \tair based on USHCRN data that dates as far back as the late 1800s \cite{Menne2009-ushcn}.
+To supplement SNOTEL temperature records, we use data from four US Historical Climatology Network (USHCN) stations and the gridded nClimGrid \cite{Durre2022-be} throughout the study region.
+USHCN stations are a high-quality subset of the larger GHCN-D dataset \cite{Menne2012-uu}.
+The HCNv2 dataset provides homogenized and quality-assured monthly \tair based on USHCN data that dates as far back as the late 1800s \cite{Menne2009-ushcn}.
 While these data do not have the same spatial density and elevation range as SNOTEL, the longer temporal record and high quality control mean that these observations can more confidently be used for evaluation of climate extremes, such as heat wave events \cite{BercosHickey2022}.
 
 % csssl
@@ -199,7 +208,7 @@ A Campbell Scientific IRGASON eddy covariance system measures sensible (H$_s$) a
 The CSSL forest study site hosts an additional meteorological station approximately 130 m north of the main CSSL site.
 This tower hosts an additional Kipp and Zonen SP Lite2 radiometer that measures below-canopy SW radiation.
 SWE measurements were obtained using a federal sampler \cite{Osterhuber2014-ic} at nine discrete sampling intervals during the March heat wave in the forest location.
-To maintain temporally and serially complete records and to compare against climatological March conditions at this site, this work relies primarily on energy balance model estimates from SUMMA, which we validate in detail against all available CSSL energy balance fluxes (Sec. \ref{supp:sec:validation}).
+To maintain temporally and serially complete records and to compare against climatological March conditions at this site, this work relies primarily on energy balance model estimates from SUMMA, which we validate in detail against all available CSSL energy balance fluxes (Sec. S\ref{supp:sec:validation}).
 
 % Both the IRGASON and CNR4 are hosted on a movable arm \fig{fig:region_map}{c} that automatically adjusts to maintain a constant distance of approximately one meter above the snow surface as snow accumulates or ablates throughout the season.
 
@@ -208,7 +217,8 @@ To maintain temporally and serially complete records and to compare against clim
 \subsection{Atmospheric structure and radiation data}\label{sec:reanalysis_data}
 % era5 and other data
 To investigate the atmospheric dynamics associated with the March heat wave, we use 500 hPa geopotential height and atmospheric column information from the fifth-generation ECMWF Reanalysis (ERA5) \cite{Hersbach2020-era5}.
-Daily geopotential height anomalies during the event are computed using data provided by \citeA{Lee2023-cc}, which has been de-trended and covers the period from 1979 to 2022.
+Daily geopotential height anomalies during the event are computed using data provided by \citeA{Lee2023-cc}.
+Heights have been de-trended and cover the period from 1979 to 2022.
 
 % radiation
 We use the Clouds and the Earth's Radiant Energy System (CERES) Energy Balanced and Filled (EBAF), hereafter CERES-EBAF \cite{Kato2018-pi}, to investigate the effects of clouds, or lack thereof, on the snow energy balance.
@@ -240,7 +250,7 @@ Comparing ERA5 \swdn data to observations from the CNR4 shows good agreement exc
 To account for this effect, we compute and apply a \swdn correction coefficient as a function of the solar zenith and azimuth angles to adjust the ERA5 data to account for shadows (see \fignop{fig:supp_fig_SWd_adjust_sza_azm}{}).
 To ensure that the ERA5 data matches the best available estimates of variability and trends in radiation at this site, we use a multiplicative scale that forces the ERA5 \swdn and \lwdn monthly anomalies to match monthly anomalies in the CERES-EBAF data.
 Other forcing variables compared favorably against the available observations and were not adjusted.
-Additional information about SUMMA validation is provided in the Supplemental Material (Sec. \ref{supp:sec:validation}).
+Additional information about SUMMA validation is provided in the Supplemental Material (Sec. S\ref{supp:sec:validation}).
 
 
 
@@ -278,7 +288,7 @@ LW\downarrow- \sigma\epsilon T_{snow}^4
 G,
 \end{align}
 
-where the left-hand side represents changes in the internal state of the snowpack and the righthand side represents fluxes at the top/bottom of the snow control volume. 
+where the left-hand side represents changes in the internal state of the snowpack and the right-hand side represents fluxes at the top/bottom of the snow control volume. 
 Melt/Refreeze is the rate of Melt or liquid water Refreezing in mass per second multiplied by the latent heat of fusion, $\Delta$CC is the time rate-of-change in the snowpack cold-content \cite{Jennings2018-wz}, $H_s$ and $H_l$ are the turbulent fluxes of sensible and latent heat respectively at the snow/atmosphere interface, \tair is the temperature of the air, \tsnow is the temperature of the snow surface, $\epsilon$ is the emissivity of the snow (0.98), \swdn is the downwelling shortwave radiation, and $\alpha$ is the albedo of the snow surface defined as the ratio of upwelling shortwave radiation (\swup) to \swdn.
 Cold-content is signed such that it is by definition always equal (in the case of isothermal, 0\degrc snow) or less than zero.
 
@@ -300,17 +310,17 @@ Vegetation canopy influences the snow energy balance through several mechanisms.
 First, falling snow is intercepted by the canopy and may melt or sublimate from the canopy before reaching the snowpack, so total SWE accumulation under canopy is commonly less than in adjacent open areas \cite{Musselman2008-ws}.
 Second, canopy layers have a higher surface roughness than bare-snow and modify turbulent exchanges \cite{Burakowski2018-ch}.
 Third, vegetation impacts the radiative balance of the snowpack by altering the \swdn and \lwdn incident on the snow surface.
-In SUMMA, the incident \lwdn to the sub-canopy snowpack is modelled by:
+In SUMMA, the incident \lwdn to the sub-canopy snowpack is modeled by:
 \begin{equation}\label{eq:canopy_lw}
 LW\downarrow_{\mathrm{under\ canopy}} = \underbrace{(1 - \varepsilon_c)\,\,LW\downarrow_{\text{atm}}}_{\text{sky LW through canopy gaps}}
 + \underbrace{\varepsilon_c\,\sigma\,T_c^4}_{\text{canopy emission}},
 \end{equation}
-where $\epsilon_c$ is the emissivity of the canopy layer.
-In SUMMA, the $\epsilon_c$ is purely a function of the leaf-area index (LAI) and stem-area index.
-We turn off vegetation phenology in the model such that the $\epsilon_c$ is constant for these experiments.
+where $\varepsilon_c$ is the emissivity of the canopy layer.
+In SUMMA, $\varepsilon_c$ is purely a function of the leaf-area index (LAI) and stem-area index.
+We turn off vegetation phenology in the model such that $\varepsilon_c$ is constant for these experiments.
 For \swdn below the canopy, we use the ``UEB-2stream'' SUMMA parameterization which is based on \citeA{Mahat2012-hv}.
 An LAI value of 1.5 was assigned based on data from nearby representative regions \cite{Krogh2020-dh}.
-These choices are further validated by comparing modelled sub-canopy \swdn for a range of LAI values against the CSSL radiometers in the forest site, and finding good agreement \fig{fig:supp_sw_validation}{}.
+These choices are further validated by comparing modeled sub-canopy \swdn for a range of LAI values against the CSSL radiometers in the forest site, and finding good agreement \fig{fig:supp_sw_validation}{}.
 
 
 \subsubsection{Defining radiative forcing and effect}\label{sec:methods:radforce}
@@ -348,28 +358,28 @@ Drought categories are ranked as abnormally dry (D0), moderate drought (D1), sev
 SWE percentiles are computed using the NRCS SNOTEL periods of record for each site.
 Z-scores are used to rank near-surface \tair and snow ablation anomalies.
 Baseline mean and standard deviations are computed using a common 30 year 1981--2010 normal period following NOAA standards, unless otherwise stated.
-Other deviations from normal conditions are expressed as the "anomaly," which is the difference between the current state and the sample mean.
+Other deviations from normal conditions are expressed as the ``anomaly,'' which is the difference between the current state and the sample mean.
 
 
 \section{Results}
 
 \subsection{The March 2026 SEHW}
 % how hot was it
-A four-station composite of the long-term and homogenized monthly USHCRN HCNv2 data shows that 2026 had the highest March \tair observed since the beginning of the record in 1890, and was +3.6 $^\circ$C above the 1981--2010 average --- a full three-$\sigma$ above the mean (z=3) \fig{fig:ushcn_data}{a}.
-The nClimGrid likewise shows a +4--6 $^\circ$C anomaly above average in some locations, compared to the +3.6$^\circ$C anomaly observed at the four-station USHCRN composite \fig{fig:ushcn_data}{b}.
+A four-station composite of the long-term and homogenized monthly USHCN HCNv2 data shows that 2026 had the highest March \tair observed since 1910, and was over 5 $^\circ$C above the 1981--2010 average --- greater than three-$\sigma$ above the mean \fig{fig:ushcn_data}{a}.
+The nClimGrid likewise shows a +5--8 $^\circ$C anomaly above average across the domain \fig{fig:ushcn_data}{b}.
 
 % precip was average, feb storm, feb ros
-This prolonged period of heat resulted from an extreme and persistent ridge of high pressure that gained strength throughout March \fig{fig:era5_anoms}{a,b}, with 500 hPa geopotential height anomalies exceeding two standard deviations (\mynum{200} m) throughout March.
+This prolonged period of heat resulted from an extreme and persistent ridge of high pressure that gained strength throughout March \fig{fig:era5_anoms}{a}, with 500 hPa geopotential height anomalies exceeding two standard deviations (\mynum{200} m) throughout March.
 
 % stuff b4 the heat
-The region experienced three notable periods of weather immediately prior to the March 2026 heat wave. 
+The region experienced three notable periods of weather immediately prior to the March 2026 heat wave \fig{fig:era5_anoms}{b,c}. 
 While the water-year-to-date precipitation (1 October--28 February) was 100\% of 1991--2020 normal leading up to March 2026 (not shown), there was a prolonged midwinter dry spell \cite{Hatchett2023} from 7 January to 9 February during which SWE began ablating \fig{fig:era5_anoms}{c}.
 Then, between 14--19 February, a total of 100 mm of new SWE accumulated at CSSL, the third-highest four-day total \todo{since records began in 1971; check this.}
 This snowfall event was followed by anomalously warm \tair and a rain-on-snow (ROS) event on the 24--25 of February that brought 91 mm of rainfall, leading to a net decline in SWE \fig{fig:era5_anoms}{b,c}. %overall stoke levels of the shred community also abruptly declined as well.
 
 % synoptic pattern of the heat wave
 March began with average to slightly above average \tair.
-As the high-pressure ridge grew over the WUS, daily maximum \tair peaked at 20$^{\circ}C$ on 20 March at CSSL but remained well above normal from 8--31 March, with daily \tair values at the Tahoe City COOP station yielding anomalies of z=2 or greater for four days between the 17th--27th.
+As the high-pressure ridge grew over the WUS, daily maximum \tair peaked at \mynum{20}\degrc on 20 March at CSSL but remained well above normal from 8--31 March, with daily \tair values at the Tahoe City COOP station yielding anomalies of z=2 or greater for four days between the 17th--27th.
 SEHW conditions meeting the \citeA{Rhoades2026-jm} criteria were met between \mynum{11} and \mynum{26} March.
 SEHW conditions were also met in the latter few days of February following the ROS event.
 
@@ -379,7 +389,7 @@ The hemispheric wave pattern on this day is characteristic of an amplified North
 % how does the snow melt
 Snow began ablating consistently starting with the February ROS event for both the open and forest sites and continued into the month of March.
 We find good agreement between both SUMMA and observed SWE \fig{fig:era5_anoms}{c} and rates of ablation.
-SWE ablated at an average rate of \mynum{7.4} mm/day (\mynum{7.1} mm/day) between 1--14 March, after which it accelerated to a rate of \mynum{25.3} mm/day (\mynum{18.7} mm/day) until the end of the month in the open (forest), ablating completely in the open by the \mynum{28th} and the forest site by the \mynum{25th}.
+SWE ablated at an average rate of \mynum{-8.5} mm/day (\mynum{-7.7} mm/day) between 1--14 March, after which it accelerated to a rate of \mynum{-23.1} mm/day (\mynum{-16.5} mm/day) until the end of the month in the open (forest), ablating completely in the open by the \mynum{28th} and the forest site by the \mynum{25th}.
 Modeling results also show that, starting on 1 March, the snow contained significant liquid water throughout the depth of the pack on the order of 1-2\% by volume due to the antecedent ROS event.
 A small snowfall event (add mm SWE?) occurred on 2(?) March.
 
@@ -391,27 +401,26 @@ A small snowfall event (add mm SWE?) occurred on 2(?) March.
 
 % how much swe melted
 SWE completely ablated earlier, and at a faster rate than typical for the time period, at SNOTELs throughout the study region \fig{fig:swechange}{a--c}.
-The beginning of March saw SWE levels at a D1 or D0 (``abnormally dry'') level across the twelve SNOTEL sites \fig{fig:swechange}{d}.
+The beginning of March saw SWE levels at a ``None", D0, or D1 across the twelve SNOTEL sites \fig{fig:swechange}{d}.
 While SWE was nearly 0 mm for two of the lower-elevation sites (station ID numbers 473 and 809), this was not particularly anomalous for those locations on this date.
-By 10 March, 9 of the 12 stations reached 0 mm SWE and the remaining sites were in a D3 (``extreme drought'') drought classification \fig{fig:swechange}{e}.
+By the end of March, 9 of the 12 stations reached 0 mm SWE and the remaining sites were in a D3 (``extreme drought'') drought classification \fig{fig:swechange}{e}.
 Only 4 of the SNOTEL sites had a precedent for 0 mm of SWE on 31 March.
-Similarly, the snow-covered area reached its lowest ever recorded value on 31 March during the Moderate Resolution Imaging Spectroradiometer (MODIS) record (see Supplemental Material; \fignop{fig:supp_scachange}).
+Similarly, the snow-covered area reached its lowest ever recorded value on 31 March during the Moderate Resolution Imaging Spectroradiometer (MODIS) record (see Supplemental Material; \fignop{fig:supp_scachange}{}).
 These findings are consistent with the observation that, WUS-wide, 17\% of SNOTELs had the lowest 15 March SWE on record \cite{Marshall2026-sy}.
 
 % snow melt in context of the climate
-An important distinction, however, is that rate of monthly snow ablation was also anomalous at most sites \fig{fig:swechange}{f}.
-Typically, most SNOTEL sites in this region gain (or remain constant) rather than lose SWE throughout March \fig{fig:swechange}{b} with the exception of the two lowest elevation sites.
+An important distinction, however, is that rate of monthly snow ablation ($\Delta$SWE) was also anomalous at most sites \fig{fig:swechange}{f}.
+Typically, most SNOTEL sites in this region gain (or remain constant) rather than lose SWE throughout March \fig{fig:swechange}{f} with the exception of the two lowest elevation sites.
 Nine out of 12 sites, including CSSL, measured their highest rate of monthly SWE ablation for the SNOTEL record.
-The lowest-elevation site (473) is the only site without anomalous monthly SWE ablation, in part because the starting value was so close to zero.
-
+Two of the lowest elevation sites (473, 809) did not have anomalous $\Delta$SWE, in part because the starting value was so close to zero \fig{fig:swechange}{d}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ENERGY BALANCE PLOTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{The snow energy balance in the open and forest site}
-Having examined the geographic and climatic context of March 2026 snow ablation (Sec. \ref{sec:swe_anomalies}) we can begin to investigate the causes of extreme ablation, which are fundamentally governed be the energy balance of the snow (Eq. \ref{eq:energy_budget}). 
+Having examined the geographic and climatic context of March 2026 snow ablation (Sec. \ref{sec:swe_anomalies}) we can begin to investigate the causes of extreme ablation, which are fundamentally governed by the energy balance of the snow (Eq. \ref{eq:energy_budget}). 
 To do so, we now focus on the CSSL site (site ID 428 in \fignop{fig:swechange}{} and also depicted in \fignop{fig:era5_anoms}{c}).
-s. We examine time series of energy balance components (Eq. \ref{eq:energy_budget}) and by separating them into nighttime, daytime, and 24-hour averages (\fignop{fig:open_seb}{a--f}, \fignop{fig:forest_seb}{a--f}).
+We examine time series of energy balance components (Eq. \ref{eq:energy_budget}) by separating them into nighttime, daytime, and 24-hour averages (\fignop{fig:open_seb}{a--f}, \fignop{fig:forest_seb}{a--f}).
 
 % turb
 \hs and \hlat are relatively minor factors compared to radiative fluxes (\fignop{fig:open_seb}{a,b}, \fignop{fig:forest_seb}{a,b}).
@@ -430,7 +439,7 @@ In the forest, \lwnet is positive on average for the entire month except the per
 Overnight \lwnet switches from slight negative ($\approx$ \mynum{-8} \wmsq) to positive or near-zero by 16 March in the forest site.
 The highest rate of \lwnet occurs on 22 March, two days after the \tair peak of the heat wave event, and exceeds \mynum{60} \wmsq during the daytime.
 
-\lwnet in the open site has a completely different sign. 
+\lwnet in the open site is of the opposite sign. 
 This means the snow is continuously losing heat via longwave emission, even during the peak of the heat wave in the latter half of March, and on the order of \mynum{-80} to \mynum{-40} \wmsq \fig{fig:open_seb}{d}.
 
 % melt and cc
@@ -448,25 +457,25 @@ The radiative forcing concept (Sec. \ref{sec:methods:radforce}) can be used to f
 
 % albedo
 Both \rfalb and \rfcanopy have a demonstrable impact on the energy balance.
-The broadband snow \albedo started at a relatively low value leading up to the March heat wave (\mynum{0.6} to \mynum{0.7}) and declines consistently during the month  \fig{fig:radiative_forcing}{a}.
+The broadband snow \albedo started at a relatively low value leading up to the March heat wave (\mynum{0.6} to \mynum{0.7}) and declines consistently following a small refresh from the snowfall event on the first of the month \fig{fig:radiative_forcing}{a}.
 The declines are well-matched by remote sensing and CSSL observations (see Supplemental Material).
 
 % rf albedo
-\rfalb increases at the open site as a function of rising sun-angle, \swdn (not shown), and \albedo decline, reaching a value approaching \mynum{60} \wmsq in the open site based on the SUMMA simulation.
+\rfalb increases at the open site as a function of rising sun-angle, \swdn (not shown), and \albedo decline, reaching a value approaching \mynum{63} \wmsq in the open site based on the SUMMA simulation.
 While there is only a minor difference between the SUMMA model snow \albedo between the forest and open sites, the \rfalb in the open exceeds \rfalb in the forest site by more than a factor of three by the end of the heat wave due to attenuation of \swdn by the canopy layer \fig{fig:radiative_forcing}{b}.
 
 % canopy
-Second in terms of magnitude to \rfalb, \rfcanopy yields a \mynum{+20} to \mynum{-20} \wmsq maximum daily rate during the month \fig{fig:radiative_forcing}{c}.
+Second in terms of magnitude to \rfalb, \rfcanopy yields a \mynum{+30} to \mynum{-30} \wmsq maximum daily rate during the month \fig{fig:radiative_forcing}{c}.
 There are two competing effects that govern the net effect of canopy on the snow energy balance. 
 \rfcanopy$_{,LW}$ increases as a function of \tair at a rate of \mynum{3.3} \wmsq per \degrc of (daily-average) \tair, which is visualized by considering the daily relationship for the entire SUMMA output record for the month of March \fig{fig:radiative_forcing}{e}.
 Additional analysis (not shown) indicates that the canopy temperature is consistently warmer than the ambient \tair during the daytime, which combined with the emissivity relationship (Eq. \ref{eq:canopy_lw}) explains this effect.
 However, \rfcanopy$_{,LW}$ does not perfectly mirror \tair during March, which likely results from the energy balance of the canopy layer and also variations in atmospheric \lwdn emission.
 
-This effect does not exceed the shading effect of the canopy (\rfcanopy$_{,SW}$) however, even though the canopy attenuates much of the incident sunlight, so \rfcanopy$_{,Net}$ is near-zero and transitions to negative (cooling the snow) during the hottest part of the heat wave when the sun is also the most intense and the \albedo is at its lowest.
+This effect does not exceed the shading effect of the canopy (\rfcanopy$_{,SW}$), however, because the canopy attenuates much of the incident sunlight, so \rfcanopy$_{,Net}$ is near-zero and transitions to negative (cooling the snow) during the hottest part of the heat wave when the sun is also the most intense and the \albedo is at its lowest.
 
 % total amounts
 Ultimately, the cumulative energy transmitted from the atmosphere to the snow attributed to \rfalb is \mynum{+105.4} and \mynum{+22.3} \mjmtwo for the open and forest site respectively and \rfcanopy is responsible for a \mynum{-5.4} \mjmtwo effect (reducing energy incident on the snowpack).
-\rfcirrus is evaluated in Sec. \ref{sec:climo_comparison}.
+\rfcirrus is evaluated in Sec. \ref{sec:results_ceres_ebaf}.
 
 
 % \rfcirrus (SW) has a value of \mynum{-49} \mjmtwo and \rfcirrus (LW) has a value of \mynum{+31} \mjmtwo cumulatively.
@@ -489,30 +498,32 @@ For some perspective, 1 \mjmtwo of energy is equivalent to approximately \mynum{
 Sums are computed only for times when snow is present on the ground during March 2026 (\mynum{28 days} in the open and \mynum{25 days} in the forest) and the historical period. 
 
 % the results
-\swnet is both the strongest forcing (\mynum{+229.3} \mjmtwo) and also the most anomalous forcing compared to the 2000--present March average (\mynum{+132.8} \mjmtwo), followed by $H_s$ (\mynum{+39.7} \mjmtwo, with a \mynum{+14.7} anomaly) in the open site (\fignop{fig:monthly_seb_mar}{a}, Table \ref{tab:forest_open_summary}).
+\swnet is both the strongest forcing (\mynum{+229.3} \mjmtwo) and also the most anomalous forcing compared to the 2000--present March average (\mynum{+120.3} \mjmtwo), followed by $H_s$ (\mynum{+39.7} \mjmtwo, with a \mynum{+17} anomaly) in the open site (\fignop{fig:monthly_seb_mar}{a}, Table \ref{tab:forest_open_summary}).
 For the forest site, \swnet is also the strongest forcing (\mynum{+52.1} \mjmtwo) but not the most anomalous.
-The most anomalous forcing in the forest is \lwnet, which is the second strongest forcing (\mynum{+28.1} \mjmtwo) with an anomaly of \mynum{+30.3} \mjmtwo relative to historical conditions, indicating that --- for a typical year --- \lwnet is below-zero (and a source of snow cooling) rather than providing energy for heating snow under canopy.
-The lack of a significant \lwnet anomaly in the open relative to the anomalous \lwdn is in part explained by the compensating effects of outgoing \lwup --- warmer snow radiates more energy exponentially (\ref{eq:energy_budget}).
+The most anomalous forcing in the forest is \lwnet, which is the second strongest forcing (\mynum{+28.1} \mjmtwo).
+For a typical year --- \lwnet is below-zero (and a source of snow cooling) rather than providing energy for heating snow under canopy.
+The lack of a significant \lwnet anomaly in the open relative to the anomalous \lwdn is in part explained by the compensating effects of outgoing \lwup --- warmer snow radiates more energy in proportion to the fourth power of its surface temperature (\eqtn{eq:energy_budget}).
 
 % the snow albedo 
 The weighted-average snow $\bar{\alpha}$ during March (weighted by the daily \swdn to account for increasing sun-angle with time) is anomalously low compared to historical conditions for the open and forest sites by a full one standard deviation less than the mean value \fignop{fig:monthly_seb_mar}{c,f}. 
 
 % the results 2
-The cumulative terms of panels \fignop{fig:monthly_seb_mar}{a,d} sum to the total Melt, with the small exception of the change in the initial snow cold-content (which is by definition zero when there is no snow) and is not depicted in the figure.
+The cumulative terms of panels \fignop{fig:monthly_seb_mar}{a,d} sum to the total Melt, with the small exception of the initial snow cold-content (which is by definition zero when there is no snow) and the small amout of heat added by precipitation, which is not depicted in the figure.
 The initial cold-content is small compared to the accumulated energy during the snow ablation period, and is near-zero \mjmtwo for the open site.
 The conversion of ice to liquid water via melting, combined with mass loss via sublimation, is equivalent to the total $\Delta$SWE during the event (in addition to the drainage of the initial liquid content of the snowpack).
-Only \mynum{3.9} mm cumulatively sublimated from the sub-canopy snow of the forest site compared with \mynum{0.2} mm from the open site --- which are less than 1\% of the $\Delta$SWE.
+Only \mynum{3.9} mm cumulatively sublimated from the sub-canopy snow of the forest site compared with \mynum{0.2} mm from the open site --- which are less than 1\% of $\Delta$SWE in the open and \mynum{1.4}\% of $\Delta$SWE in the forest site.
 In both sites this is less than half of the model estimated sublimation for typical March conditions (Table \ref{tab:forest_open_summary}).
 
 % the diel cycle
 Separating out the daytime and nighttime energy anomalies sheds some light on the mechanisms responsible for extreme ablation (\fignop{fig:mar_diel_seb_open_v_forest}{a,b} and Table \ref{tab:forest_open_diel_summary}).
 For convenience these factors can be separated into forcings at the snow boundaries (the sum of radiative and turbulent fluxes) and internal changes in snow energy ($\Delta$CC and Melt/Refreeze).
-We see that the anomalous ablation is primarily driven by daytime heating processes rather than (the lack of) nighttime cooling.
 
 % what are some numbers.
+We see that the anomalous ablation is primarily driven by daytime heating processes rather than (the lack of) nighttime cooling.
 The daytime energy forcing anomaly is \mynum{more than twice} the average for both open and forest sites. 
-On the other hand, the nighttime cooling rate is actually stronger in the open site compared to historical conditions by \mynum{10\%}.
-Nighttime cooling is weaker in the forest, however, compared to historical conditions (\mynum{-9.2} vs. \mynum{-26.6} \mjmtwo).
+On the other hand, the nighttime cooling rate is actually stronger in the open site compared to historical conditions by \mynum{22\%}.
+This is effect is partially explained by the plank response of upwelling longwave from the surface-- a warmer snow emits longwave radiation at a higher rate.  
+Nighttime cooling is weaker in the forest, however, compared to historical conditions (\mynum{-9.2} vs. \mynum{-21.9} \mjmtwo).
 The accumulated nighttime cold-content production is less than historical conditions for both sites (\mynum{-11.9} versus \mynum{-21.5} \mjmtwo in the open). 
 
 
@@ -524,24 +535,24 @@ The accumulated nighttime cold-content production is less than historical condit
 
 % forcings
 The above and below-canopy \swdn and \lwdn  are also particularly anomalous during March 2026 \fig{fig:monthly_seb_mar}{b,e}.
-To understand these anomalies, we examine map-views and timeseries of the CERES-EBAF product for the WUS and the Sierra Nevada subset region \fig{fig:ebaf_anomaly}{a--c}.
-March 2026 had the highest \swdn to the entire 27 year CERES record and is more than 1.5 standard deviations above average for the subset region.
-Nearly \mynum{40} \wmsq of additional \swdn energy irradiated the land surface compared to average conditions.
-While less anomalous in terms of z-score, the \lwdn anomaly is over \mynum{9} \wmsq above average and the second-highest rate of monthly \lwdn during the CERES-EBAF record for this region.
+To understand these anomalies, we examine map-views and timeseries of the CERES-EBAF product for the WUS and the Sierra Nevada subset region \fig{fig:ebaf_anomaly}{a--d}.
+March 2026 had the highest \swdn in the entire 27-year CERES record and is more than 1.5 standard deviations above average for the subset region.
+\mynum{42} \wmsq of additional \swdn energy irradiated the land surface compared to average conditions.
+While less anomalous in terms of z-score, the \lwdn anomaly is over \mynum{9} \wmsq above average and the seventh-highest rate of monthly \lwdn during the CERES-EBAF record for this region.
 
 % clouds explaining the effects
 The variations in the \swdn anomaly are almost entirely driven by variations in \rfcirrus (which itself depends on cloud amount and optical properties).
 The same is not true for \lwdn, which also depends on other factors including water vapor and column \tair \fig{fig:ebaf_anomaly}{c,d}.
 \rfcirrus values were the highest (i.e., the weakest rate of cooling) recorded by CERES-EBAF, and correspondingly the \rfcirrus LW effect was also the lowest on record, which together indicate that skies were anomalously free of optically thick clouds during this period.
-In other words, clouds typically provide about a \mynum{60} \wmsq reduction in \swdn relative to clear skies in March, but only provided a \mynum{20} \wmsq reduction during March of 2026.
+In other words, clouds typically provide about a \mynum{-67} \wmsq adjustment of \swdn relative to clear skies in March, but only provided a \mynum{-26} \wmsq adjustment during March of 2026.
 Correspondingly, zero precipitation was observed during the entire month \fig{fig:era5_anoms}{c}.
-With this in mind, it is even more remarkable that \lwdn was above average for this region despite a clear-atmosphere, since clouds radiate as a nearly perfect gray-body at their base-temperature \cite{Shupe2004-kl}.
+With this in mind, it is even more remarkable that \lwdn was above average for this region despite a clear-atmosphere, since optically thick clouds radiate nearly as black bodies at their cloud-base temperature \cite{Shupe2004-kl}.
 
 % in terms of energy .0864 * W/m2 * days == MJ/m2 acc.  
 % lf = 334 #kj/kg 
 % lf_mj = lf / 1000 #MJ/kg = .334 
 
-In terms of energy, the anomalous increase \swdn due to the lack of optically thick clouds is equivalent to \mynum{93} \mjmtwo integrated over the duration of snow cover in the open during March 2026. 
+In terms of energy, the anomalous increase in \swdn due to the lack of optically thick clouds is equivalent to \mynum{93} \mjmtwo integrated over the duration of snow cover in the open during March 2026. 
 Assuming \mynum{60}\% of that energy is reflected and the rest is converted to melting, this radiative forcing is equivalent to \mynum{37} \mjmtwo, or \mynum{110} mm of melt assuming that all of this energy is converted to melt (as opposed to sublimation or other terms of the energy balance).
 The monthly cadence of the CERES-EBAF product does not allow us to discriminate if the peak of the anomaly corresponded with the early, cooler part of the month or the SEHW event later in the month.
 
@@ -553,20 +564,20 @@ Snow surface temperatures can never exceed this fundamental thermodynamic limit,
 
 % sensible heat
 If a neutral condition is assumed without the effects of buoyant suppression, \hs over melting 0 \degrc snow increases linearly as a function of \tair with a slope determined by \wspd \fig{fig:idealized_sens_heat}{a}.
-Accounting for buoyant suppression (using the same parameterization implemented in SUMMA; see Sec. S\ref{supp:summa_desc_model_eq}) decreases \hs relative to the neutral assumption, and so much so that a moderate constant \wspd value of \mynum{5} \ms yields \hs that actually \textit{decreases} as a function of increasing \tair above approximately \mynum{4} \degrc.
+Accounting for buoyant suppression (using the same parameterization implemented in SUMMA; see Sec. S\ref{supp:summa_desc_model_eq}) decreases \hs relative to the neutral assumption, so much so that a moderate constant \wspd value of \mynum{5} \ms yields \hs that actually \textit{decreases} as a function of increasing \tair above approximately \mynum{4} \degrc.
 
 \fignop{fig:idealized_sens_heat}{c} depicts the \tair value that maximized \hs for a given \wspd.
 A \wspd of \mynum{2} \ms achieves a maximum \hs when \tair is only a degree or two above freezing.
-A \tair of \mynum{25} \degrc --- slightly less than the daily maximum recorded at CSSL --- requires a wind speed of over \mynum{10} \ms to maximize \hs.
+A \tair of \mynum{25} \degrc --- slightly higher than the daily maximum recorded at CSSL --- requires a wind speed of over \mynum{10} \ms to maximize \hs.
 
 % latent heat
-Evaporation and/or sublimation is likewise impacted by snow's 0 \degrc thermodynamic limit --- the vapor pressure of pooling 0\degrc liquid water or ice on top of the snowpack never exceeds 6.11 hPa to a reasonable approximation.
+Evaporation and/or sublimation is likewise impacted by snow's 0 \degrc thermodynamic limit --- the vapor pressure of pooling 0\degrc liquid water or ice on top of the snowpack never exceeds 6.11 hPa (to a reasonable approximation).
 Therefore, the vapor pressure of the air must be less than 6.11 hPa for sublimation or evaporation to occur.
 For a constant relative humidity (RH) of 20\% (roughly the minimum observed during the March heat wave), \hlat decreases rather than increases as a function of \tair over a 0\degrc snow regardless of \wspd \fig{fig:idealized_sens_heat}{b,d}.
 \tair greater than \mynum{24--25} \degrc at 20\% RH \textit{adds energy and mass to the snow} via condensation/deposition.
 On the other hand, sublimation is permitted across the full range of RH values as \tair approaches 0\degrc.
 In reality, though, RH is not independent of \tair, and generally decreases as \tair rises during the daytime due to water vapor conservation and dry-air entrainment from the upper levels of the boundary layer.
-RH values did reach these low levels for brief periods near noon, but were not sustained for long durations, explaining the relative lack of sublimation (less than \todo{1}\% of the total snow mass loss during March).
+RH values did reach these low levels for brief periods near noon, but were not sustained for long durations, explaining the relative lack of sublimation (less than \mynum{1}\% of the total snow mass loss during March in the open site, and  \mynum{1.4}\% in the forest).
 The effects of thermodynamic stability further reduce \hlat as a function of \tair as well.
 
 % the effects of elevation
@@ -576,10 +587,10 @@ On the other hand, conditions that favor sublimation may become more prevalent a
 
 % other work 
 Some warming experiments have shown increases in sublimation during mid-winter warm spells \cite{Scaff2024-ob}, though others have found modest change or no change \cite{Sexstone2018-rc}.
-Results from downscaled GCM have pointed towards increases in nocturnal sublimation in continental snowpacks \cite{Rudisill2026-de}. 
-Observations also show higher sublimation rates occurring later in the snow season \cite{Schwat2025-ur}.
+Results from downscaled GCMs have pointed towards increases in nocturnal sublimation in continental snowpacks \cite{Rudisill2026-de}. 
+Observations also show higher sublimation rates occurring later in the snow season with more available radiative energy \cite{Schwat2025-ur}.
 This is still consistent with the previous arguments, however, which are made for the specific case of increasing \tair over 0\degrc snow.
-Increased sublimation with warming may be more indicative of the snow itself warming and increasing its vapor pressure (up to the 6.11 hPa limit at 0\degrc).
+A climatological increase of sublimation with warming may be more indicative of the snow itself warming and increasing its vapor pressure (up to the 6.11 hPa limit at 0\degrc).
 In other words, snow that climatologically shifts in surface temperature closer to a 0\degrc state may more frequently sublimate into the atmosphere, but discrete heat wave events may cause a decrease in sublimation if the snow is already near its vapor pressure limit.
 
 
@@ -587,21 +598,21 @@ In other words, snow that climatologically shifts in surface temperature closer 
 The previous argument also assumes that Monin-Obukhov theory --- which underpins turbulent exchange in nearly all land surface and climate models --- is applicable.
 Mesoscale, terrain-related flow features that generate turbulence from above the ground surface and provide additional mechanical turbulent mixing may invalidate the assumptions of this theory \cite{Schwat2025-ur}. 
 Likewise, the advection of sensible heat, such as from the forest edges and snow-free patches, may provide additional sensible/latent heat that is not accounted for \cite{Harder2017-zo}.
-More work investigating turbulent exchange characteristics over snow during extreme heat wave conditions merits additional investigation. 
+Turbulent exchange over snow during extreme heat wave conditions therefore merits additional investigation. 
 
 
 
-\subsection{Ablation and the relationship to overnight above freezing T$_{air}$} 
-% the role of overnight air temperatures 
-Overnight \tair at CSSL was above freezing for more than \mynum{10} nights during March 2026.
-Whether the overnight \tair is above or below freezing is considered an important factor explaining snow ablation, since if snow refreezes overnight, sufficient energy is required to re-break the ice-bonds in order to produce meltwater the following day.
+% \subsection{Ablation and the relationship to overnight above freezing T$_{air}$} 
+% % the role of overnight air temperatures 
+% Overnight \tair at CSSL was above freezing for more than \mynum{10} nights during March 2026.
+% Whether the overnight \tair is above or below freezing is considered an important factor explaining snow ablation, since if snow refreezes overnight, sufficient energy is required to re-break the ice-bonds in order to produce meltwater the following day.
 
-% what did we find 
-We found that overnight \tair is correlated with the energy balance in many ways, but it alone is not a sufficient metric to inform rates of snow ablation or the snow energy balance writ-large during the March 2026 ablation period \fig{fig:overnight_tair}{a,b}.
-Overnight refreezing is actually better correlated with overnight \lwdn than \tair alone (R$^2$ of \mynum{0.41} vs. \mynum{0.13}), even across the above/below freezing \tair threshold, and the same is true for overnight cold-content production (R$^2$ of \mynum{0.06} vs. \mynum{0.44}). 
-Overnight average \tair and \lwdn similarly explain variance in next-day rates of melt.
-We caution that this analysis is not intended as a predictive model, keeping in mind these are all highly correlated variables.
-But this finding does highlight the importance of \lwdn measurements and model products, since \lwdn is better correlated with the overnight energy balance of the snow than \tair alone.
+% % what did we find 
+% We found that overnight \tair is correlated with the energy balance in many ways, but it alone is not a sufficient metric to inform rates of snow ablation or the snow energy balance writ-large during the March 2026 ablation period \fig{fig:overnight_tair}{a,b}.
+% Overnight refreezing is actually better correlated with overnight \lwdn than \tair alone (R$^2$ of \mynum{0.41} vs. \mynum{0.13}), even across the above/below freezing \tair threshold, and the same is true for overnight cold-content production (R$^2$ of \mynum{0.44} vs. \mynum{0.06}). 
+% Overnight average \tair and \lwdn similarly explain variance in next-day rates of melt.
+% We caution that this analysis is not intended as a predictive model, keeping in mind these are all highly correlated variables.
+% But this finding does highlight the importance of \lwdn measurements and model products, since \lwdn is better correlated with the overnight energy balance of the snow than \tair alone.
 
 
 
@@ -611,26 +622,26 @@ We only examined a limited case of vegetation canopy with a fixed LAI of 1.5, wh
 A full accounting of the geographic pattern of vegetation/heat wave interactions likely requires considering additional processes such as canopy gap effects, shading from adjacent stands, and the full range of canopy types and parameters that are also aspect- and slope-dependent \cite{Broxton2015-wh}.
 
 % lundquist discussion
-\citeA{Lundquist2013-uc} presented a meta-analysis of snow climate studies and concluded that regions where climatological \tair exceed -1 \degrc typically observe earlier melt-out in forested areas, relative to open regions, and attributed the cause to the interactions related to the concepts expressed by our \rfcanopy analysis.
+\citeA{Lundquist2013-uc} presented a meta-analysis of snow climate studies and concluded that regions where climatological \tair exceeds -1 \degrc typically observe earlier melt-out in forested areas, relative to open regions, and attributed the cause to the interactions related to the concepts expressed by our \rfcanopy analysis.
 They likewise conclude that forest snow is more sensitive to climate change in the Sierra Nevada than non-forested snow, given the temperature dependency of sub-canopy \lwdn \fig{fig:radiative_forcing}{e}.
 
 % what we found instead
-We showed that, while snow did melt out earlier under canopy compared to the open, it did so at a lower rate, including during the period of the warmest SEHW conditions.
+While snow did ablate earlier under canopy compared to the open, it did so at a lower rate, including during the period of the warmest SEHW conditions.
 The cause of the earlier melt-out was the antecedent snow-interception rather than an energy contribution, however, given the lower ablation rate.
-We have one important addition to \citeA{Lundquist2013-uc} concerning the climate sensitivity of snow under/out of vegetation canopy --- for this extreme event, \tair was anomalously high in addition to \swdn due to the lack of clouds, on the order of \mynum{+40} \wmsq, meaning that shading effects by the canopy were also enhanced \fig{fig:ebaf_anomaly}{}.
-Some observational evidence is already pointing towards enhanced \swdn in continental regions writ-large, including snow climates \cite{Nyeki2019-ej}.
-The incidence of sustained anomalies in cloud-free conditions --- which are themselves fundamentally related to atmospheric thermodynamic changes --- merits additional investigation for considering the climate resiliency of under-canopy snowpacks.
+We have one important addition to \citeA{Lundquist2013-uc} concerning the climate sensitivity of snow under/out of vegetation canopy --- for this extreme event, \tair was anomalously high in addition to \swdn due to the lack of clouds, meaning that shading effects by the canopy were also enhanced \fig{fig:ebaf_anomaly}{}.
+Observational evidence points towards increasing trends in \swdn (so-called surface ``brightening'' trends) in the WUS and other locations \cite{Long2009-zr, McKinnon2025-va}.
+The incidence of sustained anomalies in cloud-free conditions --- which are themselves fundamentally related to thermodynamic conditions in the atmosphere --- merits additional investigation for considering the climate resiliency of under-canopy snowpacks.
 
 % forest resiliency
 While we can conclude that forest provided resiliency to the SEHW event in terms of reducing the rate-of-ablation, more work is required to investigate the covariance of \tair and \swdn anomalies during SEHW events; warm but cloudy conditions may yield the opposite trends in ablation rate under forest versus open.
 The relationships are also likely elevation- and aspect-dependent.
-In addition, a key limitation of this work is the parameterization of the effects of leaf-litter on the \albedo of the snow under canopy, which is not parameterized in SUMMA.
+In addition, a key limitation of this work is that the effect of leaf-litter on the \albedo of the snow under canopy is not represented in SUMMA.
 More work is required to understand these interactions to establish optimal forest configurations for snow-resiliency against extreme heat conditions.
 
-\subsection{Sensitivity to antecedent conditions}
+\subsection{Sensitivity to antecedent conditions and forcings}
 The timescales of anomalous ablation imply that different mechanisms are likely important.
 For instance, cold-content of the snow is vital for understanding event-scale ablation rates during ROS \cite{Katz2023-ga}.
-While the February wet-SEHW and rain-on-snow event did lead to below-average initial cold-content, reduce surface \albedo, and saturate the snow with liquid water, the initial cold content of the snow was not a large factor in explaining the anomalous monthly rate of ablation.
+While the February wet-SEHW and rain-on-snow event did reduce the initial cold-content below average, lower the surface \albedo, and saturate the snow with liquid water, the initial cold content of the snow was not a large factor in explaining the anomalous monthly rate of ablation.
 For perspective, the initial cold-content was less than -\mynum{1} \mjmtwo (compared to an average March value of $\approx$ -3 \mjmtwo) whereas the cumulative energy directed towards melt during March was over 100 \mjmtwo, meaning that the initial cold-content represented less than 1\% of the energy directed towards ablation and was easily overcome.
 For some additional perspective, \citeA{Jennings2018-wz} also found that cold-content rarely exceeds -10 \mjmtwo in cold, continental, alpine snowpacks.
 Both \citeA{Jennings2018-wz} and \citeA{Seligman2014-kc} also noted the timescale dependency of the relationship between cold-content and rate of ablation.
@@ -643,37 +654,38 @@ The overnight development of cold-content is driven by \lwnet and \hlat in some 
 % sensitivity to IC and cold content
 Additional sensitivity tests that prescribed various snow initial conditions on 1 March found that the accumulated amount of melt was largely insensitive to initial liquid water or cold-content.
 However, deeper snowpacks with more ice-content (and total SWE) were able to retain more liquid water, meaning the change in $\Delta$SWE from March 1 to March 31 was mitigated by as much as \todo{50} mm; in this way, higher antecedent SWE conditions are more resilient to $\Delta$SWE via their ability to retain more liquid water, not just via their increased cold-content.
-This effect may explain some of the behavior of the higher elevation, Independence Lake SNOTEL \fig{fig:swechange}{} that had the lowest rate of $\Delta$SWE across the 12 stations and remained in the 
+This effect may explain some of the behavior of the higher elevation, Independence Lake SNOTEL \fig{fig:swechange}{} that had the highest amout of remaining SWE at the end of March. 
 A second sensitivity test that completely removed the initial liquid water from the pack still resulted in complete ablation of the snow by the end of March, but one to two days later \fig{fig:supp_initial_cond_sens}{}.
 These tests highlight that snow ablation is fundamentally governed by energy inputs into the snowpack, above all else. 
 
 
-\subsection{Future directions and connections to with climate change}
+\subsection{Future directions and connections to climate change}
 % how are heat waves changing. what do they mean for snow
 In addition to the observed increases in SEHW conditions during the historical record, the frequency of heat wave events is expected to increase with climate change \cite{Seneviratne2023-pj}.
 At the same time, climate models may underestimate monthly high temperature extremes by \mynum{11--12}\% \cite{Duan2025-rl}.
-The causes of extreme rates of snow ablation from SEHW in general, such as those reported in \citeA{Rhoades2026-jm} may occur for a variety of reasons that are not represented by the March 2026 event.
+Extreme rates of snow ablation during SEHW events in general, such as those reported by \citeA{Rhoades2026-jm}, may arise for a variety of reasons that are not represented by the March 2026 event.
 In their work, a minimum of 3 days with above-freezing and +6 K above-average \tair was used to classify SEHW events.
-We find that both the late February ROS event, and the late March dry and warm period, both qualify as a SEHW following those criteria.
+We find that both the late February ROS event and the late March dry and warm period qualify as SEHW events following those criteria.
 This highlights the variety of mechanisms that may lead to anomalous snow ablation during periods of anomalously warm \tair.
 A complete accounting of the energy balance mechanisms during the wet-SEHW event in February is beyond the current scope, but merits investigation.
 
 
 % slower snowmelt in a warmer world 
-\citeA{Musselman2017-av} noted that, given the strong dependency on \swnet, that snowmelt rates may decline in a future even warmer world, since snowmelt will occur earlier in the year when the sun is weaker.
-One might wonder if this pattern holds true for anomalous and intense heat wave events such as the events of March 2026.
+\citeA{Musselman2017-av} noted that, given the strong dependency on \swnet, snowmelt rates may decline in a future even warmer world, since snowmelt will occur earlier in the year when the sun is weaker.
+One may speculate if this pattern holds true for anomalous and intense heat wave events such as the events of March 2026.
 We find that it does. 
-The maximum rates of ablation during this event were on the order of \mynum{25.3} mm/day.
-Water year 2023, however, was an above-average snowfall year and snow persisted well into July at CSSL --- rates of snow ablation exceeded \mynum{70} mm/day during that time as the sun was close to its peak.
+The maximum rates of ablation during this event were on the order of \mynum{-23.1} mm/day.
+Water year 2023, however, was an above-average snowfall year and snow persisted well into July at CSSL --- rates of snow ablation exceeded \mynum{-70} mm/day during that time, since the snow was close to peak strength.
 
 % what to look at in the future
 This work suggests that analyzing the covariance between heat waves and sustained \swdn anomalies \fig{fig:ebaf_anomaly}{} is an important feature to explore to understand SEHW impacts.
-Rough calculations suggest that as much as a third to a quarter of the anomalous ablation may be tied to the anomalous \swdn during the month of March (\mynum{40} \wmsq higher than average).
+Rough calculations suggest that as much as a quarter to a third of the anomalous ablation may be tied to the anomalous \swdn during the month of March.
 
 % why does snow melt when it is warm?
 The relationship between anomalous \tair and \lwdn is more complicated, however.
-It has previously been suggested that the relationship between \lwdn and \tair may explain the efficacy of temperature index methods \cite{Ohmura2001-ll}; this study does not necessarily support that conclusion, since \lwdn anomalies are also associated with cloudy air-masses \fig{fig:ebaf_anomaly}{}.
-Nonetheless, examining the relationship between SEHW events and background humidity merits investigation, given the relationship with \lwdn \cite{Brutsaert1975-jl} and sublimation. 
+It has previously been suggested that the relationship between \lwdn and \tair may explain the efficacy of temperature index methods \cite{Ohmura2001-ll}; this study does not necessarily support that conclusion. 
+Anomalies in \lwdn did not mirror anomalies in \tair, since the former is strongly influenced by clouds \fig{fig:ebaf_anomaly}{} which were anomalously absent. 
+Nonetheless, examining the relationship between SEHW events and humidity merits investigation, given the relationship to clear-sky \lwdn \cite{Brutsaert1975-jl}. 
 
 
 \section{Conclusions}
@@ -681,12 +693,12 @@ It is ``virtually certain'' that climate change has already driven shifts toward
 These trends are expected to continue under business-as-usual emission scenarios.
 However, the empirical relationships used in operational models and correlation studies between anomalously warm \tair and snow ablation do not have a robust physical basis, posing challenges for anticipating how snow responds to these events, and how headwater forest management practices can provide resiliency against them.
 
-To address this challenge, we started by investigating the anomalously warm March 2026 in the California Sierra Nevada. 
+We investigated the anomalously warm March 2026 in the California Sierra Nevada.
 Temperatures were three-$\sigma$ above average based on high-quality records (and greater than \mynum{20} \degrc at the CSSL).
 Correspondingly, snow ablated at rapid, unprecedented rates (for 9 out of 12 SNOTEL stations) during that month.
 Using models, remote sensing, reanalysis, and field observations in an open and forested site, we isolated the causes of extreme ablation rate and compared them against historic conditions. 
-Not only was March anomalously warm, but the CERES satellite record (2000 to present) shows it was the sunniest March on record; \swdn was +\mynum{40} \wmsq above average, driven by a near-complete lack of low or mid-level clouds.
-With some assumptions, this is enough energy to melt a maximum of \mynum{100} mm of snow (or approximately 25\% of the snowpack at the beginning of March 2026).
+Not only was March anomalously warm, but the CERES satellite record (2000 to present) shows it was the sunniest March on record; \swdn was +\mynum{42} \wmsq above average, driven by a near-complete lack of low or mid-level clouds.
+With some assumptions, this is enough energy to melt a maximum of \mynum{100} mm of snow (or approaching 25\% of the snowpack at the beginning of March 2026).
 If there are flavors of SEHW events, this was of the ``sunny and dry'' variety.
 
 % what does that mean
@@ -699,12 +711,12 @@ Combined, models and observations agree the shading effect nonetheless prevailed
 Snow thermodynamics is (often) a push-and-pull between overnight cooling (cold-content production) and daytime warming; the imbalance dictates whether snow ablates or persists.
 The nighttime energy balance was not particularly anomalous compared to past March periods in the open site---
 it was the daytime flux of energy that drove the extreme rate of ablation \fig{fig:mar_diel_seb_open_v_forest}{}.
-While the events leading up to March 2026 were anomalous, the scales involved mean that the extreme monthly rate of ablation (an order of \mynum{100}s of accumulated \mjmtwo) was insensitive to reasonable variations in the initial thermodynamic state of the snowpack (which are on the order of \mynum{-1 to -5} \mjmtwo).
+While the events leading up to March 2026 were anomalous, the scales involved mean that the extreme monthly rate of ablation (on the order of \mynum{100}s of accumulated \mjmtwo) was insensitive to reasonable variations in the initial thermodynamic state of the snowpack (which are on the order of \mynum{-1 to -5} \mjmtwo).
 
 %
 Sensible heating and sublimation were also relatively minor factors, and the latter contributed less than 1\% of the total snow ablation.
 Theoretical arguments show that, over 0\degrc snow, sublimation is permitted only by an increasingly narrow range of atmospheric humidity values, which were not consistently maintained during the month of March 2026.
-Likewise, atmospheric buoyancy effects mitigate sensible heating at high \tair and low winds. Consequently, anomalously warm surface air temperatures, by themselves, do not explain the observed ablation rates of snowpack during heatwaves. 
+Likewise, atmospheric buoyancy effects mitigate sensible heating at high \tair and low winds. Consequently, anomalously warm surface air temperatures, by themselves, do not explain the observed ablation rates of snowpack during heat waves. 
 While nearly all land and climate models capture these buoyancy effects, more work is still needed to validate turbulent exchanges into snowpacks in complex terrain and in the vicinity of vegetation canopy, where these assumptions about turbulent exchange may not hold.
 While snow \albedo parameterizations performed well against observations from CSSL and remote sensing, we propose that future observations should focus on \albedo decay processes and grain-growth mechanisms during extreme heat wave events.
 
@@ -713,13 +725,14 @@ Moving forward, the events of March 2026 may be a harbinger of years to come.
 From the perspective of peak SWE, the probability of a year like 2026 may increase from 10\% under the present climate to 87\% by the end-of-century, assuming a high-end emissions scenario \cite{Marshall2026-sy}.
 This underscores the need to adapt water and ecosystem management to provide resiliency to such events.
 Synoptic analyses of SEHW events should focus on the co-variation of heat wave conditions and the dynamics that lead to the prolonged cloud-free conditions that contributed to the anomalous radiation conditions observed during March 2026.
-\todo{statement about CSSL data}.
+
 
 \section*{Open Research Section}
 ERA5 atmospheric data and near-surface meteorological forcings for SUMMA were downloaded from the Copernicus data store \citeA{cdsapi}.
 Geopotential height anomalies and standard deviations were precomputed and provided from the supplemental material of \citeA{Lee2023-cc}.
 Snow Property Inversion from Remote Sensing (SPIReS) near-real-time data are publicly available from the National Snow and Ice Data Center Snow Today page.
 The SUMMA model is publicly available on GitHub.
+Data from the Central Sierra Snow laboratory are acessible online and are described in \cite{Schwartz_Cowherd_McGurk_Mason_Riker-Coleman_Zutter_Lewis_2026}.
 
 
 \acknowledgments
@@ -740,7 +753,7 @@ The SUMMA model is publicly available on GitHub.
   The California Sierra Nevada study region.
   (a) An up-looking view from the forest site at CSSL. 
   (b) Terrain elevation of the greater CSSL/Lake Tahoe region. 
-    Red open diamonds depict the location of NRCS SNOTEL sites, open black circles show the location of the three USHCRN stations in the region, and the open magenta square shows the location of CSSL.
+    Red open diamonds depict the location of NRCS SNOTEL sites, open black circles show the location of the four USHCN stations in the region, and the open magenta square shows the location of CSSL.
   (c) Shows the location of the study area in the context of the WUS, with the boundary of (b) outlined in a red box. 
   (d) Shows an overview aerial image of CSSL open site, with key instruments labeled, including the ECOR (eddy covariance).
   The location of the forest study site (not shown) is located just outside of the frame.
@@ -754,8 +767,8 @@ The SUMMA model is publicly available on GitHub.
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/temp_anomaly_map.png}
-  \caption{\todo{label this "z" instead of $sigma$?. Remove . after Tair. Make a and b bold.} (a) Composite \tair anomalies from the four HCNv2 dataset stations in the greater Tahoe region study area for the month of March, from 1890 to 2026. Deviations from the 1980--2026 mean are depicted for one, two, and three standard deviation regions (shading).
-  Anomalies are computed with respect to the 1981--2010 mean \tair.
+  \caption{(a) Composite \tair anomalies from the four HCNv2 dataset stations in the greater Tahoe region study area for the month of March, from 1910 to 2026. 
+  Deviations and standard deviations with respect to the 1981--2010 mean \tair are depicted using shading. 
   (b) The same, but for a map-view of the \tair anomaly of the gridded nClimGrid product.}
   \label{fig:ushcn_data}
 \end{figure}
@@ -769,8 +782,8 @@ The SUMMA model is publicly available on GitHub.
   (a) The 500 hPa geopotential height anomaly during March 2026 heat wave from ERA5 across the WUS for six individual days.
   The study region is outlined using an overlain black rectangle.
   Gray stippling indicates regions with 500 hPa geopotential height anomalies greater than 2-$\sigma$ above the 1981--2010 mean for the month of March.
-  (b) depicts two meter \tair anomaly z-scores from the Tahoe City COOP station. 
-  Periods meeting the \cite{Rhoades2026-jm} SEHW criteria are outlined with a black box. 
+  (b) depicts two meter \tair anomaly z-scores from the Tahoe City USHCN station. 
+  Periods meeting the \citeA{Rhoades2026-jm} SEHW criteria are outlined with a black box. 
   (c) shows the time series of meteorological and snow conditions at CSSL, with different synoptic conditions highlighted by background shading (top-panel).
   Wind speed, precipitation with rain and snow differentiated, and two-meter \tair are depicted (daily average, daily minimum, and daily maximum). 
   The bottom panel depicts modeled (SUMMA) and observed SWE at the open and forest sites. 
@@ -783,16 +796,16 @@ The SUMMA model is publicly available on GitHub.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{images2/swe_change_2026_v2.png}
-  \caption{\todo{change to Delta SWE} (a--c) A timeseries of SWE at three SNOTEL stations in the study region.
+  \caption{(a--c) Timeseries of SWE at three SNOTEL stations in the study region.
   The mean, median (dashed line), 1 standard-deviation (shaded region) and water year 2026 values are depicted.
   (d) SWE values on March 1st for the 12 SNOTEL sites in the study domain, labeled by their three-digit station code.
   (e) The same as (d), but for SWE on March 31.
-  Color values correspond with the snow drought D-scale.
+  Color values depict the \citeA{Hatchett2022} snow drought category.
   A 0 mm of SWE value is depicted by a purple circle marker.
   The purple text lists the number of 0 mm SWE occurrences observed on that date relative to the period of record for that site.
-  (f) The SWE change between Mar 31 and Mar 1 \dswe (mSWE) compared with the historical record.
+  (f) The SWE change between Mar 31 and Mar 1 (\dswe) compared with the historical record.
   Color values depict the deviation from the mean in units of standard deviation.
-  Square markers bounding symbols indicate that the SWE or mSWE is the record minimum for the period of record.}
+  Square markers bounding symbols indicate that the SWE or \dswe is the record minimum for the period of record.}
 \label{fig:swechange}
 \end{figure}
 
@@ -843,10 +856,10 @@ The SUMMA model is publicly available on GitHub.
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/mar_seb_open_v_forest.png}
-\caption{\todo{FIX SMALL BUG IN LW/SW and albedo averaging!!} Accumulated snow energy fluxes (\swnet, \lwnet, \hs, \hlat, G), Melt, radiation forcings,
+\caption{Accumulated snow energy fluxes (\swnet, \lwnet, \hs, \hlat, G), Melt, radiation forcings,
 (\swdn, \lwdn), and weighted snow $\bar{\alpha}$ for the open (a--c) and forest (d--f) sites for the duration of March 2026, restricted to times when SWE is present.
 Open circles and whiskers show the averages and one-standard deviation from the March SUMMA historical period (2000--2026).
-Equivalent units of mm of melt are displayed in red text on the right-hand side of the Melt panel.
+Equivalent units of mm of melt are displayed in red text on the right-hand side of the Melt panels (a and d).
 The under-canopy \swdn and \lwdn are depicted in panel (e).
 }\label{fig:monthly_seb_mar}
 \end{figure}
@@ -867,7 +880,7 @@ The under-canopy \swdn and \lwdn are depicted in panel (e).
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/ceres_ebaf_anomaly.png}
-  \caption{\todo{Change ) in the labels to .). Also change "N." Sierra to California Sierra or similar} March \swdn (a) and \lwdn (b) anomalies (relative to the March 2000 to present record) from the CERES-EBAF 1x1 degree resolution product.
+  \caption{March \swdn (a) and \lwdn (b) anomalies (relative to the March 2000 to present record) from the CERES-EBAF 1x1 degree resolution product.
   (c) and (d) depict the timeseries of anomalies averaged over the Sierra Nevada study region.
   RE$_{cloud}$ amount is depicted with a twin y-axis, with units displayed on the right-hand side in red text.
   The shaded region in each plot depicts one standard deviation of the anomaly.
@@ -913,16 +926,14 @@ The under-canopy \swdn and \lwdn are depicted in panel (e).
 
 
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=\linewidth]{images2/overnight_freeze.png}
-  \caption{The predictive power of overnight average (a) \tair compared against overnight average (b)\lwnet for \dcc, refreezing, and total melt during the next-day. 
-  R$^2$ values and linear-regressions (dashed line) are depicted. 
-  }
-  \label{fig:overnight_tair}
-\end{figure}
-
-
+% \begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=\linewidth]{images2/overnight_freeze.png}
+%   \caption{The predictive power of overnight average (a) \tair compared against overnight average (b) \lwdn for overnight \dcc, overnight refreezing, and next-day total melt. 
+%   R$^2$ values and linear-regressions (dashed line) are depicted. 
+%   }
+%   \label{fig:overnight_tair}
+% \end{figure}
 
 
 \clearpage
@@ -937,19 +948,18 @@ The under-canopy \swdn and \lwdn are depicted in panel (e).
 \toprule
  & & SW$_{net}$ & LW$_{net}$ & H$_s$ & H$_l$ & G & Melt & $\Delta$CC \\
 \midrule
-\multirow{3}{*}{Forest} & 2026 & 52.1 & 28.1 & 22.9 & -11.0 (-3.9) & 4.0 & 94.3 (282.4) & 0.0 \\
- & Mean & 37.0 & -2.2 & 7.7 & -22.5 (-7.9) & 2.7 & 34.4 (103.1) & 1.2 \\
- & Std & 16.4 & 19.4 & 19.2 & 15.8 (5.6) & 4.6 & 49.4 (147.8) & 2.8 \\
-\midrule
 \multirow{3}{*}{Open}   & 2026 & 229.3 & -127.5 & 39.7 & -0.7 (-0.2) & 4.3 & 142.1 (425.6) & 0.0 \\
- & Mean & 132.8 & -123.3 & 25.0 & -6.5 (-2.3) & 3.6 & 30.0 (89.9) & 2.0 \\
- & Std & 61.2 & 35.8 & 16.9 & 9.6 (3.4) & 6.3 & 64.1 (192.0) & 5.4 \\
+ & Mean & 120.3 & -111.3 & 22.7 & -5.8 (-2.1) & 3.3 & 27.6 (82.6) & 1.8 \\
+ & Std. & 61.3 & 32.8 & 16.0 & 8.6 (3.0) & 5.8 & 61.9 (185.4) & 4.8 \\
+\midrule
+\multirow{3}{*}{Forest} & 2026 & 52.1 & 28.1 & 22.9 & -11.0 (-3.9) & 4.0 & 94.3 (282.4) & 0.0 \\
+ & Mean & 31.0 & -1.6 & 6.3 & -18.8 (-6.6) & 2.4 & 28.8 (86.2) & 1.0 \\
+ & Std. & 12.7 & 17.0 & 16.0 & 11.9 (4.2) & 4.6 & 42.8 (128.2) & 2.3 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 
-%%% DAY AND NIGHT TABLE 
 \begin{table}[h]
 \centering
 \caption{Day/nighttime decomposition of Forcings (SW$_{net}$+LW$_{net}$+H$_s$+H$_l$+G), Melt/Refreeze, and $\Delta$CC, in \mjmtwo, for March 2026 compared against the historical climatology (mean $\pm$ std) of March conditions.}
@@ -960,16 +970,18 @@ The under-canopy \swdn and \lwdn are depicted in panel (e).
 \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8}
  & & Day & Night & Day & Night & Day & Night \\
 \midrule
-\multirow{3}{*}{Forest} & 2026 & 105.4 & -9.2 & 101.9 & -7.5 & 1.7 & -1.7 \\
- & Mean & 49.2 & -26.6 & 50.5 & -16.0 & 12.2 & -11.0 \\
- & Std & 47.0 & 19.8 & 49.5 & 14.0 & 17.6 & 16.9 \\
-\midrule
 \multirow{3}{*}{Open}   & 2026 & 189.2 & -44.1 & 172.1 & -29.9 & 11.9 & -11.9 \\
- & Mean & 71.5 & -39.9 & 49.2 & -19.1 & 23.5 & -21.5 \\
- & Std & 66.6 & 23.1 & 72.4 & 16.9 & 19.8 & 20.8 \\
+ & Mean & 64.7 & -36.2 & 44.7 & -17.4 & 21.0 & -19.5 \\
+ & Std. & 65.5 & 21.0 & 69.9 & 15.6 & 17.5 & 18.7 \\
+\midrule
+\multirow{3}{*}{Forest} & 2026 & 105.4 & -9.2 & 101.9 & -7.5 & 1.7 & -1.7 \\
+ & Mean & 41.1 & -21.9 & 41.8 & -13.1 & 9.9 & -9.0 \\
+ & Std. & 40.4 & 14.5 & 41.9 & 10.7 & 13.8 & 13.4 \\ 
 \bottomrule
 \end{tabular}
 \end{table}
+
+
 
 
 % \caption{Data displayed in Figure \ref{fig:monthly_seb_mar} presented as a table. 
@@ -980,12 +992,19 @@ The under-canopy \swdn and \lwdn are depicted in panel (e).
 \begin{table}[h]
 \centering
 \caption{Definitions used in this study.}
+\label{tab:definitions}
 \begin{tabular}{ll}
+\toprule
 Abbreviation & Definition \\
 \midrule
-CSSL         & Central Sierra Snow Laboratory \\ 
+CSSL         & Central Sierra Snow Laboratory \\
 CERES-EBAF   & Clouds and the Earth's Radiant Energy System Energy Balanced and Filled product \\
-SNOTEL       & SNowpack TELemetry site \\ 
+SNOTEL       & SNOwpack TELemetry site \\
+SEHW         & Snow-eater heat wave \\
+SUMMA        & Structure for Unifying Multiple Modeling Alternatives \\
+USHCN        & US Historical Climatology Network \\
+WUS          & Western United States \\
+\bottomrule
 \end{tabular}
 \end{table}
 

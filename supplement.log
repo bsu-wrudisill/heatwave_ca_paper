@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  25 AUG 2026 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  9 SEP 2026 12:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,7 +203,13 @@ LaTeX Warning: Label `supp:init_cond' multiply defined.
 LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
 
 
-LaTeX Warning: Label `fig:supp_initial_cond_sens' multiply defined.
+LaTeX Warning: Label `fig:init_cond_sens' multiply defined.
+
+
+LaTeX Warning: Label `supp:init_cond' multiply defined.
+
+
+LaTeX Warning: Label `fig:supp_forcing_perturb' multiply defined.
 
 )
 \openout1 = `supplement.aux'.
@@ -360,20 +366,31 @@ Overfull \hbox (24.32967pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
-File: images2/supp_initial_cond_sens_liq_and_CC.png Graphic file (type png)
-<use images2/supp_initial_cond_sens_liq_and_CC.png>
-Package pdftex.def Info: images2/supp_initial_cond_sens_liq_and_CC.png  used on input line 254.
-(pdftex.def)             Requested size: 494.08469pt x 359.90372pt.
+<images2/initial_cond_sens.png, id=48, 398.6895pt x 404.712pt>
+File: images2/initial_cond_sens.png Graphic file (type png)
+<use images2/initial_cond_sens.png>
+Package pdftex.def Info: images2/initial_cond_sens.png  used on input line 254.
+(pdftex.def)             Requested size: 398.68852pt x 404.71101pt.
 
-Overfull \hbox (24.32967pt too wide) in paragraph at lines 254--255
+
+[9 <./images2/supp_initial_cond_sens_liq_and_CC.png>]
+
+[10 <./images2/initial_cond_sens.png>]
+<images2/supp_swe_vs_forcing_perturbation.png, id=57, 489.027pt x 432.6564pt>
+File: images2/supp_swe_vs_forcing_perturbation.png Graphic file (type png)
+<use images2/supp_swe_vs_forcing_perturbation.png>
+Package pdftex.def Info: images2/supp_swe_vs_forcing_perturbation.png  used on input line 265.
+(pdftex.def)             Requested size: 489.02579pt x 432.65535pt.
+
+Overfull \hbox (19.27077pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
 
 
-[9 <./images2/supp_initial_cond_sens_liq_and_CC.png>]
+[11
 
-[10] (./supplement.aux)
+ <./images2/supp_swe_vs_forcing_perturbation.png>] (./supplement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -384,18 +401,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3773 strings out of 473190
- 57543 string characters out of 5704335
- 459199 words of memory out of 5000000
- 26999 multiletter control sequences out of 15000+600000
+ 3789 strings out of 473190
+ 58196 string characters out of 5704335
+ 459247 words of memory out of 5000000
+ 27015 multiletter control sequences out of 15000+600000
  565000 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,870b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on supplement.pdf (10 pages, 1744676 bytes).
+Output written on supplement.pdf (11 pages, 2152852 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
