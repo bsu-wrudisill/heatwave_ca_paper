@@ -74,7 +74,7 @@
 % \end{figure}
 \section{Snow covered area and streamflow anomalies}
 To investigate the hydologic ramifications of snow ablation, we obtained streamflow data from the USGS Saghen creek gage which has long term records.
-We found the monthly average streamflow at  Saghen creek site peaked in March, two months earlier than normal (Fig. \ref{fig:supp_sagehen_q}) and reached flows well above typical for March. 
+The monthly average streamflow at  Saghen creek site peaked in March, two months earlier than normal (Fig. \ref{fig:supp_sagehen_q}) and reached flows well above typical for March. 
 
 \begin{figure}[htbp]
   \centering
@@ -94,7 +94,7 @@ High elevation regions above 2250 m had nearly 100\% SCA prior to the March even
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\linewidth]{images/sca_combined.png}
-  \caption{SPIRES SCA across the study region during the March heatwave.
+  \caption{SPIReS SCA across the study region during the March heatwave.
   Watershed  boundaries shown in black and SNOTEL monitoring sites indicated by magenta diamonds.
   \textbf{(a, b, c)} SCA (\%) on March 2 and March 29, 2026, respectively, and the difference between the two dates.
   \textbf{(d)} Daily mean SCA (\%) for each individual watershed and aggregated across all four basins.
@@ -112,7 +112,7 @@ High elevation regions above 2250 m had nearly 100\% SCA prior to the March even
 \section{SUMMA details}
 %% Sensible and Latent heat fluxes
 This section describes assumptions implicit in SUMMA as well as provides additional details about the model forcing data preparation.
-\subsection{Model equations}\label{supp:summa_desc_model_eq}
+\subsection{Model flux equations}\label{supp:summa_desc_model_eq}
 
 The bulk expression for the $H_s$ implemented in SUMMA is given by: 
 
@@ -122,43 +122,29 @@ H_s &=  c_p \rho C_s u (T_{air} - T_{snow}) \label{eq:supp_bulk2},
 
 where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, $\rho$ is the dry air density, and $C_s$ is the bulk transport coefficient. 
 In this work, we use the SUMMA formulation for $C_s$, which models the stability correction as a function of the bulk Richardson number.
-
 We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h = z_0$
 \begin{equation}
 C_h = \frac{k^2}{\mathrm{ln}(z/z_0)^2}\cdot f(\mathrm{Ri})    
 \end{equation}
 Where Ri is the bulk Richardson number, defined as 
-
 \begin{equation} \label{eq:ri}
     \mathrm{Ri} = \frac{9.81 (T_{air} - T_{snow})}{0.5(T_{air} + T_{snow})u^2}.
 \end{equation}
-
 and f(Ri) is a function with range (0,1] that declines as a function of increasing Ri.
 An equivalent formulation for latent heat flux follows Eq. \ref{eq:supp_bulk2}.
-The stability correction is reproduced and used in Fig. 11 of the main text.
-
-\subsection{Snow albedo}
-We use the 'varDecay' parameterization for albedo as implemented in SUMMA. 
-\todo{more details}
-% $$\text{age}1 = \exp\big[-\beta,(T{freeze}-T_{surf})\big], \qquad \text{age}_2 = \text{age}_1^{,10}$$
-
-% $$\text{decayFactor} = \frac{\Delta t,(\text{age}_1+\text{age}_2+\text{age}_3)}{\text{albedoDecayRate}}$$
-
-% where $\beta=$ tempScalGrowth (your value: 0.04 K⁻¹), the exponent 10 is the hardcoded slushExp, and $\text{age}3=$ albedoSootLoad (constant). $T{surf}=T_{freeze}$ gives $\text{age}_1=1$; colder gives $\text{age}_1\to 0$ exponentially.
+The stability correction is reproduced and used in Fig. 12 of the main text.
+The f(Ri) equation used in that figure is given by $\mathrm{f(Ri)} = (1 - 5 * \mathrm{Ri})^2$.
 
 
 
 \subsection{Forcing data}
 We use bias corrected ERA5 data as forcing for SUMMA with several key steps implemented.
-ERA5 data was obtained from the Copernicus data store. 
-\todo{WHAT GRID CELL}
-
+ERA5 data was obtained from the Copernicus data store for the grid cell nearest CSSL.
 \swdn was compared between ERA and CSSL CNR4 radiometers for water year 2026. 
 We developed a correction factor to account for potential shadowing by canopy adjacent to the site, using solar zenith angle (SZA) and solar azimuth angle (AZM) as predictors.
-These were computed from the python py-ephem package \todo{CITE}. 
+These were computed from the python py-ephem package.
 The correction grid is depicted in Fig. \ref{fig:supp_fig_SWd_adjust_sza_azm}. 
 It shows the multiplicative correction between 0 and 1 for each SZA and AZM angle. 
-The correction reduced \swdn by \todo{XYZ} for the month of March 2026.
 
 \begin{figure}[htbp]
   \centering
@@ -185,7 +171,7 @@ A dense ice-layer formed during mid-February and remained buried under the late 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{images2/supp_snowt_liq_ice_dens.png}
-  \caption{A timeseries of vertical cross-sections of snow temperature, snow liquid water content volumetric fraction, snow ice content volumetric fraction, and snow density (bottom) during the accumulation season }.
+  \caption{A timeseries of modeled vertical cross-sections of snow temperature, snow liquid water content volumetric fraction, snow ice content volumetric fraction, and snow density (bottom) during the snow season of WY2026 for the open site at CSSL.}
   \label{fig:supp_twod_vert_plots_ice_liq_dens_temp}
 \end{figure}
 
@@ -214,7 +200,6 @@ We find good correlation for March of 2026 for the UEB 2-stream parameterzation 
 \subsubsection{Fluxes}\label{supp:sec:validation}
 CSSL hosts an experimental eddy-covariance instrument on a movable arm above the snowpack (see Fig. 1 in the main text).
 Eddy covariance fluxes were processed using the Licor EddyPro v7.0.9 software with despiking, double coordinate rotation, and flux quality assignment.
-\todo{X\%} of the H$_s$ and H$_l$ fluxes are retained for analysis during the month of March.
 A qualitative comparison between the SUMMA and eddy-covariance fluxes of sensible and latent heat show reasonable agreement, though there were many low-quality flux measurements during the month of March. 
 Key periods of sublimation during the first and latter portions of the the month show reasonable agreement.
 
@@ -229,43 +214,76 @@ Key periods of sublimation during the first and latter portions of the the month
   \label{fig:supp_sw_validation}
 \end{figure}
 
+
+
+\subsubsection{Albedo}\label{supp:sec:albeo}
+SUMMA modelled albedo is compared against available observations from the CSSL CNR4 radiometers, as well as SPIReS remote sensing based albedo. 
+Specifically we compare the 
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_albedo_validation.png}
+  \caption{(a) SUMMA albedo evaluated against CSSL and SPIRES observations from 1 Jan 2026 to 1 April 2026. (b) Example maps of SPIReS snow albedo during water year 2026. CSSL is highlighted with the purple box. 500m elevation contours are depicted for reference.}
+  \label{fig:supp_albedo_validation}
+\end{figure}
+
+
 \section{Initial condition experiments}\label{supp:init_cond}
 As we have shown, anomolous conditions also preceded the March 2026 ablation event. 
 To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of ice, liquid water, and cold-content. 
 
-Test 1: Dry snow is composed of `three model runs.
-One is the natural starting condition (liq=1).
-Then we halved and zeroed out the amount of liquid water and increased the amount ice to keep SWE constant. 
-For internal consistency in SUMMA the layer temperature reduced in the zero-liquid water case.
+The first test (Test 1) evaluates the effects of initial liquid water content \fig{fig:supp_initial_cond_sens1}.
+It was constructed as follows.
+The first is the natural starting condition (liq=1).
+Then, we halved the amout of liquid water (liq=0.5) and increased the amount ice to keep the total SWE (the sum of liquid and ice water equivalent) approximately constant.  
+The third experiment completely zeros out liquid water (liq=0) and likewise increases the amount of ice to keep SWE constant.
+For internal consistency in SUMMA, the layer temperature is also reduced in the zero-liquid water case (to prevent refreezing) which yields the higher starting CC for that case \fig{fig:supp_initial_cond_sens1}{a}.
 The outcomes show that there is minimal sensitivity to the timing in the rate of SWE change; the all-ice case completely ablated about one-day later than the standard case. 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_initial_cond_sens_liq_and_CC.png}
-  \caption{Initial condition Test 1: Dry snow. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
-  \label{fig:supp_initial_cond_sens}
+  \caption{Initial condition Test 1: Effects of liquid water content. (a) shows the hourly CC of the snowpack throughout the model run. (b) Depicts the total SWE, liquid water content, and ice-water equivelent integrated throughout the depth of the pack in units of water-equivalent (mm).}
+  \label{fig:supp_initial_cond_sens1}
 \end{figure}
 
 
+The second test (Test 2) evaluates the effects of initial snow mass \fig{fig:supp_initial_cond_sens2}{} on $\Delta$SWE before and after the March heatwave.
+It is composed of four model runs and uses a dry starting snow case for all experiments.
+The initial dry-SWE amount is multiplied by 1, 1.5, 2, and 3. 
+The snow height is also adjusted maintain an approximately uniform bulk density between the experiments \fig{fig:supp_initial_cond_sens2}{a}. 
+The surface temperature was assigned the same starting value and decays exponentially to 0 at the bottom of the snow layer. 
+\fignop{fig:supp_initial_cond_sens2}{b} may be interpreted as follows.
+First, it is important to recognize that $\Delta$SWE is equivalent to $\Delta$Ice plus $\Delta$Liquid integrated throughout the depth of the snowpack content over time (middle columns of \fignop{fig:supp_initial_cond_sens2}{b}).
+These terms are also equivalent with the cumulative fluxes at the snowpack top/bottom boundaries, namely precipitation, sublimation/frost, and liquid water outflow through the bottom of the snowpack (rightmost columns of \fignop{fig:supp_initial_cond_sens2}{b}).
 
-A second test investigated changing the dry snow amount and increasing the amount of SWE present. 
+The results of this experiment show that nearly the same amount of ice melts across all scenarios ($\Delta$Ice), save for the SWE1x case which is limited by the amout of ice availabe to ablate. 
+However, $\Delta$SWE for the SWEx3 experiment is -449 mm compared to a $\Delta$SWE of -498 for the SWEx1.5 experiment. 
+This discrepancy is due to the amount of liquid water retained in the snowpack (+70 vs +12 for the SWEx3 vs SWEx1.5 respectively). 
+In this way, we can see that there is not always a 1:1 relationship between the snow energy balance and $\delta$SWE; the residual holding capacity of snow liquid means that two snowpacks can undergo a nearly identical energy forcing, but the deeper snowpack may retain more SWE in the form of liquid water. 
+
+
+
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/initial_cond_sens.png}
-  \caption{Initial condition test \todo{more}.}
-  \label{fig:init_cond_sens}
+  \caption{Initial condition Test 2: effects of dry snow amount. (a) Depicts the initial and final SWE and snow depth (starting on March 1 and ending on March 31) for the four experiments.
+  (b) Depicts mass components of the change in SWE for the different experiments.  
+  Text lists $\Delta$SWE, $\Delta$Ice, $\Delta$Liq, and total Outflow, respectively.
+  }
+  \label{fig:supp_initial_cond_sens2}
 \end{figure}
+
+
+
 
 \clearpage
 
-\section{SWE Sensitivity to forcing perturbations}\label{supp:init_cond}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{images2/supp_swe_vs_forcing_perturbation.png}
-  \caption{Sensitivty to perturbing model forcing variables.}
-  \label{fig:supp_forcing_perturb}
-\end{figure}
+
+
+
 
 
 % To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of SWE and cold content present in the snowpack on March 1 and running the model with observed March forcings. 

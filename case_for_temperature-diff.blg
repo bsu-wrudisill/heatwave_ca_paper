@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: case_for_temperature.aux
+The top-level auxiliary file: case_for_temperature-diff.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -13,53 +13,53 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperpile.bib
 Warning--I'm ignoring Feldman2023-gp's extra "number" field
---line 1724 of file paperpile.bib
+--line 1716 of file paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 2308 of file paperpile.bib
+--line 2300 of file paperpile.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 67 entries,
+You've used 69 entries,
             6951 wiz_defined-function locations,
-            1800 strings with 29773 characters,
-and the built_in function-call counts, 163711 in all, are:
-= -- 19558
-> -- 1482
-< -- 8807
-+ -- 9954
-- -- 144
-* -- 11387
-:= -- 31023
-add.period$ -- 260
-call.type$ -- 67
-change.case$ -- 1166
+            1813 strings with 30481 characters,
+and the built_in function-call counts, 169467 in all, are:
+= -- 20221
+> -- 1532
+< -- 9147
++ -- 10329
+- -- 148
+* -- 11817
+:= -- 32205
+add.period$ -- 267
+call.type$ -- 69
+change.case$ -- 1204
 chr.to.int$ -- 0
-cite$ -- 134
-duplicate$ -- 4996
-empty$ -- 5605
-format.name$ -- 2795
-if$ -- 29234
+cite$ -- 138
+duplicate$ -- 5168
+empty$ -- 5792
+format.name$ -- 2899
+if$ -- 30203
 int.to.chr$ -- 0
-int.to.str$ -- 201
+int.to.str$ -- 207
 missing$ -- 0
-newline$ -- 1957
-num.names$ -- 538
-pop$ -- 2099
+newline$ -- 2017
+num.names$ -- 554
+pop$ -- 2162
 preamble$ -- 1
-purify$ -- 294
+purify$ -- 306
 quote$ -- 0
-skip$ -- 9380
+skip$ -- 9672
 stack$ -- 0
-substring$ -- 10717
-swap$ -- 2708
-text.length$ -- 172
+substring$ -- 11116
+swap$ -- 2803
+text.length$ -- 180
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5488
+type$ -- 5648
 warning$ -- 4
-while$ -- 957
+while$ -- 995
 width$ -- 0
-write$ -- 2582
+write$ -- 2662
 (There were 6 warnings)

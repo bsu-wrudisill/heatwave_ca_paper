@@ -110,36 +110,6 @@ Brutsaert, W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Burakowski%
-\ \protect \BOthers {.}}{%
-Burakowski%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2018}}%
-}]{%
-Burakowski2018-ch}
-\APACinsertmetastar {%
-Burakowski2018-ch}%
-\begin{APACrefauthors}%
-Burakowski, E.%
-, Tawfik, A.%
-, Ouimette, A.%
-, Lepine, L.%
-, Novick, K.%
-, Ollinger, S.%
-\BDBL {}Bonan, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The role of surface roughness, albedo, and Bowen ratio on ecosystem energy balance in the Eastern United States} {The role of surface roughness, albedo, and bowen ratio on ecosystem energy balance in the eastern united states}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Agric. For. Meteorol.}{249}{}{367--376}.
-\newblock
-\begin{APACrefDOI} \doi{10.1016/j.agrformet.2017.11.030} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Clark%
 , Nijssen%
 , Lundquist%
@@ -191,30 +161,6 @@ Cline, D\BPBI W.%
 \APACjournalVolNumPages{Water Resour. Res.}{}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/97WR00026} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Colbeck%
-}{%
-Colbeck%
-}{%
-{\protect \APACyear {1976}}%
-}]{%
-Colbeck1976-xk}
-\APACinsertmetastar {%
-Colbeck1976-xk}%
-\begin{APACrefauthors}%
-Colbeck, S\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1976}{{\APACmonth{06}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {An analysis of water flow in dry snow} {An analysis of water flow in dry snow}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resour. Res.}{12}{3}{523--527}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/wr012i003p00523} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -449,6 +395,30 @@ Feldman, D\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Foken%
+}{%
+Foken%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+Foken2006-bg}
+\APACinsertmetastar {%
+Foken2006-bg}%
+\begin{APACrefauthors}%
+Foken, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {50 years of the Monin–obukhov similarity theory} {50 years of the monin–obukhov similarity theory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Boundary Layer Meteorol.}{119}{3}{431--447}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s10546-006-9048-6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gibson%
 \ \protect \BOthers {.}}{%
 Gibson%
@@ -658,8 +628,6 @@ Heggli, A.%
 \newblock
 \APACjournalVolNumPages{Water Resources Research}{62}{4}{e2025WR042453}.
 \newblock
-\begin{APACrefURL} \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR042453} \end{APACrefURL}
-\newblock
 \APACrefnote{e2025WR042453 2025WR042453}
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1029/2025WR042453} \end{APACrefDOI}
@@ -723,6 +691,30 @@ Hinkelman, L\BPBI M.%
 \APACjournalVolNumPages{J. Hydrometeorol.}{16}{5}{2133--2152}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/JHM-D-14-0179.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huang%
+}{%
+Huang%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Huang2018-re}
+\APACinsertmetastar {%
+Huang2018-re}%
+\begin{APACrefauthors}%
+Huang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A simple accurate formula for calculating saturation vapor pressure of water and ice} {A simple accurate formula for calculating saturation vapor pressure of water and ice}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Appl. Meteorol. Climatol.}{57}{}{1265--1272}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/JAMC-D-17-0334.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -964,6 +956,36 @@ Li, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Long%
+\ \protect \BOthers {.}}{%
+Long%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Long2009-zr}
+\APACinsertmetastar {%
+Long2009-zr}%
+\begin{APACrefauthors}%
+Long, C\BPBI N.%
+, Dutton, E\BPBI G.%
+, Augustine, J\BPBI A.%
+, Wiscombe, W.%
+, Wild, M.%
+, McFarlane, S\BPBI A.%
+\BCBL {}\ \BBA {} Flynn, C\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Significant decadal brightening of downwelling shortwave in the continental United States} {Significant decadal brightening of downwelling shortwave in the continental united states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Geophys. Res.}{114}{D00D06}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2008jd011263} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lundquist%
 , Dickerson-Lange%
 , Lutz%
@@ -991,33 +1013,6 @@ Lundquist, J\BPBI D.%
 \APACjournalVolNumPages{Water Resour. Res.}{49}{10}{6356--6370}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/wrcr.20504} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Mahat%
-\ \BBA {} Tarboton%
-}{%
-Mahat%
-\ \BBA {} Tarboton%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-Mahat2012-hv}
-\APACinsertmetastar {%
-Mahat2012-hv}%
-\begin{APACrefauthors}%
-Mahat, V.%
-\BCBT {}\ \BBA {} Tarboton, D\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{{\APACmonth{01}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Canopy radiation transmission for an energy balance snowmelt model: {CANOPY} {RADIATION} {FOR} {SNOWMELT}} {Canopy radiation transmission for an energy balance snowmelt model: {CANOPY} {RADIATION} {FOR} {SNOWMELT}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resour. Res.}{48}{1}{}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/2011wr010438} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1105,6 +1100,60 @@ McAfee, S\BPBI A.%
 \APACjournalVolNumPages{Int. J. Climatol.}{39}{3}{1517--1538}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/joc.5898} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McEvoy%
+\ \BBA {} Hatchett%
+}{%
+McEvoy%
+\ \BBA {} Hatchett%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+McEvoy2023}
+\APACinsertmetastar {%
+McEvoy2023}%
+\begin{APACrefauthors}%
+McEvoy, D\BPBI J.%
+\BCBT {}\ \BBA {} Hatchett, B\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{jan}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Spring heat waves drive record western United States snow melt in 2021} {Spring heat waves drive record western united states snow melt in 2021}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Research Letters}{18}{1}{014007}.
+\newblock
+\begin{APACrefDOI} \doi{10.1088/1748-9326/aca8bd} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McKinnon%
+\ \BBA {} Simpson%
+}{%
+McKinnon%
+\ \BBA {} Simpson%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+McKinnon2025-va}
+\APACinsertmetastar {%
+McKinnon2025-va}%
+\begin{APACrefauthors}%
+McKinnon, K\BPBI A.%
+\BCBT {}\ \BBA {} Simpson, I\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Observed and modeled trends in downward surface shortwave radiation over land: Drivers and discrepancies} {Observed and modeled trends in downward surface shortwave radiation over land: Drivers and discrepancies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophys. Res. Lett.}{52}{24}{e2025GL119493}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2025gl119493} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1230,63 +1279,6 @@ Musselman, K\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Musselman%
-, Molotch%
-\BCBL {}\ \BBA {} Brooks%
-}{%
-Musselman%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2008}}%
-}]{%
-Musselman2008-ws}
-\APACinsertmetastar {%
-Musselman2008-ws}%
-\begin{APACrefauthors}%
-Musselman, K\BPBI N.%
-, Molotch, N\BPBI P.%
-\BCBL {}\ \BBA {} Brooks, P\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Effects of vegetation on snow accumulation and ablation in a mid‐latitude sub‐alpine forest} {Effects of vegetation on snow accumulation and ablation in a mid‐latitude sub‐alpine forest}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Hydrol. Process.}{22}{15}{2767--2776}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/hyp.7050} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Nyeki%
-\ \protect \BOthers {.}}{%
-Nyeki%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2019}}%
-}]{%
-Nyeki2019-ej}
-\APACinsertmetastar {%
-Nyeki2019-ej}%
-\begin{APACrefauthors}%
-Nyeki, S.%
-, Wacker, S.%
-, Aebi, C.%
-, Gröbner, J.%
-, Martucci, G.%
-\BCBL {}\ \BBA {} Vuilleumier, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2019}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Trends in surface radiation and cloud radiative effect at four Swiss sites for the {1996–2015} period} {Trends in surface radiation and cloud radiative effect at four swiss sites for the {1996–2015} period}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Atmos. Chem. Phys.}{19}{20}{13227--13241}.
-\newblock
-\begin{APACrefDOI} \doi{10.5194/acp-19-13227-2019} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ohmura%
 }{%
 Ohmura%
@@ -1392,6 +1384,40 @@ Ramanathan, V.%
 \APACjournalVolNumPages{Science}{243}{4887}{57--63}.
 \newblock
 \begin{APACrefDOI} \doi{10.1126/science.243.4887.57} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reis%
+, Giovando%
+, Bartles%
+, Dahl%
+\BCBL {}\ \BBA {} Breverman%
+}{%
+Reis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+REIS-model}
+\APACinsertmetastar {%
+REIS-model}%
+\begin{APACrefauthors}%
+Reis, W.%
+, Giovando, J.%
+, Bartles, M.%
+, Dahl, T.%
+\BCBL {}\ \BBA {} Breverman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Snow model complexity evaluation for real-time streamflow forecasting} {Snow model complexity evaluation for real-time streamflow forecasting}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Hydrology}{659}{}{133197}.
+\newblock
+\begin{APACrefURL} \url{https://www.sciencedirect.com/science/article/pii/S0022169425005359} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jhydrol.2025.133197} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1781,6 +1807,38 @@ Singh, D.%
 \APACjournalVolNumPages{J. Geophys. Res Atmos.}{121}{17}{9911--9928}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2016JD025116} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Skiles%
+, Flanner%
+, Cook%
+, Dumont%
+\BCBL {}\ \BBA {} Painter%
+}{%
+Skiles%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Skiles2018-ih}
+\APACinsertmetastar {%
+Skiles2018-ih}%
+\begin{APACrefauthors}%
+Skiles, S\BPBI M.%
+, Flanner, M.%
+, Cook, J\BPBI M.%
+, Dumont, M.%
+\BCBL {}\ \BBA {} Painter, T\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Radiative forcing by light-absorbing particles in snow} {Radiative forcing by light-absorbing particles in snow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nat. Clim. Chang.}{8}{11}{964--971}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41558-018-0296-5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
