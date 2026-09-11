@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1789074719.77769 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1789074722.86495 0
-  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1789074719.62621 32057 e26fcd7093d52e98bb98c15dc2b4d011 ""
+["pdflatex"] 1789169007.43118 "/Users/william/Documents/projects/case_for_temperature/supplement.tex" "supplement.pdf" "supplement" 1789169010.49928 0
+  "/Users/william/Documents/projects/case_for_temperature/supplement.tex" 1789169007.26513 32485 b87c9bb943ceb4553d729e526c9f64e0 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1741388039 1004 54797486969f23fa377b128694d548df ""
@@ -27,6 +27,7 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1741388039 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1741388039 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1741388039 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1741388039 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1741388039 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/iftex/iftex.sty" 1741388039 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1741388039 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -58,6 +59,8 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1741388039 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
+  "case_for_temperature.aux" 1789168821.97474 24646 c3e95f2fea41905f1a45cdf789c8a2d2 ""
+  "case_for_temperature.tex" 1789168807.02967 87134 e6ba2dfc0a50f50b083e6ec07f7b293b ""
   "images/sca_combined.png" 1778017687.07499 227719 631d72c3e074f4a384684605506c98ea ""
   "images2/initial_cond_sens.png" 1789073417.96859 108706 af0405ffc9855b3766ccbb59bfe5ff7a ""
   "images2/supp_albedo_validation.png" 1789071413.79263 393862 b41106393c04fc421a84a5c298790737 ""
@@ -67,8 +70,8 @@
   "images2/supp_sagehen_q.png" 1786992907.65893 196473 489111d24f759e1d3c384d6e9ccc719b ""
   "images2/supp_snowt_liq_ice_dens.png" 1787197464.88835 442440 1db920e898ea0445081a6f35fd70f8a2 ""
   "images2/supp_sw_validation.png" 1787720392.17586 250556 4ad5bb38f24c86b4402a178dca9d28c7 ""
-  "supplement.aux" 1789074722.8043 5888 22ee3d3abcdb092977c0cce6cc20d3ef "pdflatex"
-  "supplement.tex" 1789074719.62621 32057 e26fcd7093d52e98bb98c15dc2b4d011 ""
+  "supplement.aux" 1789169010.43246 6100 070b4da1ad9a0adfa8778876fee55764 "pdflatex"
+  "supplement.tex" 1789169007.26513 32485 b87c9bb943ceb4553d729e526c9f64e0 ""
   (generated)
   "supplement.aux"
   "supplement.log"

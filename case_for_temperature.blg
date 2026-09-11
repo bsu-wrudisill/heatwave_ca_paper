@@ -12,54 +12,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperpile.bib
+Warning--entry type for "clark_2024_13117685" isn't style-file defined
+--line 246 of file paperpile.bib
 Warning--I'm ignoring Feldman2023-gp's extra "number" field
---line 1724 of file paperpile.bib
+--line 1851 of file paperpile.bib
 Warning--I'm ignoring Cristea2022-ys's extra "number" field
---line 2308 of file paperpile.bib
+--line 2435 of file paperpile.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 67 entries,
+You've used 74 entries,
             6951 wiz_defined-function locations,
-            1800 strings with 29773 characters,
-and the built_in function-call counts, 163711 in all, are:
-= -- 19558
-> -- 1482
-< -- 8807
-+ -- 9954
-- -- 144
-* -- 11387
-:= -- 31023
-add.period$ -- 260
-call.type$ -- 67
-change.case$ -- 1166
+            1849 strings with 32330 characters,
+and the built_in function-call counts, 184642 in all, are:
+= -- 22116
+> -- 1645
+< -- 10032
++ -- 11392
+- -- 160
+* -- 12864
+:= -- 35181
+add.period$ -- 286
+call.type$ -- 74
+change.case$ -- 1285
 chr.to.int$ -- 0
-cite$ -- 134
-duplicate$ -- 4996
-empty$ -- 5605
-format.name$ -- 2795
-if$ -- 29234
+cite$ -- 148
+duplicate$ -- 5620
+empty$ -- 6217
+format.name$ -- 3129
+if$ -- 32846
 int.to.chr$ -- 0
-int.to.str$ -- 201
+int.to.str$ -- 222
 missing$ -- 0
-newline$ -- 1957
-num.names$ -- 538
-pop$ -- 2099
+newline$ -- 2160
+num.names$ -- 594
+pop$ -- 2339
 preamble$ -- 1
-purify$ -- 294
+purify$ -- 322
 quote$ -- 0
-skip$ -- 9380
+skip$ -- 10489
 stack$ -- 0
-substring$ -- 10717
-swap$ -- 2708
-text.length$ -- 172
+substring$ -- 12272
+swap$ -- 3017
+text.length$ -- 187
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5488
+type$ -- 6120
 warning$ -- 4
-while$ -- 957
+while$ -- 1069
 width$ -- 0
-write$ -- 2582
-(There were 6 warnings)
+write$ -- 2850
+(There were 7 warnings)

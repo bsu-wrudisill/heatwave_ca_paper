@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex case_for_temperature"] 1789076230.58082 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1789076518.98694 0
-  "./paperpile.bib" 1788987497.84656 122924 fbc8434370ef5d98852bf4b621074c3b ""
+["bibtex case_for_temperature"] 1789170282.95286 "case_for_temperature.aux" "case_for_temperature.bbl" "case_for_temperature" 1789170288.07232 0
+  "./paperpile.bib" 1789169489.71854 127394 82c6b75ab8ad40e43c95f89460108dbc ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/apacite/apacite.bst" 1741388039 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "case_for_temperature.aux" 1789076518.70067 22679 5929e7aba73ae2b486b2462b8ac738ef "pdflatex"
+  "case_for_temperature.aux" 1789170287.78205 24646 c3e95f2fea41905f1a45cdf789c8a2d2 "pdflatex"
   (generated)
   "case_for_temperature.bbl"
   "case_for_temperature.blg"
   (rewritten before read)
-["pdflatex"] 1789076514.05055 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1789076518.98717 0
-  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1789076513.8882 89579 b167e6b9c882fd78b7f53ac828d99ae8 ""
+["pdflatex"] 1789170283.13709 "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" "case_for_temperature.pdf" "case_for_temperature" 1789170288.07257 0
+  "/Users/william/Documents/projects/case_for_temperature/case_for_temperature.tex" 1789170282.75848 87107 ce97eb2b45c083ef1685a92d0fa54a50 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1741388039 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -128,12 +128,12 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
   "agujournal2019.cls" 1786649796.53878 40688 b442a0d4e8a299883855595037ff6651 ""
-  "case_for_temperature.aux" 1789076518.70067 22679 5929e7aba73ae2b486b2462b8ac738ef "pdflatex"
-  "case_for_temperature.bbl" 1789076230.70059 54531 13507e414eba0bcebbee80654f6de5dd "bibtex case_for_temperature"
-  "case_for_temperature.tex" 1789076513.8882 89579 b167e6b9c882fd78b7f53ac828d99ae8 ""
-  "images2/canopy_lw_radiation_effect_and_albedo.png" 1789057298.61005 327662 519e9d0b634dfbf8c6b6771ce5015de1 ""
+  "case_for_temperature.aux" 1789170287.78205 24646 c3e95f2fea41905f1a45cdf789c8a2d2 "pdflatex"
+  "case_for_temperature.bbl" 1789170283.10651 60795 c01f49a0babb54789c007dc7e268682e "bibtex case_for_temperature"
+  "case_for_temperature.tex" 1789170282.75848 87107 ce97eb2b45c083ef1685a92d0fa54a50 ""
+  "images2/canopy_lw_radiation_effect_and_albedo.png" 1789168862.93222 327477 7949edfdfb0781385eac0e0bb00072fc ""
   "images2/ceres_ebaf_anomaly.png" 1788986940.46002 393204 7c11cbd79cb1a1d895773e9ba82ede4f ""
-  "images2/idealized_sens_and_lat_heat.png" 1789074870.79635 356701 3970af4927547d9c390f1f61e4fe7ad0 ""
+  "images2/idealized_sens_and_lat_heat.png" 1789169807.73063 356701 3970af4927547d9c390f1f61e4fe7ad0 ""
   "images2/lai_p5_seb.png" 1789075050.48131 146751 3bbe1b6ecc9b57cd22bb71de214c394c ""
   "images2/mar2026_era5_snotel_summary.png" 1789062379.52076 831013 2f7a7d09e5d6036f56ea1962abb73495 ""
   "images2/mar_diel_seb_open_v_forest.png" 1789057439.99648 152992 55b32465ff237ad4761f6ace2386024d ""
@@ -143,8 +143,8 @@
   "images2/swe_change_2026_v2.png" 1789019351.84481 464238 b1eabb48255411bc16eb89eb147c0c32 ""
   "images2/swe_pct_change_forest_vs_open_frc_sens.png" 1789063349.71216 79709 41c859f56aa1c24736d6f8922d108832 ""
   "images2/temp_anomaly_map.png" 1789019182.9418 263182 538d5f1696c23d06ea026d5757d6a525 ""
-  "supplement.aux" 1789074722.8043 5888 22ee3d3abcdb092977c0cce6cc20d3ef ""
-  "supplement.tex" 1789074904.05832 32057 e26fcd7093d52e98bb98c15dc2b4d011 ""
+  "supplement.aux" 1789169010.43246 6100 070b4da1ad9a0adfa8778876fee55764 ""
+  "supplement.tex" 1789169007.26513 32485 b87c9bb943ceb4553d729e526c9f64e0 ""
   "trackchanges.sty" 1786649796.53909 26287 09689e5e9db973d136f0537b8570fadf ""
   (generated)
   "case_for_temperature.aux"

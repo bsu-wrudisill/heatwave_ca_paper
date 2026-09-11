@@ -1,6 +1,38 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Abolafia-Rosenzweig%
+, He%
+, McKenzie~Skiles%
+, Chen%
+\BCBL {}\ \BBA {} Gochis%
+}{%
+Abolafia-Rosenzweig%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Abolafia-Rosenzweig2022-qk}
+\APACinsertmetastar {%
+Abolafia-Rosenzweig2022-qk}%
+\begin{APACrefauthors}%
+Abolafia-Rosenzweig, R.%
+, He, C.%
+, McKenzie~Skiles, S.%
+, Chen, F.%
+\BCBL {}\ \BBA {} Gochis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evaluation and optimization of snow albedo scheme in {Noah‐MP} land surface model using in situ spectral observations in the Colorado Rockies} {Evaluation and optimization of snow albedo scheme in {Noah‐MP} land surface model using in situ spectral observations in the colorado rockies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Adv. Model. Earth Syst.}{14}{10}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2022ms003141} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Anderson%
 }{%
 Anderson%
@@ -20,6 +52,89 @@ Anderson, E\BPBI A.%
 \APACrefbtitle {National Weather Service River Forecast System: Snow Accumulation and Ablation Model} {National weather service river forecast system: Snow accumulation and ablation model}.
 \newblock
 \APACaddressPublisher{}{U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bair%
+, Stillinger%
+\BCBL {}\ \BBA {} Dozier%
+}{%
+Bair%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Bair2021-spires}
+\APACinsertmetastar {%
+Bair2021-spires}%
+\begin{APACrefauthors}%
+Bair, E\BPBI H.%
+, Stillinger, T.%
+\BCBL {}\ \BBA {} Dozier, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Snow Property Inversion From Remote Sensing ({SPIReS}): A Generalized Multispectral Unmixing Approach With Examples From {MODIS} and {Landsat} 8 {OLI}} {Snow property inversion from remote sensing ({SPIReS}): A generalized multispectral unmixing approach with examples from {MODIS} and {Landsat} 8 {OLI}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote Sensing}{59}{9}{7270--7284}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TGRS.2020.3040328} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bales%
+\ \protect \BOthers {.}}{%
+Bales%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Bales2011-vs}
+\APACinsertmetastar {%
+Bales2011-vs}%
+\begin{APACrefauthors}%
+Bales, R\BPBI C.%
+, Hopmans, J\BPBI W.%
+, O\#39;Geen, A\BPBI T.%
+, Meadows, M.%
+, Hartsough, P\BPBI C.%
+, Kirchner, P.%
+\BCBL {}\ \BBA {} {Beaudette}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Soil moisture response to snowmelt and rainfall in a Sierra Nevada mixed-conifer forest} {Soil moisture response to snowmelt and rainfall in a sierra nevada mixed-conifer forest}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Vadose Zone Journal}{10}{3}{786--799}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bartlett%
+\ \BBA {} Lehning%
+}{%
+Bartlett%
+\ \BBA {} Lehning%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Bartlett2011-ds}
+\APACinsertmetastar {%
+Bartlett2011-ds}%
+\begin{APACrefauthors}%
+Bartlett, S\BPBI J.%
+\BCBT {}\ \BBA {} Lehning, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A theoretical assessment of heat transfer by ventilation in homogeneous snowpacks} {A theoretical assessment of heat transfer by ventilation in homogeneous snowpacks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resour. Res.}{47}{4}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2010wr010008} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -86,36 +201,44 @@ Broxton, P\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Brutsaert%
-}{%
-Brutsaert%
-}{%
-{\protect \APACyear {1975}}%
+M.~Clark%
+\ \protect \BOthers {.}}{%
+M.~Clark%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
 }]{%
-Brutsaert1975-jl}
+clark_2024_13117685}
 \APACinsertmetastar {%
-Brutsaert1975-jl}%
+clark_2024_13117685}%
 \begin{APACrefauthors}%
-Brutsaert, W.%
+Clark, M.%
+, Ahmed, M\BPBI I.%
+, Bennett, A.%
+, Liu, H.%
+, Klenk, K.%
+, Knoben, W.%
+\BDBL {}Zhaoxin, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1975}{}{}.
+\APACrefYearMonthDay{2024}{{\APACmonth{07}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {On a derivable formula for long-wave radiation from clear skies} {On a derivable formula for long-wave radiation from clear skies}.{\BBCQ}
+\APACrefbtitle {CH-Earth/summa: SUMMA v3.3.0.} {Ch-earth/summa: Summa v3.3.0.}
 \newblock
-\APACjournalVolNumPages{Water Resour. Res.}{11}{5}{742--744}.
+\APACaddressPublisher{}{Zenodo}.
 \newblock
-\begin{APACrefDOI} \doi{10.1029/wr011i005p00742} \end{APACrefDOI}
+\begin{APACrefURL} \url{https://doi.org/10.5281/zenodo.13117685} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5281/zenodo.13117685} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Clark%
+M\BPBI P.~Clark%
 , Nijssen%
 , Lundquist%
 , Kavetski%
 \BCBL {}\ \protect \BOthers {.}}{%
-Clark%
+M\BPBI P.~Clark%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2015}}%
 }]{%
@@ -247,6 +370,38 @@ Cristea, N\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cristea%
+, Lundquist%
+, Loheide%
+, Lowry%
+\BCBL {}\ \BBA {} Moore%
+}{%
+Cristea%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Cristea2014-xk}
+\APACinsertmetastar {%
+Cristea2014-xk}%
+\begin{APACrefauthors}%
+Cristea, N\BPBI C.%
+, Lundquist, J\BPBI D.%
+, Loheide, S\BPBI P., II%
+, Lowry, C\BPBI S.%
+\BCBL {}\ \BBA {} Moore, C\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modelling how vegetation cover affects climate change impacts on streamflow timing and magnitude in the snowmelt-dominated upper Tuolumne Basin, Sierra Nevada: {VEGETATION} {COVER} {AFFECTS} {CLIMATE} {CHANGE} {IMPACTS} {ON} {STREAMFLOWS}} {Modelling how vegetation cover affects climate change impacts on streamflow timing and magnitude in the snowmelt-dominated upper tuolumne basin, sierra nevada: {VEGETATION} {COVER} {AFFECTS} {CLIMATE} {CHANGE} {IMPACTS} {ON} {STREAMFLOWS}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hydrol. Process.}{28}{12}{3896--3918}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/hyp.9909} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Deems%
 , Painter%
 , Barsugli%
@@ -276,36 +431,6 @@ Deems, J\BPBI S.%
 \APACjournalVolNumPages{Hydrol. Earth Syst. Sci.}{17}{11}{4401--4413}.
 \newblock
 \begin{APACrefDOI} \doi{10.5194/hess-17-4401-2013} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Duan%
-, Freese%
-, Bala%
-\BCBL {}\ \BBA {} Caldeira%
-}{%
-Duan%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2025}}%
-}]{%
-Duan2025-rl}
-\APACinsertmetastar {%
-Duan2025-rl}%
-\begin{APACrefauthors}%
-Duan, L.%
-, Freese, L\BPBI M.%
-, Bala, G.%
-\BCBL {}\ \BBA {} Caldeira, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2025}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Historical model biases in monthly high temperature anomalies indicate under-estimation of future temperature extremes} {Historical model biases in monthly high temperature anomalies indicate under-estimation of future temperature extremes}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Commun. Earth Environ.}{6}{1}{604}.
-\newblock
-\begin{APACrefDOI} \doi{10.1038/s43247-025-02579-5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -836,6 +961,30 @@ Kim, R\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kittredge%
+}{%
+Kittredge%
+}{%
+{\protect \APACyear {1953}}%
+}]{%
+Kittredge1953-iy}
+\APACinsertmetastar {%
+Kittredge1953-iy}%
+\begin{APACrefauthors}%
+Kittredge, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1953}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Influences of forests on snow in the ponderosa-sugar pine-fir zone of the central Sierra Nevada} {Influences of forests on snow in the ponderosa-sugar pine-fir zone of the central sierra nevada}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hilgardia}{22}{1}{1--96}.
+\newblock
+\begin{APACrefDOI} \doi{10.3733/hilg.v22n01p001} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Krogh%
 , Broxton%
 , Manley%
@@ -863,6 +1012,33 @@ Krogh, S\BPBI A.%
 \APACjournalVolNumPages{Front. For. Glob. Chang.}{3}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.3389/ffgc.2020.00021} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lawler%
+\ \BBA {} Link%
+}{%
+Lawler%
+\ \BBA {} Link%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Lawler2011-bs}
+\APACinsertmetastar {%
+Lawler2011-bs}%
+\begin{APACrefauthors}%
+Lawler, R\BPBI R.%
+\BCBT {}\ \BBA {} Link, T\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Quantification of incoming all‐wave radiation in discontinuous forest canopies with application to snowmelt prediction} {Quantification of incoming all‐wave radiation in discontinuous forest canopies with application to snowmelt prediction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hydrol. Process.}{25}{21}{3322--3331}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/hyp.8150} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1217,36 +1393,6 @@ Menne, M\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Mott%
-, Gromke%
-, Grünewald%
-\BCBL {}\ \BBA {} Lehning%
-}{%
-Mott%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
-}]{%
-Mott2013-jt}
-\APACinsertmetastar {%
-Mott2013-jt}%
-\begin{APACrefauthors}%
-Mott, R.%
-, Gromke, C.%
-, Grünewald, T.%
-\BCBL {}\ \BBA {} Lehning, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{{\APACmonth{05}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Relative importance of advective heat transport and boundary layer decoupling in the melt dynamics of a patchy snow cover} {Relative importance of advective heat transport and boundary layer decoupling in the melt dynamics of a patchy snow cover}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Adv. Water Resour.}{55}{}{88--97}.
-\newblock
-\begin{APACrefDOI} \doi{10.1016/j.advwatres.2012.03.001} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Musselman%
 , Clark%
 , Liu%
@@ -1354,6 +1500,64 @@ Oyler, J\BPBI W.%
 \APACjournalVolNumPages{Geophys. Res. Lett.}{42}{1}{153--161}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2014gl062803} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Painter%
+\ \protect \BOthers {.}}{%
+Painter%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Painter2016-gk}
+\APACinsertmetastar {%
+Painter2016-gk}%
+\begin{APACrefauthors}%
+Painter, T\BPBI H.%
+, Berisford, D\BPBI F.%
+, Boardman, J\BPBI W.%
+, Bormann, K\BPBI J.%
+, Deems, J\BPBI S.%
+, Gehrke, F.%
+\BDBL {}Winstral, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Airborne Snow Observatory: Fusion of scanning lidar, imaging spectrometer, and physically-based modeling for mapping snow water equivalent and snow albedo} {The airborne snow observatory: Fusion of scanning lidar, imaging spectrometer, and physically-based modeling for mapping snow water equivalent and snow albedo}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sens. Environ.}{184}{}{139--152}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Piske%
+\ \protect \BOthers {.}}{%
+Piske%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+Piske2025-qi}
+\APACinsertmetastar {%
+Piske2025-qi}%
+\begin{APACrefauthors}%
+Piske, C\BPBI R.%
+, Carroll, R\BPBI W\BPBI H.%
+, Boisrame, G\BPBI F\BPBI S.%
+, Krogh, S\BPBI A.%
+, Manning, A\BPBI L.%
+, Underwood, K\BPBI L.%
+\BDBL {}Harpold, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lidar‐derived forest metrics predict snow accumulation in the central Sierra Nevada, {USA}} {Lidar‐derived forest metrics predict snow accumulation in the central sierra nevada, {USA}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ecohydrology}{18}{6}{e70109}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/eco.70109} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1508,36 +1712,6 @@ Rudisill, W.%
 \APACjournalVolNumPages{EGUsphere}{}{}{1--38}.
 \newblock
 \begin{APACrefDOI} \doi{10.5194/egusphere-2026-935} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Rutan%
-\ \protect \BOthers {.}}{%
-Rutan%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Rutan2015-ar}
-\APACinsertmetastar {%
-Rutan2015-ar}%
-\begin{APACrefauthors}%
-Rutan, D\BPBI A.%
-, Kato, S.%
-, Doelling, D\BPBI R.%
-, Rose, F\BPBI G.%
-, Nguyen, L\BPBI T.%
-, Caldwell, T\BPBI E.%
-\BCBL {}\ \BBA {} Loeb, N\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{CERES} Synoptic Product: Methodology and Validation of Surface Radiant Flux} {{CERES} synoptic product: Methodology and validation of surface radiant flux}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{J. Atmos. Ocean. Technol.}{32}{6}{1121--1143}.
-\newblock
-\begin{APACrefDOI} \doi{10.1175/JTECH-D-14-00165.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1777,6 +1951,35 @@ Shupe, M\BPBI D.%
 \APACjournalVolNumPages{J. Clim.}{17}{3}{616--628}.
 \newblock
 \begin{APACrefDOI} \doi{10.1175/1520-0442(2004)017<0616:CRFOTA>2.0.CO;2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sicart%
+\ \protect \BOthers {.}}{%
+Sicart%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Sicart2004-kf}
+\APACinsertmetastar {%
+Sicart2004-kf}%
+\begin{APACrefauthors}%
+Sicart, J\BPBI E.%
+, Essery, R\BPBI L\BPBI H.%
+, Pomeroy, J\BPBI W.%
+, Hardy, J.%
+, Link, T.%
+\BCBL {}\ \BBA {} Marks, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A sensitivity study of daytime net radiation during snowmelt to forest canopy and atmospheric conditions} {A sensitivity study of daytime net radiation during snowmelt to forest canopy and atmospheric conditions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Hydrometeorol.}{5}{5}{774--784}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1525-7541(2004)005<0774:assodn>2.0.co;2} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
