@@ -311,6 +311,34 @@ Colbeck, S\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cook%
+, Seager%
+\BCBL {}\ \BBA {} Smerdon%
+}{%
+Cook%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Cook2014-ba}
+\APACinsertmetastar {%
+Cook2014-ba}%
+\begin{APACrefauthors}%
+Cook, B\BPBI I.%
+, Seager, R.%
+\BCBL {}\ \BBA {} Smerdon, J\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The worst North American drought year of the last millennium: 1934} {The worst north american drought year of the last millennium: 1934}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophys. Res. Lett.}{41}{20}{7298--7305}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2014gl061661} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cowherd%
 \ \protect \BOthers {.}}{%
 Cowherd%
@@ -2155,6 +2183,30 @@ Wang, S\BHBI Y\BPBI S.%
 \begin{APACrefURL} \url{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/asl2.565} \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1002/asl2.565} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Warren%
+}{%
+Warren%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+Warren1982-pc}
+\APACinsertmetastar {%
+Warren1982-pc}%
+\begin{APACrefauthors}%
+Warren, S\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optical properties of snow} {Optical properties of snow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Rev. Geophys.}{20}{1}{67-89}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/RG020i001p00067} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
