@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: case_for_temperature-diff.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: paperpile.bib
+Warning--entry type for "clark_2024_13117685" isn't style-file defined
+--line 246 of file paperpile.bib
+Warning--I'm ignoring Feldman2023-gp's extra "number" field
+--line 1851 of file paperpile.bib
+Warning--I'm ignoring Cristea2022-ys's extra "number" field
+--line 2435 of file paperpile.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 78 entries,
+            6951 wiz_defined-function locations,
+            1877 strings with 33260 characters,
+and the built_in function-call counts, 194282 in all, are:
+= -- 23255
+> -- 1728
+< -- 10574
++ -- 11979
+- -- 168
+* -- 13550
+:= -- 37067
+add.period$ -- 302
+call.type$ -- 78
+change.case$ -- 1355
+chr.to.int$ -- 0
+cite$ -- 156
+duplicate$ -- 5897
+empty$ -- 6543
+format.name$ -- 3283
+if$ -- 34547
+int.to.chr$ -- 0
+int.to.str$ -- 234
+missing$ -- 0
+newline$ -- 2274
+num.names$ -- 626
+pop$ -- 2454
+preamble$ -- 1
+purify$ -- 340
+quote$ -- 0
+skip$ -- 11036
+stack$ -- 0
+substring$ -- 12897
+swap$ -- 3174
+text.length$ -- 197
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 6440
+warning$ -- 4
+while$ -- 1123
+width$ -- 0
+write$ -- 2999
+(There were 7 warnings)

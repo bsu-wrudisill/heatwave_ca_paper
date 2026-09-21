@@ -7,7 +7,7 @@
 \usepackage{amssymb}
 \usepackage{xcolor}
 
-\externaldocument{supplement}  % no .tex extension
+\externaldocument{case_for_temperature}  % main text labels (no .tex extension)
 
 
 
@@ -57,50 +57,46 @@
 \newcommand{\gmtwo}{\textcolor{black}{gm$^{-2}$}\xspace}
 \newcommand{\kgmtwo}{\textcolor{black}{kg$\cdot$m$^{-2}$}\xspace}
 
-% iopart uses \etal, \eg, \ie macros
+% prefix supplement counters with S so cross-references from the main text read Fig. S1, Sec. S2.1, Eq. S1
 \renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\theequation}{S\arabic{equation}}
 
 
 \geometry{margin=1in}
 
 \begin{document}
-\section*{Supplemental material for XYZ}
+\section*{Supplemental Material for ``Solar radiation primarily drives snow ablation during the March 2026 heat wave in the California Sierra Nevada''}
 
-% \begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=0.8\linewidth]{images/swe_change_2026.png}
-%   \caption{stuff}
-%   \label{fig:swechange}
-% \end{figure}
+
 \section{Snow covered area and streamflow anomalies}
-To investigate the hydologic ramifications of snow ablation, we obtained streamflow data from the USGS Saghen creek gage which has long term records.
-We found the monthly average streamflow at  Saghen creek site peaked in March, two months earlier than normal (Fig. \ref{fig:supp_sagehen_q}) and reached flows well above typical for March. 
+To investigate the hydrologic ramifications of snow ablation, we obtained streamflow data from the USGS Sagehen Creek gage, which has long-term records.
+The monthly average streamflow at the Sagehen Creek site peaked in March, two months earlier than normal (Fig.~\ref{fig:supp_sagehen_q}), and reached flows well above those typical for March. 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_sagehen_q.png}
-  \caption{The monthly averaged streamflow anomalies in cubic-feet-per second (cfs) between 1954 to present for the USGS Sagehen Creek gage site. 
-  The historical mean, historical median, historical 1-standard deviation (shaded region), and WY2026 streamflow are depicted.
+  \caption{Monthly averaged streamflow in cubic feet per second (cfs) from 1954 to present for the USGS Sagehen Creek gage site. 
+  The historical mean, historical median, historical 1-$\sigma$ range (shaded region), and WY2026 streamflow are depicted.
   }
   \label{fig:supp_sagehen_q}
 \end{figure}
 
-The synoptic pattern of snow covered area change also reveals the extent of the anomalous March. 
-The SPIReS snow covered area (SCA) product shows the lowest snow covered area on record (Fig. \ref{fig:supp_scachange}).
-SCA was already very low leading up to March, but reached even lower levels by March 31.
-High elevation regions above 2250 m had nearly 100\% SCA prior to the March event but those regions also declined substantially.
+The regional pattern of snow-covered area change also reveals the extent of the anomalous March. 
+The SPIReS snow-covered area (SCA) product shows the lowest SCA on record (Fig.~\ref{fig:supp_scachange}).
+SCA was already very low leading up to March, but reached even lower levels by 31 March.
+High-elevation regions above 2250 m had nearly 100\% SCA prior to the March event, but those regions also declined substantially.
 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\linewidth]{images/sca_combined.png}
-  \caption{SPIRES SCA across the study region during the March heatwave.
-  Watershed  boundaries shown in black and SNOTEL monitoring sites indicated by magenta diamonds.
+  \caption{SPIReS SCA across the study region during the March heat wave.
+  Watershed boundaries are shown in black and SNOTEL monitoring sites are indicated by magenta diamonds.
   \textbf{(a, b, c)} SCA (\%) on March 2 and March 29, 2026, respectively, and the difference between the two dates.
-  \textbf{(d)} Daily mean SCA (\%) for each individual watershed and aggregated across all four basins.
-  The 2000--2020 historical mean and $\pm$~1 standard deviation are depicted. 
-  \textbf{(e)} Mean SCA as a function of elevation band (250~m bins) for March 2 (blue) and March 29 (red), shown alongside historical values for the same dates (dashed lines) with $\pm$~1 
-   standard deviation shading. }
+  \textbf{(d)} Daily mean SCA (\%) for each individual watershed and aggregated across all four HUC8 basins (the Truckee River watershed comprises the Lake Tahoe and Truckee River HUC8 basins).
+  The 2000--2020 historical mean and $\pm$1-$\sigma$ range are depicted. 
+  \textbf{(e)} Mean SCA as a function of elevation band (250~m bins) for March 2 (blue) and March 29 (red), shown alongside historical values for the same dates (dashed lines) with $\pm$1-$\sigma$ shading.}
   \label{fig:supp_scachange}
 \end{figure}
 \clearpage
@@ -109,56 +105,42 @@ High elevation regions above 2250 m had nearly 100\% SCA prior to the March even
 
 
 
-\section{SUMMA details}
+\section{SUMMA details}\label{supp:summa_details}
 %% Sensible and Latent heat fluxes
-This section describes assumptions implicit in SUMMA as well as provides additional details about the model forcing data preparation.
-\subsection{Model equations}\label{supp:summa_desc_model_eq}
+This section describes assumptions implicit in SUMMA and provides additional details about the model forcing data preparation.
+\subsection{Model flux equations}\label{supp:summa_desc_model_eq}
 
-The bulk expression for the $H_s$ implemented in SUMMA is given by: 
+The bulk expression for $H_s$ implemented in SUMMA is given by: 
 
 \begin{align} 
-H_s &=  c_p \rho C_s u (T_{air} - T_{snow}) \label{eq:supp_bulk2}, 
+H_s &=  c_p \rho C_h u (T_{\mathrm{air}} - T_{\mathrm{snow}}) \label{eq:supp_bulk2}, 
 \end{align}
 
-where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, $\rho$ is the dry air density, and $C_s$ is the bulk transport coefficient. 
-In this work, we use the SUMMA formulation for $C_s$, which models the stability correction as a function of the bulk Richardson number.
-
-We use the ``Loisinv" stability correction function implemented in the SUMMA model and assume that $z_h = z_0$
+where $c_p$ is the specific heat capacity of dry air (constant), $u$ is the horizontal wind speed, $\rho$ is the dry air density, and $C_h$ is the bulk transport coefficient. 
+In this work, we use the SUMMA formulation for $C_h$, which models the stability correction as a function of the bulk Richardson number.
+We use the ``Louisinv'' stability correction function implemented in the SUMMA model and assume that $z_h = z_0$:
 \begin{equation}
-C_h = \frac{k^2}{\mathrm{ln}(z/z_0)^2}\cdot f(\mathrm{Ri})    
+C_h = \frac{k^2}{[\ln(z/z_0)]^2}\cdot f(\mathrm{Ri}),
 \end{equation}
-Where Ri is the bulk Richardson number, defined as 
-
+where $k$ is the von K\'arm\'an constant, $z$ is the measurement height, $z_0$ is the roughness length, and Ri is the bulk Richardson number, defined as 
 \begin{equation} \label{eq:ri}
-    \mathrm{Ri} = \frac{9.81 (T_{air} - T_{snow})}{0.5(T_{air} + T_{snow})u^2}.
+    \mathrm{Ri}(z) = \frac{g\, z\, (T_{\mathrm{air}} - T_{\mathrm{snow}})}{0.5(T_{\mathrm{air}} + T_{\mathrm{snow}})\, u^2},
 \end{equation}
+and $f(\mathrm{Ri})$ is a function with range (0,1] that declines with increasing Ri.
+An equivalent formulation for latent heat flux follows Eq.~\ref{eq:supp_bulk2}.
+The stability correction is reproduced and used in Fig.~\ref{fig:idealized_sens_heat} of the main text.
+The $f(\mathrm{Ri})$ used in that figure is given by $f(\mathrm{Ri}) = (1 - 5\,\mathrm{Ri})^{-2}$.
 
-and f(Ri) is a function with range (0,1] that declines as a function of increasing Ri.
-An equivalent formulation for latent heat flux follows Eq. \ref{eq:supp_bulk2}.
-The stability correction is reproduced and used in Fig. 11 of the main text.
-
-\subsection{Snow albedo}
-We use the 'varDecay' parameterization for albedo as implemented in SUMMA. 
-\todo{more details}
-% $$\text{age}1 = \exp\big[-\beta,(T{freeze}-T_{surf})\big], \qquad \text{age}_2 = \text{age}_1^{,10}$$
-
-% $$\text{decayFactor} = \frac{\Delta t,(\text{age}_1+\text{age}_2+\text{age}_3)}{\text{albedoDecayRate}}$$
-
-% where $\beta=$ tempScalGrowth (your value: 0.04 K⁻¹), the exponent 10 is the hardcoded slushExp, and $\text{age}3=$ albedoSootLoad (constant). $T{surf}=T_{freeze}$ gives $\text{age}_1=1$; colder gives $\text{age}_1\to 0$ exponentially.
-
-
+% #$1/(1 + \tfrac{b}{2}\mathrm{Ri})^2$
 
 \subsection{Forcing data}
-We use bias corrected ERA5 data as forcing for SUMMA with several key steps implemented.
-ERA5 data was obtained from the Copernicus data store. 
-\todo{WHAT GRID CELL}
-
-\swdn was compared between ERA and CSSL CNR4 radiometers for water year 2026. 
+We use bias-corrected ERA5 data as forcing for SUMMA, with several key processing steps.
+ERA5 data were obtained from the Copernicus data store for the grid cell nearest CSSL.
+\swdn was compared between ERA5 and the CSSL CNR4 radiometers for water year 2026. 
 We developed a correction factor to account for potential shadowing by canopy adjacent to the site, using solar zenith angle (SZA) and solar azimuth angle (AZM) as predictors.
-These were computed from the python py-ephem package \todo{CITE}. 
-The correction grid is depicted in Fig. \ref{fig:supp_fig_SWd_adjust_sza_azm}. 
-It shows the multiplicative correction between 0 and 1 for each SZA and AZM angle. 
-The correction reduced \swdn by \todo{XYZ} for the month of March 2026.
+These were computed using the Python PyEphem package.
+The correction grid is depicted in Fig.~\ref{fig:supp_fig_SWd_adjust_sza_azm}. 
+It shows the multiplicative correction between 0 and 1 for each SZA and AZM. 
 
 \begin{figure}[htbp]
   \centering
@@ -177,32 +159,32 @@ The correction reduced \swdn by \todo{XYZ} for the month of March 2026.
 \subsection{Additional SUMMA model outputs and model validation}\label{supp:sec:validation}
 Additional SUMMA outputs with relevance to interpreting the main text are displayed in this section, as well as additional model validation plots.
 
-The snowpack accumulated substantial liquid water following the February ROS event, and snow-temperatures were nearly isothermal (Fig. \ref{fig:supp_twod_vert_plots_ice_liq_dens_temp}).
-Cold-content generation began during March for a thin layer at the top of the snowpack, where liquid also refroze. 
-A dense ice-layer formed during mid-February and remained buried under the late February snow and rain. 
+The snowpack accumulated substantial liquid water following the February ROS event, and snow temperatures were nearly isothermal (Fig.~\ref{fig:supp_twod_vert_plots_ice_liq_dens_temp}).
+Cold-content generation began during March in a thin layer at the top of the snowpack, where liquid water also refroze. 
+A dense ice layer formed during mid-February and remained buried under the late-February snow and rain. 
 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{images2/supp_snowt_liq_ice_dens.png}
-  \caption{A timeseries of vertical cross-sections of snow temperature, snow liquid water content volumetric fraction, snow ice content volumetric fraction, and snow density (bottom) during the accumulation season }.
+  \caption{A timeseries of modeled vertical cross-sections of snow temperature, snow liquid water content volumetric fraction, snow ice content volumetric fraction, and snow density (bottom) during the snow season of WY2026 for the open site at CSSL.}
   \label{fig:supp_twod_vert_plots_ice_liq_dens_temp}
 \end{figure}
 
 
-\subsubsection{Canopy site}\label{supp:sec:validation}
+\subsubsection{Canopy site}\label{supp:sec:validation:canopy}
 
 We validate the SUMMA model in several ways. 
-First, we evaluated the canopy radiation parameterization against the CSSL sub-canopy Kipp and Zonene SPLite 2 radiometer located under the canopy.
-We find good correlation for March of 2026 for the UEB 2-stream parameterzation and an LAI value of 1.5 (Fig \ref{fig:supp_sw_validation}), using the aforementioned \swdn forcing as the top boundary condition to the model.
+First, we evaluate the canopy radiation parameterization against the CSSL sub-canopy Kipp and Zonen SP Lite2 radiometer.
+We find good correlation for March 2026 for the UEB 2-stream parameterization and an LAI value of 1.5 (Fig.~\ref{fig:supp_sw_validation}), using the aforementioned \swdn forcing as the top boundary condition to the model.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_sw_validation.png}
   \caption{A comparison of sub-canopy downwelling radiation for different LAI values using the UEB-2stream shortwave radiation parameterization.
-  The top plot depicts a hourly SW$\downarrow$ two day period in early March. 
-  The bottom plot depicts hourly SW$\downarrow$ during March. 
-  Observed radiation by the Kipp and Zonen radiometer is depicted in the blue solid line}.
+  The top plot depicts hourly \swdn over a two-day period in early March. 
+  The bottom plot depicts hourly \swdn during March. 
+  Radiation observed by the Kipp and Zonen radiometer is depicted by the blue solid line.}
   \label{fig:supp_sw_validation}
 \end{figure}
 
@@ -211,50 +193,91 @@ We find good correlation for March of 2026 for the UEB 2-stream parameterzation 
 
 
 
-\subsubsection{Fluxes}\label{supp:sec:validation}
-CSSL hosts an experimental eddy-covariance instrument on a movable arm above the snowpack (see Fig. 1 in the main text).
-Eddy covariance fluxes were processed using the Licor EddyPro v7.0.9 software with despiking, double coordinate rotation, and flux quality assignment.
-\todo{X\%} of the H$_s$ and H$_l$ fluxes are retained for analysis during the month of March.
-A qualitative comparison between the SUMMA and eddy-covariance fluxes of sensible and latent heat show reasonable agreement, though there were many low-quality flux measurements during the month of March. 
-Key periods of sublimation during the first and latter portions of the the month show reasonable agreement.
+\subsubsection{Fluxes}\label{supp:sec:validation:fluxes}
+CSSL hosts an experimental eddy-covariance instrument on a movable arm above the snowpack.
+Eddy-covariance fluxes were processed using the LI-COR EddyPro v7.0.9 software with despiking, double coordinate rotation, and flux quality assignment.
+A qualitative comparison between the SUMMA and eddy-covariance fluxes of sensible and latent heat shows reasonable agreement (Fig.~\ref{fig:supp_ecor_validation}), though there were many low-quality flux measurements during the month of March. 
+Key periods of sublimation during the first and last portions of the month show reasonable agreement.
 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_ecor_valid.png}
-  \caption{A comparison of SUMMA and eddy-covariance (ECOR) measured fluxes at CSSL for sensible heat (H) and latent heat (LE). 
+  \caption{\todo{SHOW TIME ON X AXIS} A comparison of SUMMA and eddy-covariance (ECOR) measured fluxes at CSSL for sensible heat (H) and latent heat (LE). 
   The top shows a timeseries for the month of March 2026.
   The bottom two plots show 1:1 plots between the ECOR and SUMMA estimated fluxes.
   }
-  \label{fig:supp_sw_validation}
+  \label{fig:supp_ecor_validation}
 \end{figure}
 
+
+
+\subsubsection{Albedo}\label{supp:sec:albedo}
+SUMMA-modeled albedo is compared against available observations from the CSSL CNR4 radiometers, as well as SPIReS remote-sensing-based albedo (Fig.~\ref{fig:supp_albedo_validation}). 
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{images2/supp_albedo_validation.png}
+  \caption{(a) SUMMA albedo evaluated against CSSL and SPIReS observations from 1 January 2026 to 1 April 2026. (b) Example maps of SPIReS snow albedo during water year 2026. CSSL is highlighted with the purple box. 500 m elevation contours are depicted for reference.}
+  \label{fig:supp_albedo_validation}
+\end{figure}
+
+
 \section{Initial condition experiments}\label{supp:init_cond}
-As we have shown, anomolous conditions also preceded the March 2026 ablation event. 
+As we have shown, anomalous conditions also preceded the March 2026 ablation event. 
 To interrogate the role of antecedent conditions, we performed initial condition experiments by altering the amount of ice, liquid water, and cold-content. 
 
-Test 1: Dry snow is composed of three model runs.
-One is the natural starting condition (liq=1).
-Then we halved and zeroed out the amount of liquid water and increased the amount ice to keep SWE constant. 
-For internal consistency in SUMMA the layer temperature reduced in the zero-liquid water case.
-The outcomes show that there is minimal sensitivity to the timing in the rate of SWE change; the all-ice case completely ablated about one-day later than the standard case. 
+The first test (Test 1) evaluates the effects of initial liquid water content \fig{fig:supp_initial_cond_sens1}{}.
+It was constructed as follows.
+The first run is the natural starting condition (liq=1).
+Then, we halved the amount of liquid water (liq=0.5) and increased the amount of ice to keep the total SWE (the sum of liquid and ice water equivalent) approximately constant. 
+The third run completely zeros out liquid water (liq=0) and likewise increases the amount of ice to keep SWE constant.
+For internal consistency in SUMMA, the layer temperature is also reduced in the zero-liquid-water case (to prevent refreezing), which yields the higher starting CC for that case \fig{fig:supp_initial_cond_sens1}{a}.
+The outcomes show minimal sensitivity in the timing and rate of SWE change; the all-ice case completely ablated about one day later than the standard case. 
 
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/supp_initial_cond_sens_liq_and_CC.png}
-  \caption{Initial condition Test 1: Dry snow. (a) a schematic of the snow mass balance composed of ice and liquid water, (b) the initial and final SWE and snow depth, and (c) mass components of the change in SWE for the different experiments.}
-  \label{fig:supp_initial_cond_sens}
+  \caption{Initial condition Test 1: Effects of liquid water content. (a) shows the hourly CC of the snowpack throughout the model run. (b) Depicts the total SWE, liquid water content, and ice water equivalent integrated throughout the depth of the pack in units of water equivalent (mm).}
+  \label{fig:supp_initial_cond_sens1}
 \end{figure}
 
 
+The second test (Test 2) evaluates the effects of initial snow mass on $\Delta$SWE across the March heat wave \fig{fig:supp_initial_cond_sens2}{}.
+It is composed of four model runs (SWEx1, SWEx1.5, SWEx2, and SWEx3) and uses a dry starting snow case for all experiments.
+The initial dry-SWE amount is multiplied by 1, 1.5, 2, and 3, respectively. 
+The snow height is also adjusted to maintain an approximately uniform bulk density between the experiments \fig{fig:supp_initial_cond_sens2}{a}. 
+The surface temperature was assigned the same starting value in each run and decays exponentially to 0\degrc at the bottom of the snow layer. 
+\fignop{fig:supp_initial_cond_sens2}{b} may be interpreted as follows.
+First, $\Delta$SWE is equivalent to $\Delta$Ice plus $\Delta$Liquid integrated throughout the depth of the snowpack (middle columns of \fignop{fig:supp_initial_cond_sens2}{b}).
+These terms are also equivalent to the cumulative fluxes at the snowpack top/bottom boundaries, namely precipitation, sublimation/frost, and liquid water outflow through the bottom of the snowpack (rightmost columns of \fignop{fig:supp_initial_cond_sens2}{b}).
 
-A second test investigated changing the dry snow amount and increasing the amount of SWE present. 
+The results of this experiment show that nearly the same amount of ice melts across all scenarios ($\Delta$Ice), save for the SWEx1 case, which is limited by the amount of ice available to ablate. 
+However, $\Delta$SWE for the SWEx3 experiment is $-449$ mm compared to $-498$ mm for the SWEx1.5 experiment. 
+This discrepancy is due to the amount of liquid water retained in the snowpack ($+70$ vs. $+12$ mm for SWEx3 vs. SWEx1.5, respectively). 
+In this way, we can see that there is not always a 1:1 relationship between the snow energy balance and $\Delta$SWE; the residual holding capacity of snow liquid means that two snowpacks can undergo a nearly identical energy forcing, but the deeper snowpack may retain more SWE in the form of liquid water. 
+
+
+
 \begin{figure}[htbp]
   \centering
   \includegraphics{images2/initial_cond_sens.png}
-  \caption{Initial condition test \todo{more}.}
-  \label{fig:init_cond_sens}
+  \caption{Initial condition Test 2: effects of dry snow amount. (a) Depicts the initial and final SWE and snow depth (starting on March 1 and ending on March 31) for the four experiments.
+  (b) Depicts mass components of the change in SWE for the different experiments.  
+  Text lists $\Delta$SWE, $\Delta$Ice, $\Delta$Liq, and total Outflow, respectively.
+  }
+  \label{fig:supp_initial_cond_sens2}
 \end{figure}
+
+
+
+
+\clearpage
+
+
+
+
 
 
 
